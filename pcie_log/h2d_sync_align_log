@@ -1,0 +1,52 @@
+Host to Device Bandwidth, Device:0 align:0
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.017899
+
+Host to Device Bandwidth, Device:0 align:64
+Transfer Size		Bandwidth(GB/s)
+0x2000000		52.864051
+
+Host to Device Bandwidth, Device:0 align:128
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.100700
+
+Host to Device Bandwidth, Device:0 align:192
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.103747
+
+Host to Device Bandwidth, Device:0 align:256
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.057091
+
+Host to Device Bandwidth, Device:0 align:384
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.088623
+
+Host to Device Bandwidth, Device:0 align:448
+Transfer Size		Bandwidth(GB/s)
+0x2000000		52.855359
+
+Host to Device Bandwidth, Device:0 align:63
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.137069
+
+Host to Device Bandwidth, Device:0 align:127
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.093768
+
+Host to Device Bandwidth, Device:0 align:191
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.139647
+
+Host to Device Bandwidth, Device:0 align:255
+Transfer Size		Bandwidth(GB/s)
+0x2000000		52.848803
+
+Host to Device Bandwidth, Device:0 align:383
+Transfer Size		Bandwidth(GB/s)
+0x2000000		53.073876
+
+Host to Device Bandwidth, Device:0 align:447
+Transfer Size		Bandwidth(GB/s)
+0x2000000		52.853954
+
