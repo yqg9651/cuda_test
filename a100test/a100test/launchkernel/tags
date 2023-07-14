@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+fn	sta.py	/^fn = sys.argv[1]$/;"	v
+func	sta.py	/^func = sys.argv[2]$/;"	v
+line	sta.py	/^  line = line[:-1]$/;"	v
+lines	sta.py	/^  lines = fin.readlines()$/;"	v
+r	sta.py	/^    r = re.findall(r"\\d+\\.?\\d*", line)$/;"	v
+result	sta.py	/^    result = np.append(result, float(r[len(r)-1]))$/;"	v
+result	sta.py	/^result = []$/;"	v
