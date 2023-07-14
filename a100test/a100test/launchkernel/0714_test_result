@@ -1,0 +1,119 @@
+---[pipeline] Kernel
+mode[0]type[0]cycle[8192]
+- Init...
+total time = 14481.000000 us, single time = 1.767700 us
+
+---[pipeline] AsyncDMA
+mode[0]type[1]cycle[8192]
+- Init...
+total time = 16007.000000 us, single time = 1.953979 us
+
+---[pipeline] HostFunc
+mode[0]type[2]cycle[8192]
+- Init...
+total time = 15108.000000 us, single time = 1.844238 us
+
+---[delay] Kernel
+mode[1]type[0]cycle[8192]
+- Init...
+average launch sync time = 10.513306 us
+max time = 45.000000 us
+min time = 8.000000 us
+std time = 1.314199 us
+
+---[delay] AsyncDMA
+mode[1]type[1]cycle[8192]
+- Init...
+average launch sync time = 10.548950 us
+max time = 51.000000 us
+min time = 8.000000 us
+std time = 1.559308 us
+
+---[delay] HostFunc
+mode[1]type[2]cycle[8192]
+- Init...
+average launch sync time = 26.796387 us
+max time = 240.000000 us
+min time = 10.000000 us
+std time = 6.029634 us
+
+---[switch cost] Kernel and DMA
+1 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 9348.000000 us
+KDKDKDKD total time = 10331.000000 us
+substruction = 983.000000, swtich time = 3.870079
+2 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 9316.000000 us
+KDKDKDKD total time = 10309.000000 us
+substruction = 993.000000, swtich time = 3.909449
+3 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 10219.000000 us
+KDKDKDKD total time = 10305.000000 us
+substruction = 86.000000, swtich time = 0.338583
+4 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 9358.000000 us
+KDKDKDKD total time = 10255.000000 us
+substruction = 897.000000, swtich time = 3.531496
+5 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 9269.000000 us
+KDKDKDKD total time = 10318.000000 us
+substruction = 1049.000000, swtich time = 4.129921
+6 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 9352.000000 us
+KDKDKDKD total time = 10258.000000 us
+substruction = 906.000000, swtich time = 3.566929
+7 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 9348.000000 us
+KDKDKDKD total time = 10299.000000 us
+substruction = 951.000000, swtich time = 3.744094
+8 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 9353.000000 us
+KDKDKDKD total time = 10274.000000 us
+substruction = 921.000000, swtich time = 3.625984
+9 time test
+mode[2]type[0]cycle[128]
+- Init...
+KKKK+DDDD total time = 9405.000000 us
+KDKDKDKD total time = 10304.000000 us
+substruction = 899.000000, swtich time = 3.539370
+
+---[graph] struct DKD
+mode[3]type[0]cycle[16]
+- Init...
+stream exec avg time = 21406.312500 us
+max time = 21447.000000 us
+min time = 21395.000000 us
+std time = 10.889896 us
+graph1 exec avg time = 21412.000000 us
+max time = 21430.000000 us
+min time = 21402.000000 us
+std time = 7.913596 us
+
+---[graph] struct DKKKKD
+mode[4]type[0]cycle[16]
+- Init...
+stream exec avg time = 21404.312500 us
+max time = 21440.000000 us
+min time = 21394.000000 us
+std time = 9.699992 us
+graph2 exec avg time = 21097.375000 us
+max time = 21121.000000 us
+min time = 21094.000000 us
+std time = 6.223695 us
+All Test Finish

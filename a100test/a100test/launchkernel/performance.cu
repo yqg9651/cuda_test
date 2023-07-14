@@ -138,7 +138,7 @@ void ConstructStriaghtLine(void)
                     &kNode[i-1], 1, &kNodeParams));
     }
 
-    CHECK(cuGraphInstantiate(&graphSLExec, graphStriaghtLine, NULL, NULL, 0));
+    CHECK(cuGraphInstantiate(&graphSLExec, graphStriaghtLine, 0));
 }
 
 CUgraph graph2;
@@ -200,7 +200,7 @@ void ConstructGraph2(void)
     CHECK(cuGraphAddMemcpyNode(&mNode2, graph2,
                 depend, 4, &mParams2, context));
 
-    CHECK(cuGraphInstantiate(&graph2Exec, graph2, NULL, NULL, 0));
+    CHECK(cuGraphInstantiate(&graph2Exec, graph2, 0));
 }
 
 CUgraph graph1;
@@ -254,7 +254,7 @@ void ConstructGraph1(void)
     CHECK(cuGraphAddMemcpyNode(&mNode2, graph1,
                 &kNode1, 1, &mParams2, context));
 
-    CHECK(cuGraphInstantiate(&graph1Exec, graph1, NULL, NULL, 0));
+    CHECK(cuGraphInstantiate(&graph1Exec, graph1, 0));
 }
 
 void Graph1CompareTest(int cycle_num, CUstream stream)

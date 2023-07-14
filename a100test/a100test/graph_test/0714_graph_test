@@ -1,0 +1,22 @@
+- Init...
+- Start Stright Line
+cycle[1000] stream striaght line host time 61.218000 us
+cycle[1000] stream striaght line dev time 70.135000 us
+cycle[1000] graph striaght line host time 4.736000 us
+cycle[1000] graph striaght line dev time 41.966000 us
+host ratio 12.926098
+dev ratio 1.671234
+- Start Two Branches
+cycle[1000] stream two branches host time 63.612000 us
+cycle[1000] stream two branches dev time 73.451000 us
+cycle[1000] graph two branches host time 3.839000 us
+cycle[1000] graph two branches dev time 28.312000 us
+host ratio 16.569940
+dev ratio 2.594342
+- Start Fork and Join
+cycle[1000] stream fork and join host time 87.527000 us
+cycle[1000] stream fork and join dev time 125.513000 us
+cycle[1000] graph fork and join host time 3.808000 us
+cycle[1000] graph fork and join dev time 38.778000 us
+host ratio 22.985032
+dev ratio 3.236706
