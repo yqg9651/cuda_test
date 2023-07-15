@@ -1,15 +1,15 @@
 # nThread 1 nGpus 8 minBytes 1073741824 maxBytes 1073741824 step: 2(factor) warmup iters: 1 iters: 1 agg iters: 1 validation: 0 graph: 0
 #
 # Using devices
-==PROF== Connected to process 713850 (/root/gyq/nccl-tests/build/all_reduce_perf)
-#  Rank  0 Group  0 Pid 713850 on nf5688m7-1 device  0 [0x0f] NVIDIA H800
-#  Rank  1 Group  0 Pid 713850 on nf5688m7-1 device  1 [0x34] NVIDIA H800
-#  Rank  2 Group  0 Pid 713850 on nf5688m7-1 device  2 [0x48] NVIDIA H800
-#  Rank  3 Group  0 Pid 713850 on nf5688m7-1 device  3 [0x5a] NVIDIA H800
-#  Rank  4 Group  0 Pid 713850 on nf5688m7-1 device  4 [0x87] NVIDIA H800
-#  Rank  5 Group  0 Pid 713850 on nf5688m7-1 device  5 [0xae] NVIDIA H800
-#  Rank  6 Group  0 Pid 713850 on nf5688m7-1 device  6 [0xc2] NVIDIA H800
-#  Rank  7 Group  0 Pid 713850 on nf5688m7-1 device  7 [0xd7] NVIDIA H800
+==PROF== Connected to process 1228354 (/root/gyq/nccl-tests/build/all_reduce_perf)
+#  Rank  0 Group  0 Pid 1228354 on nf5688m7-1 device  0 [0x0f] NVIDIA H800
+#  Rank  1 Group  0 Pid 1228354 on nf5688m7-1 device  1 [0x34] NVIDIA H800
+#  Rank  2 Group  0 Pid 1228354 on nf5688m7-1 device  2 [0x48] NVIDIA H800
+#  Rank  3 Group  0 Pid 1228354 on nf5688m7-1 device  3 [0x5a] NVIDIA H800
+#  Rank  4 Group  0 Pid 1228354 on nf5688m7-1 device  4 [0x87] NVIDIA H800
+#  Rank  5 Group  0 Pid 1228354 on nf5688m7-1 device  5 [0xae] NVIDIA H800
+#  Rank  6 Group  0 Pid 1228354 on nf5688m7-1 device  6 [0xc2] NVIDIA H800
+#  Rank  7 Group  0 Pid 1228354 on nf5688m7-1 device  7 [0xd7] NVIDIA H800
 #
 #                                                              out-of-place                       in-place          
 #       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
@@ -20,171 +20,27 @@
 ==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 3: 0%....50%....100% - 1 pass
 ==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 4: 0%....50%....100% - 1 pass
 ==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 5: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 6: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 7: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 8: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 9: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 10: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 11: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 12: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 13: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 14: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 15: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 16: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 17: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 18: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 19: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 20: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 21: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 22: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 23: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 24: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 25: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 26: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 27: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 28: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 29: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 30: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 31: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 32: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 33: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 34: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 35: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 36: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 37: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 38: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 39: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 40: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 41: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 42: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 43: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 44: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 45: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 46: 0%....50%....100% - 1 pass
-==PROF== Profiling "ncclKernel_AllReduce_NVLS_LL_..." - 47: 0%....50%....100% - 1 pass
-  1073741824     268435456     float     sum      -1  1545104    0.69    1.22    N/A  1922511    0.56    0.98    N/A
+  1073741824     268435456     float     sum      -1   177301    6.06   10.60    N/A   176845    6.07   10.63    N/A
 # Out of bounds values : 0 OK
-# Avg bus bandwidth    : 1.09676 
+# Avg bus bandwidth    : 10.6118 
 #
 
-==PROF== Disconnected from process 713850
-[713850] all_reduce_perf@127.0.0.1
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 8, Stream 125, Device 7, CC 9.0
+==PROF== Disconnected from process 1228354
+[1228354] all_reduce_perf@127.0.0.1
+  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
     Section: NVLink
     ---------------------------- ----------- ------------
     Metric Name                  Metric Unit Metric Value
     ---------------------------- ----------- ------------
     Logical Links                                      28
     Physical Links                                    224
-    Received Bytes                     Mbyte       542.01
-    Received Peak Utilization              %        49.43
-    Received Overhead Bytes            Mbyte       273.54
+    Received Bytes                     Mbyte       544.94
+    Received Peak Utilization              %        50.03
+    Received Overhead Bytes            Mbyte       276.47
     Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.84
-    Transmitted Peak Utilization           %        46.58
-    Transmitted Overhead Bytes         Mbyte       242.37
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 7, Stream 110, Device 6, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.09
-    Received Peak Utilization              %        50.20
-    Received Overhead Bytes            Mbyte       272.62
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.95
-    Transmitted Peak Utilization           %        47.40
-    Transmitted Overhead Bytes         Mbyte       242.48
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 6, Stream 95, Device 5, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.72
-    Received Peak Utilization              %        52.34
-    Received Overhead Bytes            Mbyte       273.25
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.83
-    Transmitted Peak Utilization           %        49.55
-    Transmitted Overhead Bytes         Mbyte       244.36
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 5, Stream 80, Device 4, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.12
-    Received Peak Utilization              %        50.64
-    Received Overhead Bytes            Mbyte       273.66
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.87
-    Transmitted Peak Utilization           %        47.72
-    Transmitted Overhead Bytes         Mbyte       242.40
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 4, Stream 65, Device 3, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       474.62
-    Received Peak Utilization              %        49.51
-    Received Overhead Bytes            Mbyte       239.71
-    Received User Bytes                Mbyte       234.91
-    Transmitted Bytes                  Mbyte       447.38
-    Transmitted Peak Utilization           %        46.67
-    Transmitted Overhead Bytes         Mbyte       212.47
-    Transmitted User Bytes             Mbyte       234.91
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 3, Stream 50, Device 2, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.92
-    Received Peak Utilization              %        51.63
-    Received Overhead Bytes            Mbyte       272.45
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.16
-    Transmitted Peak Utilization           %        48.89
-    Transmitted Overhead Bytes         Mbyte       243.69
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 2, Stream 35, Device 1, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.22
-    Received Peak Utilization              %        49.63
-    Received Overhead Bytes            Mbyte       272.75
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.25
-    Transmitted Peak Utilization           %        46.79
-    Transmitted Overhead Bytes         Mbyte       241.78
+    Transmitted Bytes                  Mbyte       510.81
+    Transmitted Peak Utilization           %        46.90
+    Transmitted Overhead Bytes         Mbyte       242.35
     Transmitted User Bytes             Mbyte       268.47
     ---------------------------- ----------- ------------
 
@@ -195,132 +51,13 @@
     ---------------------------- ----------- ------------
     Logical Links                                      28
     Physical Links                                    224
-    Received Bytes                     Mbyte       544.77
-    Received Peak Utilization              %        50.08
-    Received Overhead Bytes            Mbyte       276.30
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.95
-    Transmitted Peak Utilization           %        46.97
-    Transmitted Overhead Bytes         Mbyte       242.48
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 8, Stream 125, Device 7, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.18
+    Received Bytes                     Mbyte       545.01
     Received Peak Utilization              %        50.23
-    Received Overhead Bytes            Mbyte       272.71
+    Received Overhead Bytes            Mbyte       276.54
     Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.20
-    Transmitted Peak Utilization           %        47.45
-    Transmitted Overhead Bytes         Mbyte       242.73
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 7, Stream 110, Device 6, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.06
-    Received Peak Utilization              %        49.85
-    Received Overhead Bytes            Mbyte       272.59
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.20
-    Transmitted Peak Utilization           %        47.10
-    Transmitted Overhead Bytes         Mbyte       242.73
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 6, Stream 95, Device 5, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.40
-    Received Peak Utilization              %        52.28
-    Received Overhead Bytes            Mbyte       273.93
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.40
-    Transmitted Peak Utilization           %        49.39
-    Transmitted Overhead Bytes         Mbyte       243.93
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 5, Stream 80, Device 4, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.55
-    Received Peak Utilization              %        50.72
-    Received Overhead Bytes            Mbyte       274.09
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.91
-    Transmitted Peak Utilization           %        47.76
-    Transmitted Overhead Bytes         Mbyte       242.44
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 4, Stream 65, Device 3, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       474.95
-    Received Peak Utilization              %        50.33
-    Received Overhead Bytes            Mbyte       240.04
-    Received User Bytes                Mbyte       234.91
-    Transmitted Bytes                  Mbyte       447.63
-    Transmitted Peak Utilization           %        47.43
-    Transmitted Overhead Bytes         Mbyte       212.72
-    Transmitted User Bytes             Mbyte       234.91
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 3, Stream 50, Device 2, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.25
-    Received Peak Utilization              %        52.20
-    Received Overhead Bytes            Mbyte       271.78
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.48
-    Transmitted Peak Utilization           %        49.52
-    Transmitted Overhead Bytes         Mbyte       244.01
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 2, Stream 35, Device 1, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.14
-    Received Peak Utilization              %        49.48
-    Received Overhead Bytes            Mbyte       272.67
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.46
-    Transmitted Peak Utilization           %        46.68
-    Transmitted Overhead Bytes         Mbyte       241.99
+    Transmitted Bytes                  Mbyte       510.85
+    Transmitted Peak Utilization           %        47.08
+    Transmitted Overhead Bytes         Mbyte       242.38
     Transmitted User Bytes             Mbyte       268.47
     ---------------------------- ----------- ------------
 
@@ -331,268 +68,13 @@
     ---------------------------- ----------- ------------
     Logical Links                                      28
     Physical Links                                    224
-    Received Bytes                     Mbyte       544.60
-    Received Peak Utilization              %        49.94
-    Received Overhead Bytes            Mbyte       276.13
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.62
-    Transmitted Peak Utilization           %        46.82
-    Transmitted Overhead Bytes         Mbyte       242.15
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 8, Stream 125, Device 7, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.80
-    Received Peak Utilization              %        49.48
-    Received Overhead Bytes            Mbyte       272.33
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.63
-    Transmitted Peak Utilization           %        46.72
-    Transmitted Overhead Bytes         Mbyte       242.16
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 7, Stream 110, Device 6, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.41
-    Received Peak Utilization              %        49.99
-    Received Overhead Bytes            Mbyte       272.94
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.00
-    Transmitted Peak Utilization           %        47.18
-    Transmitted Overhead Bytes         Mbyte       242.53
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 6, Stream 95, Device 5, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.70
-    Received Peak Utilization              %        52.33
-    Received Overhead Bytes            Mbyte       273.23
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.85
-    Transmitted Peak Utilization           %        49.54
-    Transmitted Overhead Bytes         Mbyte       244.38
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 5, Stream 80, Device 4, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.20
-    Received Peak Utilization              %        49.98
-    Received Overhead Bytes            Mbyte       273.73
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.96
-    Transmitted Peak Utilization           %        47.10
-    Transmitted Overhead Bytes         Mbyte       242.50
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 4, Stream 65, Device 3, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       474.97
-    Received Peak Utilization              %        49.23
-    Received Overhead Bytes            Mbyte       240.06
-    Received User Bytes                Mbyte       234.91
-    Transmitted Bytes                  Mbyte       446.95
-    Transmitted Peak Utilization           %        46.32
-    Transmitted Overhead Bytes         Mbyte       212.04
-    Transmitted User Bytes             Mbyte       234.91
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 3, Stream 50, Device 2, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       539.94
-    Received Peak Utilization              %        52.12
-    Received Overhead Bytes            Mbyte       271.47
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.60
-    Transmitted Peak Utilization           %        49.48
-    Transmitted Overhead Bytes         Mbyte       244.13
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 2, Stream 35, Device 1, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.73
-    Received Peak Utilization              %        50.07
-    Received Overhead Bytes            Mbyte       272.26
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.36
-    Transmitted Peak Utilization           %        47.25
-    Transmitted Overhead Bytes         Mbyte       241.89
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       544.95
+    Received Bytes                     Mbyte       545.19
     Received Peak Utilization              %        49.87
-    Received Overhead Bytes            Mbyte       276.48
+    Received Overhead Bytes            Mbyte       276.73
     Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.71
-    Transmitted Peak Utilization           %        46.73
-    Transmitted Overhead Bytes         Mbyte       242.24
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 8, Stream 125, Device 7, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.26
-    Received Peak Utilization              %        49.32
-    Received Overhead Bytes            Mbyte       271.79
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.73
-    Transmitted Peak Utilization           %        46.63
-    Transmitted Overhead Bytes         Mbyte       242.26
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 7, Stream 110, Device 6, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.93
-    Received Peak Utilization              %        50.41
-    Received Overhead Bytes            Mbyte       272.46
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.34
-    Transmitted Peak Utilization           %        47.65
-    Transmitted Overhead Bytes         Mbyte       242.87
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 6, Stream 95, Device 5, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.61
-    Received Peak Utilization              %        52.31
-    Received Overhead Bytes            Mbyte       273.14
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       513.25
-    Transmitted Peak Utilization           %        49.58
-    Transmitted Overhead Bytes         Mbyte       244.78
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 5, Stream 80, Device 4, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.07
-    Received Peak Utilization              %        50.61
-    Received Overhead Bytes            Mbyte       273.60
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.40
-    Transmitted Peak Utilization           %        47.75
-    Transmitted Overhead Bytes         Mbyte       242.93
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 4, Stream 65, Device 3, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       474.69
-    Received Peak Utilization              %        50.43
-    Received Overhead Bytes            Mbyte       239.78
-    Received User Bytes                Mbyte       234.91
-    Transmitted Bytes                  Mbyte       447.65
-    Transmitted Peak Utilization           %        47.56
-    Transmitted Overhead Bytes         Mbyte       212.74
-    Transmitted User Bytes             Mbyte       234.91
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 3, Stream 50, Device 2, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.89
-    Received Peak Utilization              %        52.11
-    Received Overhead Bytes            Mbyte       272.42
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.33
-    Transmitted Peak Utilization           %        49.36
-    Transmitted Overhead Bytes         Mbyte       243.86
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 2, Stream 35, Device 1, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.95
-    Received Peak Utilization              %        49.92
-    Received Overhead Bytes            Mbyte       273.48
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.50
-    Transmitted Peak Utilization           %        47.02
-    Transmitted Overhead Bytes         Mbyte       242.03
+    Transmitted Bytes                  Mbyte       511.10
+    Transmitted Peak Utilization           %        46.75
+    Transmitted Overhead Bytes         Mbyte       242.63
     Transmitted User Bytes             Mbyte       268.47
     ---------------------------- ----------- ------------
 
@@ -603,285 +85,47 @@
     ---------------------------- ----------- ------------
     Logical Links                                      28
     Physical Links                                    224
-    Received Bytes                     Mbyte       544.73
-    Received Peak Utilization              %        49.94
-    Received Overhead Bytes            Mbyte       276.26
+    Received Bytes                     Mbyte       545.30
+    Received Peak Utilization              %        50.08
+    Received Overhead Bytes            Mbyte       276.83
     Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.09
-    Transmitted Peak Utilization           %        46.86
-    Transmitted Overhead Bytes         Mbyte       242.62
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 8, Stream 125, Device 7, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.64
-    Received Peak Utilization              %        49.55
-    Received Overhead Bytes            Mbyte       272.17
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.14
-    Transmitted Peak Utilization           %        46.84
-    Transmitted Overhead Bytes         Mbyte       242.67
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 7, Stream 110, Device 6, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.33
-    Received Peak Utilization              %        49.80
-    Received Overhead Bytes            Mbyte       273.86
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.14
+    Transmitted Bytes                  Mbyte       510.98
     Transmitted Peak Utilization           %        46.93
-    Transmitted Overhead Bytes         Mbyte       242.67
+    Transmitted Overhead Bytes         Mbyte       242.51
     Transmitted User Bytes             Mbyte       268.47
     ---------------------------- ----------- ------------
 
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 6, Stream 95, Device 5, CC 9.0
+  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
     Section: NVLink
     ---------------------------- ----------- ------------
     Metric Name                  Metric Unit Metric Value
     ---------------------------- ----------- ------------
     Logical Links                                      28
     Physical Links                                    224
-    Received Bytes                     Mbyte       542.33
-    Received Peak Utilization              %        52.27
-    Received Overhead Bytes            Mbyte       273.86
+    Received Bytes                     Mbyte       545.27
+    Received Peak Utilization              %        49.61
+    Received Overhead Bytes            Mbyte       276.80
     Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       513.15
-    Transmitted Peak Utilization           %        49.45
-    Transmitted Overhead Bytes         Mbyte       244.68
+    Transmitted Bytes                  Mbyte       510.61
+    Transmitted Peak Utilization           %        46.46
+    Transmitted Overhead Bytes         Mbyte       242.14
     Transmitted User Bytes             Mbyte       268.47
     ---------------------------- ----------- ------------
 
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 5, Stream 80, Device 4, CC 9.0
+  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
     Section: NVLink
     ---------------------------- ----------- ------------
     Metric Name                  Metric Unit Metric Value
     ---------------------------- ----------- ------------
     Logical Links                                      28
     Physical Links                                    224
-    Received Bytes                     Mbyte       542.83
-    Received Peak Utilization              %        50.19
-    Received Overhead Bytes            Mbyte       274.36
+    Received Bytes                     Mbyte       545.59
+    Received Peak Utilization              %        49.81
+    Received Overhead Bytes            Mbyte       277.12
     Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.20
-    Transmitted Peak Utilization           %        47.27
-    Transmitted Overhead Bytes         Mbyte       242.73
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 4, Stream 65, Device 3, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       475.35
-    Received Peak Utilization              %        49.28
-    Received Overhead Bytes            Mbyte       240.44
-    Received User Bytes                Mbyte       234.91
-    Transmitted Bytes                  Mbyte       446.94
-    Transmitted Peak Utilization           %        46.33
-    Transmitted Overhead Bytes         Mbyte       212.02
-    Transmitted User Bytes             Mbyte       234.91
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 3, Stream 50, Device 2, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       539.96
-    Received Peak Utilization              %        52.20
-    Received Overhead Bytes            Mbyte       271.49
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.67
-    Transmitted Peak Utilization           %        49.56
-    Transmitted Overhead Bytes         Mbyte       244.20
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 2, Stream 35, Device 1, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.35
-    Received Peak Utilization              %        49.58
-    Received Overhead Bytes            Mbyte       273.89
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.24
+    Transmitted Bytes                  Mbyte       510.94
     Transmitted Peak Utilization           %        46.65
-    Transmitted Overhead Bytes         Mbyte       241.77
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       545.33
-    Received Peak Utilization              %        49.89
-    Received Overhead Bytes            Mbyte       276.86
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.88
-    Transmitted Peak Utilization           %        46.74
-    Transmitted Overhead Bytes         Mbyte       242.41
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 8, Stream 125, Device 7, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       541.68
-    Received Peak Utilization              %        49.10
-    Received Overhead Bytes            Mbyte       273.22
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.89
-    Transmitted Peak Utilization           %        46.31
-    Transmitted Overhead Bytes         Mbyte       242.42
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 7, Stream 110, Device 6, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.00
-    Received Peak Utilization              %        49.98
-    Received Overhead Bytes            Mbyte       273.53
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.12
-    Transmitted Peak Utilization           %        47.13
-    Transmitted Overhead Bytes         Mbyte       242.66
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 6, Stream 95, Device 5, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       543.07
-    Received Peak Utilization              %        52.45
-    Received Overhead Bytes            Mbyte       274.60
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       513.48
-    Transmitted Peak Utilization           %        49.60
-    Transmitted Overhead Bytes         Mbyte       245.01
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 5, Stream 80, Device 4, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.89
-    Received Peak Utilization              %        49.95
-    Received Overhead Bytes            Mbyte       274.42
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.71
-    Transmitted Peak Utilization           %        46.99
-    Transmitted Overhead Bytes         Mbyte       242.24
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 4, Stream 65, Device 3, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       475.83
-    Received Peak Utilization              %        49.07
-    Received Overhead Bytes            Mbyte       240.91
-    Received User Bytes                Mbyte       234.91
-    Transmitted Bytes                  Mbyte       447.25
-    Transmitted Peak Utilization           %        46.12
-    Transmitted Overhead Bytes         Mbyte       212.34
-    Transmitted User Bytes             Mbyte       234.91
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 3, Stream 50, Device 2, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       540.76
-    Received Peak Utilization              %        52.20
-    Received Overhead Bytes            Mbyte       272.30
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       512.54
-    Transmitted Peak Utilization           %        49.48
-    Transmitted Overhead Bytes         Mbyte       244.07
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 2, Stream 35, Device 1, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       542.32
-    Received Peak Utilization              %        49.51
-    Received Overhead Bytes            Mbyte       273.85
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       510.72
-    Transmitted Peak Utilization           %        46.63
-    Transmitted Overhead Bytes         Mbyte       242.25
-    Transmitted User Bytes             Mbyte       268.47
-    ---------------------------- ----------- ------------
-
-  ncclKernel_AllReduce_NVLS_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(640, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
-    Section: NVLink
-    ---------------------------- ----------- ------------
-    Metric Name                  Metric Unit Metric Value
-    ---------------------------- ----------- ------------
-    Logical Links                                      28
-    Physical Links                                    224
-    Received Bytes                     Mbyte       544.86
-    Received Peak Utilization              %        50.70
-    Received Overhead Bytes            Mbyte       276.39
-    Received User Bytes                Mbyte       268.47
-    Transmitted Bytes                  Mbyte       511.15
-    Transmitted Peak Utilization           %        47.56
-    Transmitted Overhead Bytes         Mbyte       242.68
+    Transmitted Overhead Bytes         Mbyte       242.47
     Transmitted User Bytes             Mbyte       268.47
     ---------------------------- ----------- ------------
 

@@ -1,0 +1,131 @@
+# nThread 1 nGpus 8 minBytes 1073741824 maxBytes 1073741824 step: 2(factor) warmup iters: 1 iters: 1 agg iters: 1 validation: 0 graph: 0
+#
+# Using devices
+==PROF== Connected to process 1228531 (/root/gyq/nccl-tests/build/all_reduce_perf)
+#  Rank  0 Group  0 Pid 1228531 on nf5688m7-1 device  0 [0x0f] NVIDIA H800
+#  Rank  1 Group  0 Pid 1228531 on nf5688m7-1 device  1 [0x34] NVIDIA H800
+#  Rank  2 Group  0 Pid 1228531 on nf5688m7-1 device  2 [0x48] NVIDIA H800
+#  Rank  3 Group  0 Pid 1228531 on nf5688m7-1 device  3 [0x5a] NVIDIA H800
+#  Rank  4 Group  0 Pid 1228531 on nf5688m7-1 device  4 [0x87] NVIDIA H800
+#  Rank  5 Group  0 Pid 1228531 on nf5688m7-1 device  5 [0xae] NVIDIA H800
+#  Rank  6 Group  0 Pid 1228531 on nf5688m7-1 device  6 [0xc2] NVIDIA H800
+#  Rank  7 Group  0 Pid 1228531 on nf5688m7-1 device  7 [0xd7] NVIDIA H800
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+==PROF== Profiling "ncclKernel_AllReduce_RING_LL_..." - 0: 0%....50%....100% - 1 pass
+==PROF== Profiling "ncclKernel_AllReduce_RING_LL_..." - 1: 0%....50%....100% - 1 pass
+==PROF== Profiling "ncclKernel_AllReduce_RING_LL_..." - 2: 0%....50%....100% - 1 pass
+==PROF== Profiling "ncclKernel_AllReduce_RING_LL_..." - 3: 0%....50%....100% - 1 pass
+==PROF== Profiling "ncclKernel_AllReduce_RING_LL_..." - 4: 0%....50%....100% - 1 pass
+==PROF== Profiling "ncclKernel_AllReduce_RING_LL_..." - 5: 0%....50%....100% - 1 pass
+  1073741824     268435456     float     sum      -1   189625    5.66    9.91    N/A   177017    6.07   10.62    N/A
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 10.2622 
+#
+
+==PROF== Disconnected from process 1228531
+[1228531] all_reduce_perf@127.0.0.1
+  ncclKernel_AllReduce_RING_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(544, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
+    Section: NVLink
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    Logical Links                                      28
+    Physical Links                                    224
+    Received Bytes                     Gbyte         2.14
+    Received Peak Utilization              %        87.76
+    Received Overhead Bytes            Mbyte       263.23
+    Received User Bytes                Gbyte         1.88
+    Transmitted Bytes                  Gbyte         2.14
+    Transmitted Peak Utilization           %        87.82
+    Transmitted Overhead Bytes         Mbyte       264.79
+    Transmitted User Bytes             Gbyte         1.88
+    ---------------------------- ----------- ------------
+
+  ncclKernel_AllReduce_RING_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(544, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
+    Section: NVLink
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    Logical Links                                      28
+    Physical Links                                    224
+    Received Bytes                     Gbyte         2.15
+    Received Peak Utilization              %        88.06
+    Received Overhead Bytes            Mbyte       270.26
+    Received User Bytes                Gbyte         1.88
+    Transmitted Bytes                  Gbyte         2.15
+    Transmitted Peak Utilization           %        88.08
+    Transmitted Overhead Bytes         Mbyte       270.81
+    Transmitted User Bytes             Gbyte         1.88
+    ---------------------------- ----------- ------------
+
+  ncclKernel_AllReduce_RING_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(544, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
+    Section: NVLink
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    Logical Links                                      28
+    Physical Links                                    224
+    Received Bytes                     Gbyte         2.14
+    Received Peak Utilization              %        87.79
+    Received Overhead Bytes            Mbyte       264.67
+    Received User Bytes                Gbyte         1.88
+    Transmitted Bytes                  Gbyte         2.15
+    Transmitted Peak Utilization           %        87.85
+    Transmitted Overhead Bytes         Mbyte       266.08
+    Transmitted User Bytes             Gbyte         1.88
+    ---------------------------- ----------- ------------
+
+  ncclKernel_AllReduce_RING_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(544, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
+    Section: NVLink
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    Logical Links                                      28
+    Physical Links                                    224
+    Received Bytes                     Gbyte         2.14
+    Received Peak Utilization              %        87.84
+    Received Overhead Bytes            Mbyte       265.49
+    Received User Bytes                Gbyte         1.88
+    Transmitted Bytes                  Gbyte         2.15
+    Transmitted Peak Utilization           %        87.90
+    Transmitted Overhead Bytes         Mbyte       266.94
+    Transmitted User Bytes             Gbyte         1.88
+    ---------------------------- ----------- ------------
+
+  ncclKernel_AllReduce_RING_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(544, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
+    Section: NVLink
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    Logical Links                                      28
+    Physical Links                                    224
+    Received Bytes                     Gbyte         2.14
+    Received Peak Utilization              %        87.69
+    Received Overhead Bytes            Mbyte       265.54
+    Received User Bytes                Gbyte         1.88
+    Transmitted Bytes                  Gbyte         2.15
+    Transmitted Peak Utilization           %        87.75
+    Transmitted Overhead Bytes         Mbyte       267.05
+    Transmitted User Bytes             Gbyte         1.88
+    ---------------------------- ----------- ------------
+
+  ncclKernel_AllReduce_RING_LL_Sum_float(ncclDevComm *, unsigned long, ncclWork *) (16, 1, 1)x(544, 1, 1), Context 1, Stream 20, Device 0, CC 9.0
+    Section: NVLink
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    Logical Links                                      28
+    Physical Links                                    224
+    Received Bytes                     Gbyte         2.15
+    Received Peak Utilization              %        87.82
+    Received Overhead Bytes            Mbyte       265.97
+    Received User Bytes                Gbyte         1.88
+    Transmitted Bytes                  Gbyte         2.15
+    Transmitted Peak Utilization           %        87.88
+    Transmitted Overhead Bytes         Mbyte       267.25
+    Transmitted User Bytes             Gbyte         1.88
+    ---------------------------- ----------- ------------
+
