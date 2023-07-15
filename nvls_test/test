@@ -1,0 +1,53 @@
+#!/usr/bin/env python
+
+import argparse
+import re
+
+def subtract_files(file1, file2, output_file):
+    # 打开输入文件和输出文件
+    with open(file1, 'r') as f1, open(file2, 'r') as f2, open(output_file, 'w') as out_file:
+        # 读取文件内容
+        lines1 = f1.readlines()
+        lines2 = f2.readlines()
+        
+        # 确保两个文件的行数相同
+        if len(lines1) != len(lines2):
+            raise ValueError('输入文件行数不一致')
+
+        # 逐行进行相减并写入输出文件
+        tx_sum = 0
+        rx_sum = 0
+        for i, (line1, line2) in enumerate(zip(lines1[1:], lines2[1:]), start=1):
+            nums1 = re.findall(r'\d+', line1)
+            nums2 = re.findall(r'\d+', line2)
+            if len(nums1) < 2 or len(nums2) < 2:
+                raise ValueError('找不到第二个数字')
+
+            num1 = int(nums1[1])
+            num2 = int(nums2[1])
+            result = num1 - num2
+
+            if i % 2 == 0:
+                rx_sum += result
+            else:
+                tx_sum += result
+
+            out_file.write(f'{result}\n')
+
+        # 将奇数行和偶数行的结果求和并写入最后两行
+        out_file.write(f'TX Sum: {tx_sum}\n')
+        out_file.write(f'RX Sum: {rx_sum}')
+
+# 创建解析器对象
+parser = argparse.ArgumentParser(description='Subtract numbers in the second column of two files and write the results to another file.')
+
+# 添加命令行参数
+parser.add_argument('file1', type=str, help='First input file')
+parser.add_argument('file2', type=str, help='Second input file')
+parser.add_argument('output_file', type=str, help='Output file')
+
+# 解析命令行参数
+args = parser.parse_args()
+
+# 调用函数并传递参数
+subtract_files(args.file1, args.file2, args.output_file)

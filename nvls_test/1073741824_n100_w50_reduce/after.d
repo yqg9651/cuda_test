@@ -1,0 +1,17 @@
+GPU 0: NVIDIA H800 (UUID: GPU-deb3f1bc-44cc-a622-e825-35a2cfa67c22)
+	 Link 0: Data Tx: 30820780989 KiB
+	 Link 0: Data Rx: 30784784893 KiB
+	 Link 1: Data Tx: 30823390441 KiB
+	 Link 1: Data Rx: 30785070137 KiB
+	 Link 2: Data Tx: 30812940829 KiB
+	 Link 2: Data Rx: 30783242528 KiB
+	 Link 3: Data Tx: 30831539950 KiB
+	 Link 3: Data Rx: 30786468143 KiB
+	 Link 4: Data Tx: 30820987282 KiB
+	 Link 4: Data Rx: 30788012590 KiB
+	 Link 5: Data Tx: 30824920981 KiB
+	 Link 5: Data Rx: 30785547208 KiB
+	 Link 6: Data Tx: 30821387835 KiB
+	 Link 6: Data Rx: 30783993697 KiB
+	 Link 7: Data Tx: 30813579004 KiB
+	 Link 7: Data Rx: 30786123031 KiB

@@ -1,0 +1,17 @@
+GPU 0: NVIDIA H800 (UUID: GPU-deb3f1bc-44cc-a622-e825-35a2cfa67c22)
+	 Link 0: Raw Tx: 42560613703 KiB
+	 Link 0: Raw Rx: 43384413275 KiB
+	 Link 1: Raw Tx: 42513575529 KiB
+	 Link 1: Raw Rx: 43347768639 KiB
+	 Link 2: Raw Tx: 42509935460 KiB
+	 Link 2: Raw Rx: 43315302833 KiB
+	 Link 3: Raw Tx: 42572865717 KiB
+	 Link 3: Raw Rx: 43379052303 KiB
+	 Link 4: Raw Tx: 42553875991 KiB
+	 Link 4: Raw Rx: 43368786856 KiB
+	 Link 5: Raw Tx: 42560544092 KiB
+	 Link 5: Raw Rx: 43374784560 KiB
+	 Link 6: Raw Tx: 42539056383 KiB
+	 Link 6: Raw Rx: 43348564542 KiB
+	 Link 7: Raw Tx: 42552962719 KiB
+	 Link 7: Raw Rx: 43319933067 KiB
