@@ -1,0 +1,64 @@
+==WARNING== Please consult the documentation for current range-based replay mode limitations and requirements.
+# nThread 1 nGpus 8 minBytes 2147483648 maxBytes 2147483648 step: 2(factor) warmup iters: 50 iters: 100 agg iters: 1 validation: 0 graph: 0
+#
+# Using devices
+==PROF== Connected to process 1367360 (/root/gyq/nccl-tests/build/all_reduce_perf)
+#  Rank  0 Group  0 Pid 1367360 on nf5688m7-1 device  0 [0x0f] NVIDIA H800
+#  Rank  1 Group  0 Pid 1367360 on nf5688m7-1 device  1 [0x34] NVIDIA H800
+#  Rank  2 Group  0 Pid 1367360 on nf5688m7-1 device  2 [0x48] NVIDIA H800
+#  Rank  3 Group  0 Pid 1367360 on nf5688m7-1 device  3 [0x5a] NVIDIA H800
+#  Rank  4 Group  0 Pid 1367360 on nf5688m7-1 device  4 [0x87] NVIDIA H800
+#  Rank  5 Group  0 Pid 1367360 on nf5688m7-1 device  5 [0xae] NVIDIA H800
+#  Rank  6 Group  0 Pid 1367360 on nf5688m7-1 device  6 [0xc2] NVIDIA H800
+#  Rank  7 Group  0 Pid 1367360 on nf5688m7-1 device  7 [0xd7] NVIDIA H800
+#
+#                                                              out-of-place                       in-place          
+#       size         count      type   redop    root     time   algbw   busbw #wrong     time   algbw   busbw #wrong
+#        (B)    (elements)                               (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+  2147483648     536870912     float     sum      -1profiler start
+==PROF== Profiling "range" - 0: Application replay pass 1
+profiler stop
+    40727   52.73   92.27    N/Aprofiler start
+==PROF== Profiling "range" - 1: Application replay pass 1
+profiler stop
+    20068  107.01  187.27    N/A
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 139.772 
+#
+
+==PROF== Disconnected from process 1367360
+[1367360] all_reduce_perf@127.0.0.1
+  range, Context 1, Device 0, CC 9.0
+    Section: NVLink
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    Logical Links                                      28
+    Physical Links                                    224
+    Received Bytes                     Gbyte       340.56
+    Received Peak Utilization              %        86.78
+    Received Overhead Bytes            Gbyte        99.14
+    Received User Bytes                Gbyte       241.42
+    Transmitted Bytes                  Gbyte       332.99
+    Transmitted Peak Utilization           %        84.86
+    Transmitted Overhead Bytes         Gbyte        91.62
+    Transmitted User Bytes             Gbyte       241.37
+    ---------------------------- ----------- ------------
+
+  range, Context 1, Device 0, CC 9.0
+    Section: NVLink
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    Logical Links                                      28
+    Physical Links                                    224
+    Received Bytes                     Gbyte       339.72
+    Received Peak Utilization              %        87.05
+    Received Overhead Bytes            Gbyte        98.08
+    Received User Bytes                Gbyte       241.64
+    Transmitted Bytes                  Gbyte       332.40
+    Transmitted Peak Utilization           %        85.17
+    Transmitted Overhead Bytes         Gbyte        90.80
+    Transmitted User Bytes             Gbyte       241.60
+    ---------------------------- ----------- ------------
+
