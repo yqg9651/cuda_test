@@ -32,8 +32,8 @@ struct mem_test {
 
 // static const size_t begin_bytes = 75665408;
 // static const size_t begin_bytes = 67108864;
-static const size_t begin_bytes = (16UL << 10);
-static const size_t begin_stride = (2UL << 20);
+static const size_t begin_bytes = (8UL << 10);
+static const size_t begin_stride = (32);
 
 static void runLatRdTest(struct mem_test *mem);
 static void runLatConstRdTest(struct mem_test *mem);
