@@ -52,8 +52,6 @@ static size_t forward_stride(size_t stride)
 
 static size_t forward(size_t range)
 {
-    return range * 2;
-
     if (range < (32 << 10)) {
         range *= 2;
     } else if (range < (256 << 10)) {
