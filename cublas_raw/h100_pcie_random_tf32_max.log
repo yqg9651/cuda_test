@@ -1,0 +1,6 @@
+Dim Params: m=8192, k=8192, n=8192, TransA=1, TransB=0, alpha=1, beta=0
+Args: input type: float, math type: tfloat32, loop=10000
+**************************
+>>>> Testing: fill matrix with uniform distribution datas
+>>>> Testing: fill matrix with uniform distribution datas
+Testing result: time elapse 3655.233 us per loop, TFLOPS = 300.805
