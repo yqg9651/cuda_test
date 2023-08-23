@@ -1,2 +1,0 @@
-lda 8192 ldb 8192 ldc 8192
-LtHSHgemmStridedBatchSimple: 386.684148 TFlops(8192, 8192, 8192, 1, 4096, ms=11646.713867)
