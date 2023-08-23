@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Common/helpers.h
+cstdio
+-
+stdexcept
+-
+vector
+-
+functional
+-
+random
+-
+cublasLt.h
+-
+cuda_fp8.h
+-
+cuda_runtime_api.h
+-
+
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu
+cublasLt.h
+-
+sample_cublasLt_LtHSHgemmStridedBatchSimple.h
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
+helpers.h
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/helpers.h
+
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
+cublasLt.h
+-
+

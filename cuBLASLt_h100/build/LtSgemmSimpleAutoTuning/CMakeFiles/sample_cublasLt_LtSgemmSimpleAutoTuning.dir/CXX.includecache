@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Common/helpers.h
+cstdio
+-
+stdexcept
+-
+vector
+-
+functional
+-
+random
+-
+cublasLt.h
+-
+cuda_fp8.h
+-
+cuda_runtime_api.h
+-
+
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/main.cpp
+cstdio
+-
+vector
+-
+cuda_runtime_api.h
+-
+cublasLt.h
+-
+sample_cublasLt_LtSgemmSimpleAutoTuning.h
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.h
+helpers.h
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/helpers.h
+
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.h
+cublasLt.h
+-
+

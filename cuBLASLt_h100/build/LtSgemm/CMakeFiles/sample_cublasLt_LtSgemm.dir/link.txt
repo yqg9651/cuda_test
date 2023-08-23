@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/sample_cublasLt_LtSgemm.dir/main.cpp.o CMakeFiles/sample_cublasLt_LtSgemm.dir/sample_cublasLt_LtSgemm.cu.o  -o sample_cublasLt_LtSgemm   -L/usr/lib/x86_64-linux-gnu/stubs  -lcudart -lcublasLt -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

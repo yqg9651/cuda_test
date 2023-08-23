@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.o CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o  -o sample_cublasLt_LtSgemmCustomFind   -L/usr/lib/x86_64-linux-gnu/stubs  -lcudart -lcublasLt -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

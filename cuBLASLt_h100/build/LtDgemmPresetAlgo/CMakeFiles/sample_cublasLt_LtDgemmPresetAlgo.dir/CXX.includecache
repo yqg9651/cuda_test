@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Common/helpers.h
+cstdio
+-
+stdexcept
+-
+vector
+-
+functional
+-
+random
+-
+cublasLt.h
+-
+cuda_fp8.h
+-
+cuda_runtime_api.h
+-
+
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo/main.cpp
+vector
+-
+cuda_runtime_api.h
+-
+cublasLt.h
+-
+sample_cublasLt_LtDgemmPresetAlgo.h
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo/sample_cublasLt_LtDgemmPresetAlgo.h
+helpers.h
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo/helpers.h
+
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo/sample_cublasLt_LtDgemmPresetAlgo.h
+cublasLt.h
+-
+

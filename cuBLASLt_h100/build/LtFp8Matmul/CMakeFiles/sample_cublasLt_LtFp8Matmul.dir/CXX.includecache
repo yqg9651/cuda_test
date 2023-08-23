@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Common/helpers.h
+cstdio
+-
+stdexcept
+-
+vector
+-
+functional
+-
+random
+-
+cublasLt.h
+-
+cuda_fp8.h
+-
+cuda_runtime_api.h
+-
+
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul/main.cpp
+vector
+-
+cuda_runtime_api.h
+-
+cuda_fp8.h
+-
+cublasLt.h
+-
+sample_cublasLt_LtFp8Matmul.h
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul/sample_cublasLt_LtFp8Matmul.h
+helpers.h
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul/helpers.h
+
+/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul/sample_cublasLt_LtFp8Matmul.h
+cuda_fp8.h
+-
+cublasLt.h
+-
+

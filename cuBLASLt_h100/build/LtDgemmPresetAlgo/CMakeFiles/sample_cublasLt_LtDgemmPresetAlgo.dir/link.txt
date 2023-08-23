@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/main.cpp.o CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/sample_cublasLt_LtDgemmPresetAlgo.cu.o  -o sample_cublasLt_LtDgemmPresetAlgo   -L/usr/lib/x86_64-linux-gnu/stubs  -lcudart -lcublasLt -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

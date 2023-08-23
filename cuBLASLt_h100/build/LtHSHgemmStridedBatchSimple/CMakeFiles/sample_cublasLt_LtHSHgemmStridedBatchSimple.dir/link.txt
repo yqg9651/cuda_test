@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.o CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o  -o sample_cublasLt_LtHSHgemmStridedBatchSimple   -L/usr/lib/x86_64-linux-gnu/stubs  -lcudart -lcublasLt -lcudadevrt -lcudart_static -lrt -lpthread -ldl 
