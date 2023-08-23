@@ -100,6 +100,15 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
         checkCublasStatus(CUBLAS_STATUS_NOT_SUPPORTED);
     }
 
+    cudaStream_t stream = NULL;
+    checkCudaStatus(cudaStreamCreateWithFlags(&stream, cudaStreamNonBlocking));
+    cudaEvent_t startEvent = NULL, stopEvent = NULL;
+    checkCudaStatus(cudaEventCreate(&startEvent, cudaEventBlockingSync));
+    checkCudaStatus(cudaEventCreate(&stopEvent, cudaEventBlockingSync));
+    const long repeats = 2;
+
+    checkCudaStatus(cudaEventRecord(startEvent, stream));
+    for (int loop = 0; loop < repeats; ++loop) {
     checkCublasStatus(cublasLtMatmul(ltHandle,
                                      operationDesc,
                                      alpha,
@@ -115,7 +124,16 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
                                      &heuristicResult.algo,
                                      workspace,
                                      workspaceSize,
-                                     0));
+                                     stream));
+    }
+    checkCudaStatus(cudaEventRecord(stopEvent, stream));
+    checkCudaStatus(cudaEventSynchronize(stopEvent));
+    float ms;
+    checkCudaStatus(cudaEventElapsedTime(&ms, startEvent, stopEvent));
+    printf("%s: %lf TFlops\n", __func__, (double)m * n * k * 2 / 1000.0 / 1000.0 * repeats / ms / 1000.0);
+    if (startEvent) checkCudaStatus(cudaEventDestroy(startEvent));
+    if (stopEvent) checkCudaStatus(cudaEventDestroy(stopEvent));
+    if (stream) checkCudaStatus(cudaStreamDestroy(stream));
 
     // descriptors are no longer needed as all GPU work was already enqueued
     if (preference) checkCublasStatus(cublasLtMatmulPreferenceDestroy(preference));
