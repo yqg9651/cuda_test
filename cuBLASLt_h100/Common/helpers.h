@@ -163,6 +163,7 @@ struct TestBench {
 
     void run(const SampleRunner& runSample) {
         copyDataToDevice();
+        streamSynchronize();
 
         runSample();
 
@@ -187,6 +188,33 @@ struct TestBench {
     const int mpAligned = 16;
 };
 
+template <>
+inline void TestBench<__nv_fp8_e4m3, __nv_fp8_e4m3, float>::maxPowerData() {
+    const uint8_t n1 = 0x5a;
+    const uint8_t n2 = 0xa5;
+    for (int batch = 0; batch < N; batch++) {
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < k; j++) {
+                int pos = i * k + j;
+		// int mpos = i + m * j + m * k * batch;
+		int mpos = i * k + j + m * k * batch;
+		if ((pos / (k)) % 2 == 0) memcpy(&Ahost[mpos], &n1, sizeof(Ahost[0]));
+		else memcpy(&Ahost[mpos], &n2, sizeof(Ahost[0]));
+	    }
+	}
+
+	for (int i = 0; i < n; i++) {
+            for (int j = 0; j < k; j++) {
+                int pos = i * k + j;
+		int mpos = i * k + j + n * k * batch;
+		if ((pos / (mpAligned * 2)) % 2 == 0) memcpy(&Bhost[mpos], &n2, sizeof(Bhost[0]));
+		else memcpy(&Bhost[mpos], &n1, sizeof(Bhost[0]));
+	    }
+	}
+
+    }
+    for (int i = 0; i < m * N; i++) biasHost[i] = __nv_fp8_e4m3(i + 1);
+}
 
 template <>
 inline void TestBench<__half, __half, float>::maxPowerData() {

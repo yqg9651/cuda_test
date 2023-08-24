@@ -52,4 +52,6 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
                  const float *d_scale, /* device pointer */
                  float *amax_d, /* device pointer */
                  void *workspace,
-                 size_t workspaceSize);
+                 size_t workspaceSize,
+		 int repeat,
+		 int8_t fast_mode);

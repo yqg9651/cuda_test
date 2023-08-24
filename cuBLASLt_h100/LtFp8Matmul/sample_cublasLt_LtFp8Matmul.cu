@@ -54,7 +54,9 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
                  const float *d_scale, /* device pointer */
                  float *amax_d, /* device pointer */
                  void *workspace,
-                 size_t workspaceSize) {
+                 size_t workspaceSize,
+		 int repeats,
+		 int8_t fast_mode) {
     cublasLtMatmulDesc_t operationDesc = NULL;
     cublasLtMatrixLayout_t Adesc = NULL, Bdesc = NULL, Cdesc = NULL, Ddesc = NULL;
     cublasLtMatmulPreference_t preference = NULL;
@@ -71,13 +73,18 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
     checkCublasStatus(cublasLtMatmulDescCreate(&operationDesc, CUBLAS_COMPUTE_32F, CUDA_R_32F));
     checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_TRANSA, &transa, sizeof(transa)));
     checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_TRANSB, &transb, sizeof(transa)));
+    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_TRANSC, &transb, sizeof(transa)));
+    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_EPILOGUE, &transa, sizeof(transa)));
+
+    // for perf
+    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_FAST_ACCUM, &fast_mode, sizeof(fast_mode)));
 
     // set scaling factors
-    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_A_SCALE_POINTER, &a_scale, sizeof(a_scale)));
-    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_B_SCALE_POINTER, &b_scale, sizeof(b_scale)));
-    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_C_SCALE_POINTER, &c_scale, sizeof(c_scale)));
-    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_D_SCALE_POINTER, &d_scale, sizeof(d_scale)));
-    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_AMAX_D_POINTER, &amax_d, sizeof(amax_d)));
+    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_A_SCALE_POINTER, &a_scale, sizeof(a_scale)));
+    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_B_SCALE_POINTER, &b_scale, sizeof(b_scale)));
+    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_C_SCALE_POINTER, &c_scale, sizeof(c_scale)));
+    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_D_SCALE_POINTER, &d_scale, sizeof(d_scale)));
+    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_AMAX_D_POINTER, &amax_d, sizeof(amax_d)));
 
     // create matrix descriptors, we are good with the details here so no need to set any extra attributes
     // table of supported type combinations can be found in the documentation: https://docs.nvidia.com/cuda/cublas/index.html#cublasltmatmul
@@ -85,6 +92,7 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
     checkCublasStatus(cublasLtMatrixLayoutCreate(&Bdesc, CUDA_R_8F_E4M3, transb == CUBLAS_OP_N ? k : n, transb == CUBLAS_OP_N ? n : k, ldb));
     checkCublasStatus(cublasLtMatrixLayoutCreate(&Cdesc, CUDA_R_16BF, m, n, ldc));
     checkCublasStatus(cublasLtMatrixLayoutCreate(&Ddesc, CUDA_R_8F_E4M3, m, n, ldc));
+    printf("%d %d %d %d\n", lda, ldb, ldc, ldc);
 
     // create preference handle; here we could use extra attributes to disable tensor ops or to make sure algo selected
     // will work with badly aligned A, B, C; here for simplicity we just assume A,B,C are always well aligned (e.g.
@@ -105,10 +113,9 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
     cudaEvent_t startEvent = NULL, stopEvent = NULL;
     checkCudaStatus(cudaEventCreate(&startEvent, cudaEventBlockingSync));
     checkCudaStatus(cudaEventCreate(&stopEvent, cudaEventBlockingSync));
-    const long repeats = 2;
 
-    checkCudaStatus(cudaEventRecord(startEvent, stream));
-    for (int loop = 0; loop < repeats; ++loop) {
+    for (int loop = -1; loop < repeats; ++loop) {
+	    if (loop == 0) checkCudaStatus(cudaEventRecord(startEvent, stream));
     checkCublasStatus(cublasLtMatmul(ltHandle,
                                      operationDesc,
                                      alpha,
@@ -125,12 +132,13 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
                                      workspace,
                                      workspaceSize,
                                      stream));
+	    if (loop == -1) checkCudaStatus(cudaDeviceSynchronize());
     }
     checkCudaStatus(cudaEventRecord(stopEvent, stream));
     checkCudaStatus(cudaEventSynchronize(stopEvent));
     float ms;
     checkCudaStatus(cudaEventElapsedTime(&ms, startEvent, stopEvent));
-    printf("%s: %lf TFlops\n", __func__, (double)m * n * k * 2 / 1000.0 / 1000.0 * repeats / ms / 1000.0);
+    printf("%s: %lf TFlops(%d, %d, %d, %d, ms=%f)\n", __func__, (double)m * n * k * 2 / 1000.0 / 1000.0 * repeats / ms / 1000.0, m, n, k, (int)repeats, ms);
     if (startEvent) checkCudaStatus(cudaEventDestroy(startEvent));
     if (stopEvent) checkCudaStatus(cudaEventDestroy(stopEvent));
     if (stream) checkCudaStatus(cudaStreamDestroy(stream));

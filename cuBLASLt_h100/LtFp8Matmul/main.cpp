@@ -34,11 +34,56 @@
 
 #include "sample_cublasLt_LtFp8Matmul.h"
 #include "helpers.h"
+#include "unistd.h"
 
-int main() {
-    TestBench<__nv_fp8_e4m3, __nv_fp8_e4m3, float> props(64, 64, 64, 2.0f, 0.0f /* ignored */, 32ULL * 1024 * 1024);
+int main(int argc, char **argv) {
+    size_t c;
+    const char *format = "hT:P:m:n:k:a:";
+    size_t repeat = 1;
+    int dataPattern = 0;
+    int m = 1024;
+    int n = 1024;
+    int k = 1024;
+    int fast_mode = 0;
+    while ((c = getopt(argc, argv, format)) != EOF) {
+        switch (c) {
+            case 'T': {
+			      repeat = atoi(optarg);
+			      if (repeat <= 0) repeat = 1;
+			      break;
+		      }
+            case 'P': {
+			      dataPattern = atoi(optarg);
+			      if (dataPattern < 0 || dataPattern > 2) dataPattern = 0;
+			      break;
+		      }
+            case 'm': {
+			      m = atoi(optarg);
+			      if (m < 0) m = 1024;
+			      break;
+		      }
+            case 'n': {
+			      n = atoi(optarg);
+			      if (n < 0) n = 1024;
+			      break;
+		      }
+            case 'k': {
+			      k = atoi(optarg);
+			      if (k < 0) k = 1024;
+			      break;
+		      }
+            case 'a': {
+			      fast_mode = (atoi(optarg) == 0 ? 0 : 1);
+			      break;
+		      }
+            case 'h':
+            default: printf("%s\n", format); exit(0);
+	}
+    }
 
-    props.run([&props] {
+    TestBench<__nv_fp8_e4m3, __nv_fp8_e4m3, float> props(m, n, k, 1.0f, 0.0f /* ignored */, 256ULL * 1024 * 1024, 1, dataPattern);
+
+    props.run([&] {
         LtFp8Matmul(props.ltHandle,
                     props.m,
                     props.n,
@@ -46,7 +91,7 @@ int main() {
                     &props.alpha,
                     props.AscaleDev,
                     props.Adev,
-                    props.m,
+                    props.k,
                     props.BscaleDev,
                     props.Bdev,
                     props.k,
@@ -56,7 +101,9 @@ int main() {
                     props.DscaleDev,
                     props.DamaxDev,
                     props.workspace,
-                    props.workspaceSize);
+                    props.workspaceSize,
+		    repeat,
+		    fast_mode);
     });
 
     return 0;
