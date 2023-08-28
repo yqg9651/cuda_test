@@ -3,46 +3,66 @@ import matplotlib.pyplot as plt
 import sys
 import os
 
-def extract_float_value(string):
-    # 使用正则表达式提取字符串中的浮点数
-    match = re.search(r'([-+]?\d*\.\d+|\d+)', string)
-    if match:
-        return float(match.group())
-    else:
-        return None
+def parse_log_file(log_file, max_tflops):
+    x_coords = []
+    y_coords = []
 
-def main():
-    # 输入文件路径
-    file_path = sys.argv[1]  # 替换为您的输入文件路径
+    # 正则表达式模式匹配
+    #pattern = r'(\d+\.\d+)\s*TFlops.*?ms\s+(\d+\.\d+)\s*$'
+    pattern1 = r'(\d+\.\d+)\s+TFlops'
+    pattern2 = r'ms=(\d+\.\d+)'
 
-    # 用于存储坐标点的列表
-    x_values = []
-    y_values = []
-
-    with open(file_path, 'r') as file:
+    with open(log_file, 'r') as file:
         for line in file:
-            line = line.strip()
-            
-            # 查找包含 "TFlops" 的行
-            if 'TFlops' in line:
-                # 提取前一个浮点数作为 y 坐标值
-                y_value = extract_float_value(line.split('TFlops')[0])
-                if y_value is not None:
-                    # 提取 ms 后面的浮点数作为 x 坐标值
-                    x_value = extract_float_value(line.split('ms')[1])
-                    if x_value is not None:
-                        x_values.append(x_value)
-                        y_values.append(y_value)
+            match1 = re.search(pattern1, line)
+            match2 = re.search(pattern2, line)
+            if match1 and match2:
+                y_coord = float(match1.group(1))
+                x_coord = float(match2.group(1))
+                x_coords.append(x_coord)
+                y_coords.append(y_coord)
 
-    # 从文件名中获取标题
-    title = os.path.basename(file_path).split('.')[0]
+    # 计算y坐标轴的百分比
+    y_coords_percent = [(y / float(max_tflops)) * 100 for y in y_coords]
 
-    # 绘制折线图
-    plt.plot(x_values, y_values, marker='o')
-    plt.xlabel('x (ms)')
-    plt.ylabel('y (TFlops)')
-    plt.title(title)
+    # 绘制图形
+    fig, ax1 = plt.subplots()
+
+    color = 'tab:blue'
+    x_sorted, y1_sorted = zip(*sorted(zip(x_coords, y_coords)))
+    ax1.plot(x_sorted, y1_sorted, color=color)
+    ax1.set_xlabel('timestamp(ms)')
+    ax1.set_ylabel('TLOPS', color=color)
+    ax1.tick_params(axis='y', labelcolor=color)
+
+    ax2 = ax1.twinx()
+    color = 'tab:blue'
+    x_sorted, y2_sorted = zip(*sorted(zip(x_coords, y_coords_percent)))
+    ax2.plot(x_sorted, y2_sorted, color=color)
+    ax2.set_ylabel('ratio', color=color)
+    ax2.tick_params(axis='y', labelcolor=color)
+
+    # 绘制y坐标值的最大值虚线
+    #ax2.axhline(y=max(y_coords_percent), linestyle='dashed', color='red')
+    #plt.gca().axhline(max(y_coords_percent), linestyle='dashed', color='red')
+    max_index = y_coords_percent.index(max(y_coords_percent))
+    max_x = x_coords[max_index]
+    max_y_coords_percent = y_coords_percent[max_index]
+    max_y_coords = y_coords[max_index]
+
+    ax2.scatter(max_x, max_y_coords_percent, color='blue', marker='+')
+    plt.text(max_x, max_y_coords_percent, f'({max_x}ms, {max_y_coords}TFLOPS, {max_y_coords_percent:.2f}%)', ha='center', va='bottom')
+
+    # draw 90% max performance(TFLOPS)
+    p90_max = 0.9 * float(max_tflops)
+    if max_y_coords >= p90_max:
+      ax1.axhline(y=p90_max, linestyle='dashed', color='red')
+
+    plt.title(os.path.basename(log_file).split(".")[0])
     plt.show()
 
-if __name__ == '__main__':
-    main()
+# 示例用法
+log_file = sys.argv[2]  # 替换为你的log文件路径
+max_tflops = sys.argv[1]  # 替换为你的最大TFlops值
+
+parse_log_file(log_file, max_tflops)

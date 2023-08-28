@@ -2,6 +2,7 @@ import csv
 import matplotlib.pyplot as plt
 import sys
 import re
+import os
 
 # 从命令行获取参数
 files = sys.argv[4:]  # 输入的多个csv文件
@@ -29,7 +30,7 @@ for i, file in enumerate(files):
         reader = csv.reader(f)
         
         # 获取CSV文件名作为子图标题
-        title = file.split(".csv")[0]
+        title = os.path.basename(file).split(".csv")[0]
         
         # 读取首行作为每列标题
         headers = next(reader)
@@ -64,13 +65,17 @@ for i, file in enumerate(files):
             
 
         # 在大图中添加子图
-        ax1 = axs[i]
+        if len(files) == 1:
+            ax1 = axs
+        else:
+            ax1 = axs[i]
 
         color = 'tab:red'
         ax1.set_xlabel('timestamp(ms)')
         lineA, = ax1.plot(x_vals, y_vals_A, color=color, label=param_A)
         ax1.set_ylabel(param_A, color=color)
         ax1.tick_params(axis='y', labelcolor=color)
+        ax1.axhline(y=350, linestyle='dashed', color=color)
 
         ax2 = ax1.twinx()
         color = 'tab:blue'
@@ -93,36 +98,6 @@ for i, file in enumerate(files):
 
         ax1.set_title(title)
         #ax1.xaxis.set_major_locator(plt.MultipleLocator(1))
-
-# 添加鼠标移动事件处理程序
-def on_move(event):
-    for ax in axs.flat:
-        if event.inaxes == ax:
-            x_pos = event.xdata
-
-            if x_pos is not None:
-                # 清除之前的注释
-                ax.texts.clear()
-
-                # 获取鼠标位置对应的索引
-                index = int(np.round(x_pos * (len(x) - 1) / ax.get_xlim()[1]))
-
-                # 获取x和所有y的值
-                x_val = x[index]
-                y_vals = [ax.lines[i].get_ydata()[index] for i in range(len(ax.lines))]
-
-                # 构建注释字符串
-                x_str = f'x={x_val:.2f}'
-                y_strs = [f'y{i+1}={y:.2f}' for i, y in enumerate(y_vals)]
-                annotation_str = '\n'.join([x_str] + y_strs)
-
-                # 添加新的注释
-                ax.annotate(annotation_str, (x_val, y_vals[0]), xytext=(5, 5), textcoords='offset points', ha='left', va='bottom')
-
-    # 更新图形
-    fig.canvas.draw()
-
-fig.canvas.mpl_connect('motion_notify_event', on_move)
 
 # 调整子图布局
 plt.tight_layout()

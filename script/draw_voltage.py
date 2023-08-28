@@ -1,6 +1,7 @@
 import re
 import matplotlib.pyplot as plt
 import sys
+import os
 
 def extract_float_value(string):
     # 使用正则表达式提取字符串中的浮点数
@@ -34,7 +35,7 @@ def main():
     plt.plot(x_values, y_values, marker='+')
     plt.xlabel('timestamp(ms)')
     plt.ylabel('voltage(mV)')
-    plt.title(file_path.split(".")[0])
+    plt.title(os.path.basename(file_path).split(".")[0])
     plt.show()
 
 if __name__ == '__main__':
