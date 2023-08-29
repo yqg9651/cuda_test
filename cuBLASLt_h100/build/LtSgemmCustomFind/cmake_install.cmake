@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind
+# Install script for directory: /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

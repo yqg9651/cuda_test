@@ -24,7 +24,7 @@ cuda_fp8.h
 cuda_runtime_api.h
 -
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.cu
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.cu
 cstdio
 -
 vector
@@ -36,11 +36,11 @@ cublasLt.h
 cuda_runtime_api.h
 -
 sample_cublasLt_LtSgemmSimpleAutoTuning.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.h
 helpers.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/helpers.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning/helpers.h
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.h
 cublasLt.h
 -
 

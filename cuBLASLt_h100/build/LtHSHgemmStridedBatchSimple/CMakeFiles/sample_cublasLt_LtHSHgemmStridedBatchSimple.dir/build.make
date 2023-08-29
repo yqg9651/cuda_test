@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt
+CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build
+CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build
 
 # Include any dependencies generated for this target.
 include LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/depend.make
@@ -59,21 +59,21 @@ include LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedB
 
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.o: LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/flags.make
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.o: ../LtHSHgemmStridedBatchSimple/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.o"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.o -c /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.o"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.o -c /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/main.cpp
 
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.i"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/main.cpp > CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.i
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/main.cpp > CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.i
 
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.s"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/main.cpp -o CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.s
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/main.cpp -o CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.s
 
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o: LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/flags.make
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o: ../LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple && /usr/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu -o CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple && /usr/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu -o CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o
 
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.i"
@@ -95,8 +95,8 @@ LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple: LtHSHge
 LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple: LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o
 LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple: LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/build.make
 LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple: LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sample_cublasLt_LtHSHgemmStridedBatchSimple"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sample_cublasLt_LtHSHgemmStridedBatchSimple"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/build: LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple
@@ -104,10 +104,10 @@ LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimp
 .PHONY : LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/build
 
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/clean:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple && $(CMAKE_COMMAND) -P CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/cmake_clean.cmake
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple && $(CMAKE_COMMAND) -P CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/cmake_clean.cmake
 .PHONY : LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/clean
 
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/depend:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/chiang/cuda_test/cuBLASLt_h100 /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/depend
 

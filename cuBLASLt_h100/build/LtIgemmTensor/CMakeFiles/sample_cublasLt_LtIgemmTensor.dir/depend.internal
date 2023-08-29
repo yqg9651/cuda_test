@@ -3,9 +3,9 @@
 
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.cu
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.cu
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.h
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/main.cpp
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/main.cpp
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.h

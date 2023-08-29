@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
-  "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/sample_cublasLt_LtSgemm.cu" "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/sample_cublasLt_LtSgemm.cu.o"
+  "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/sample_cublasLt_LtSgemm.cu" "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/sample_cublasLt_LtSgemm.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 
@@ -14,7 +14,7 @@ set(CMAKE_CUDA_TARGET_INCLUDE_PATH
   "../LtSgemm/../Common"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/main.cpp" "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/main.cpp.o"
+  "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/main.cpp" "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt
+CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build
+CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build
 
 # Include any dependencies generated for this target.
 include LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/depend.make
@@ -59,21 +59,21 @@ include LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/flags
 
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.o: LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/flags.make
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.o: ../LtSgemmCustomFind/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.o"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.o -c /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.o"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.o -c /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/main.cpp
 
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.i"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/main.cpp > CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.i
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/main.cpp > CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.i
 
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.s"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/main.cpp -o CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.s
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/main.cpp -o CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.s
 
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o: LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/flags.make
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o: ../LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind && /usr/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.cu -o CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind && /usr/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.cu -o CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o
 
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.i"
@@ -95,8 +95,8 @@ LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind: LtSgemmCustomFind/CMakeFile
 LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind: LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o
 LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind: LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/build.make
 LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind: LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sample_cublasLt_LtSgemmCustomFind"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sample_cublasLt_LtSgemmCustomFind"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/build: LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind
@@ -104,10 +104,10 @@ LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/build: LtSgem
 .PHONY : LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/build
 
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/clean:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind && $(CMAKE_COMMAND) -P CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/cmake_clean.cmake
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind && $(CMAKE_COMMAND) -P CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/cmake_clean.cmake
 .PHONY : LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/clean
 
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/depend:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/chiang/cuda_test/cuBLASLt_h100 /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/depend
 

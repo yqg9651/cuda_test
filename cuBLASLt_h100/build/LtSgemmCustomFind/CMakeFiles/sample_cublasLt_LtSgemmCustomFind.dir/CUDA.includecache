@@ -24,7 +24,7 @@ cuda_fp8.h
 cuda_runtime_api.h
 -
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.cu
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.cu
 stdio.h
 -
 algorithm
@@ -34,11 +34,11 @@ cuda_runtime.h
 cublasLt.h
 -
 sample_cublasLt_LtSgemmCustomFind.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.h
 helpers.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/helpers.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/helpers.h
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.h
 cublasLt.h
 -
 

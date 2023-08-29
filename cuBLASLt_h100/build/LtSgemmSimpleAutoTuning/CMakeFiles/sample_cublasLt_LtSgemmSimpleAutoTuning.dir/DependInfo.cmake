@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CUDA
-  "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.cu" "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/sample_cublasLt_LtSgemmSimpleAutoTuning.cu.o"
+  "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning/sample_cublasLt_LtSgemmSimpleAutoTuning.cu" "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/sample_cublasLt_LtSgemmSimpleAutoTuning.cu.o"
   )
 set(CMAKE_CUDA_COMPILER_ID "NVIDIA")
 
@@ -14,7 +14,7 @@ set(CMAKE_CUDA_TARGET_INCLUDE_PATH
   "../LtSgemmSimpleAutoTuning/../Common"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/main.cpp" "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/main.cpp.o"
+  "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning/main.cpp" "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

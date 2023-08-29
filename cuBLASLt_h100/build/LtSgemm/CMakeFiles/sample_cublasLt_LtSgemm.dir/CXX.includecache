@@ -24,7 +24,7 @@ cuda_fp8.h
 cuda_runtime_api.h
 -
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/main.cpp
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/main.cpp
 vector
 -
 cuda_runtime_api.h
@@ -32,11 +32,11 @@ cuda_runtime_api.h
 cublasLt.h
 -
 sample_cublasLt_LtSgemm.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/sample_cublasLt_LtSgemm.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/sample_cublasLt_LtSgemm.h
 helpers.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/helpers.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/helpers.h
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/sample_cublasLt_LtSgemm.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/sample_cublasLt_LtSgemm.h
 cublasLt.h
 -
 

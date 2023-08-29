@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt
+CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build
+CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build
 
 # Include any dependencies generated for this target.
 include LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/depend.make
@@ -59,21 +59,21 @@ include LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/flags.make
 
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o: LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/flags.make
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o: ../LtIgemmTensor/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o -c /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o -c /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/main.cpp
 
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.i"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/main.cpp > CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.i
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/main.cpp > CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.i
 
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.s"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/main.cpp -o CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.s
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/main.cpp -o CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.s
 
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o: LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/flags.make
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o: ../LtIgemmTensor/sample_cublasLt_LtIgemmTensor.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor && /usr/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.cu -o CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CUDA object LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor && /usr/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.cu -o CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o
 
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.i"
@@ -95,8 +95,8 @@ LtIgemmTensor/sample_cublasLt_LtIgemmTensor: LtIgemmTensor/CMakeFiles/sample_cub
 LtIgemmTensor/sample_cublasLt_LtIgemmTensor: LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o
 LtIgemmTensor/sample_cublasLt_LtIgemmTensor: LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make
 LtIgemmTensor/sample_cublasLt_LtIgemmTensor: LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sample_cublasLt_LtIgemmTensor"
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sample_cublasLt_LtIgemmTensor"
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build: LtIgemmTensor/sample_cublasLt_LtIgemmTensor
@@ -104,10 +104,10 @@ LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build: LtIgemmTensor/
 .PHONY : LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build
 
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/clean:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor && $(CMAKE_COMMAND) -P CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/cmake_clean.cmake
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor && $(CMAKE_COMMAND) -P CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/cmake_clean.cmake
 .PHONY : LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/clean
 
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/depend:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/chiang/cuda_test/cuBLASLt_h100 /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/depend
 

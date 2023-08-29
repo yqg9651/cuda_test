@@ -3,9 +3,9 @@
 
 LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/sample_cublasLt_LtSgemm.cu.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/sample_cublasLt_LtSgemm.cu
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/sample_cublasLt_LtSgemm.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/sample_cublasLt_LtSgemm.cu
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/sample_cublasLt_LtSgemm.h
 LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/main.cpp.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/main.cpp
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemm/sample_cublasLt_LtSgemm.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/main.cpp
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemm/sample_cublasLt_LtSgemm.h

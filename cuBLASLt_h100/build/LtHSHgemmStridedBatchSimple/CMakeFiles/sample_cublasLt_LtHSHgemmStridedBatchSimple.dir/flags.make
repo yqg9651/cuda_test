@@ -7,11 +7,11 @@ CUDA_FLAGS = -O3 -DNDEBUG
 
 CUDA_DEFINES = 
 
-CUDA_INCLUDES = -I/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/../Common 
+CUDA_INCLUDES = -I/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/../Common 
 
 CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/../Common 
+CXX_INCLUDES = -I/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/../Common 
 

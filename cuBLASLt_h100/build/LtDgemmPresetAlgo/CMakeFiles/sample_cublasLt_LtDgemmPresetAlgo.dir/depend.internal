@@ -3,9 +3,9 @@
 
 LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/sample_cublasLt_LtDgemmPresetAlgo.cu.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo/sample_cublasLt_LtDgemmPresetAlgo.cu
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo/sample_cublasLt_LtDgemmPresetAlgo.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtDgemmPresetAlgo/sample_cublasLt_LtDgemmPresetAlgo.cu
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtDgemmPresetAlgo/sample_cublasLt_LtDgemmPresetAlgo.h
 LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/main.cpp.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo/main.cpp
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo/sample_cublasLt_LtDgemmPresetAlgo.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtDgemmPresetAlgo/main.cpp
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtDgemmPresetAlgo/sample_cublasLt_LtDgemmPresetAlgo.h

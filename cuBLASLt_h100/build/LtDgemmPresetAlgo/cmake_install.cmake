@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtDgemmPresetAlgo
+# Install script for directory: /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtDgemmPresetAlgo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

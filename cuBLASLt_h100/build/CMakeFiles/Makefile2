@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt
+CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build
+CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -218,14 +218,14 @@ LtSgemmSimpleAutoTuning/clean: LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasL
 LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/all:
 	$(MAKE) -f LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/build.make LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/depend
 	$(MAKE) -f LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/build.make LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=13,14,15 "Built target sample_cublasLt_LtSgemm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=13,14,15 "Built target sample_cublasLt_LtSgemm"
 .PHONY : LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/all
 
 # Build rule for subdir invocation for target.
 LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 0
 .PHONY : LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/rule
 
 # Convenience name for target.
@@ -245,14 +245,14 @@ LtSgemm/CMakeFiles/sample_cublasLt_LtSgemm.dir/clean:
 LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/all:
 	$(MAKE) -f LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/build.make LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/depend
 	$(MAKE) -f LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/build.make LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=4,5,6 "Built target sample_cublasLt_LtFp8Matmul"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=4,5,6 "Built target sample_cublasLt_LtFp8Matmul"
 .PHONY : LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/all
 
 # Build rule for subdir invocation for target.
 LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 0
 .PHONY : LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/rule
 
 # Convenience name for target.
@@ -272,14 +272,14 @@ LtFp8Matmul/CMakeFiles/sample_cublasLt_LtFp8Matmul.dir/clean:
 LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/all:
 	$(MAKE) -f LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/build.make LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/depend
 	$(MAKE) -f LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/build.make LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=1,2,3 "Built target sample_cublasLt_LtDgemmPresetAlgo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=1,2,3 "Built target sample_cublasLt_LtDgemmPresetAlgo"
 .PHONY : LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/all
 
 # Build rule for subdir invocation for target.
 LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 0
 .PHONY : LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/rule
 
 # Convenience name for target.
@@ -299,14 +299,14 @@ LtDgemmPresetAlgo/CMakeFiles/sample_cublasLt_LtDgemmPresetAlgo.dir/clean:
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/all:
 	$(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/depend
 	$(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=10,11,12 "Built target sample_cublasLt_LtIgemmTensor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=10,11,12 "Built target sample_cublasLt_LtIgemmTensor"
 .PHONY : LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/all
 
 # Build rule for subdir invocation for target.
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 0
 .PHONY : LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/rule
 
 # Convenience name for target.
@@ -326,14 +326,14 @@ LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/clean:
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/all:
 	$(MAKE) -f LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/build.make LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/depend
 	$(MAKE) -f LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/build.make LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=7,8,9 "Built target sample_cublasLt_LtHSHgemmStridedBatchSimple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=7,8,9 "Built target sample_cublasLt_LtHSHgemmStridedBatchSimple"
 .PHONY : LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/all
 
 # Build rule for subdir invocation for target.
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 0
 .PHONY : LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/rule
 
 # Convenience name for target.
@@ -353,14 +353,14 @@ LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimp
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/all:
 	$(MAKE) -f LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/build.make LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/depend
 	$(MAKE) -f LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/build.make LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=16,17,18 "Built target sample_cublasLt_LtSgemmCustomFind"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=16,17,18 "Built target sample_cublasLt_LtSgemmCustomFind"
 .PHONY : LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/all
 
 # Build rule for subdir invocation for target.
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 0
 .PHONY : LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/rule
 
 # Convenience name for target.
@@ -380,14 +380,14 @@ LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/clean:
 LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/all:
 	$(MAKE) -f LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/build.make LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/depend
 	$(MAKE) -f LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/build.make LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles --progress-num=19,20,21 "Built target sample_cublasLt_LtSgemmSimpleAutoTuning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles --progress-num=19,20,21 "Built target sample_cublasLt_LtSgemmSimpleAutoTuning"
 .PHONY : LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/all
 
 # Build rule for subdir invocation for target.
 LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 0
 .PHONY : LtSgemmSimpleAutoTuning/CMakeFiles/sample_cublasLt_LtSgemmSimpleAutoTuning.dir/rule
 
 # Convenience name for target.

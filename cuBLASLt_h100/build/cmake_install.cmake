@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt
+# Install script for directory: /home/ubuntu/chiang/cuda_test/cuBLASLt_h100
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemm/cmake_install.cmake")
-  include("/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtFp8Matmul/cmake_install.cmake")
-  include("/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtDgemmPresetAlgo/cmake_install.cmake")
-  include("/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor/cmake_install.cmake")
-  include("/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtHSHgemmStridedBatchSimple/cmake_install.cmake")
-  include("/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmCustomFind/cmake_install.cmake")
-  include("/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtSgemmSimpleAutoTuning/cmake_install.cmake")
+  include("/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemm/cmake_install.cmake")
+  include("/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtFp8Matmul/cmake_install.cmake")
+  include("/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtDgemmPresetAlgo/cmake_install.cmake")
+  include("/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor/cmake_install.cmake")
+  include("/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtHSHgemmStridedBatchSimple/cmake_install.cmake")
+  include("/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmCustomFind/cmake_install.cmake")
+  include("/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtSgemmSimpleAutoTuning/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

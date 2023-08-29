@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning
+# Install script for directory: /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

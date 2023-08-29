@@ -24,7 +24,7 @@ cuda_fp8.h
 cuda_runtime_api.h
 -
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/main.cpp
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/main.cpp
 vector
 -
 cuda_runtime_api.h
@@ -32,13 +32,13 @@ cuda_runtime_api.h
 cublasLt.h
 -
 sample_cublasLt_LtHSHgemmStridedBatchSimple.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
 helpers.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/helpers.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/helpers.h
 unistd.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/unistd.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/unistd.h
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
 cublasLt.h
 -
 

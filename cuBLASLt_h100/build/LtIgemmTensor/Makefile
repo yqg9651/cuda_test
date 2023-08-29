@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt
+CMAKE_SOURCE_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build
+CMAKE_BINARY_DIR = /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/LtIgemmTensor/CMakeFiles/progress.marks
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build/CMakeFiles 0
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/LtIgemmTensor/CMakeFiles/progress.marks
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/clean
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/preinstall
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/preinstall
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/rule:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/rule
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f CMakeFiles/Makefile2 LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/rule
 .PHONY : LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ sample_cublasLt_LtIgemmTensor: LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmT
 
 # fast build rule for target.
 sample_cublasLt_LtIgemmTensor/fast:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build
 .PHONY : sample_cublasLt_LtIgemmTensor/fast
 
 main.o: main.cpp.o
@@ -131,7 +131,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -140,7 +140,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.i
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.s
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 sample_cublasLt_LtIgemmTensor.o: sample_cublasLt_LtIgemmTensor.cu.o
@@ -158,7 +158,7 @@ sample_cublasLt_LtIgemmTensor.o: sample_cublasLt_LtIgemmTensor.cu.o
 
 # target to build an object file
 sample_cublasLt_LtIgemmTensor.cu.o:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.o
 .PHONY : sample_cublasLt_LtIgemmTensor.cu.o
 
 sample_cublasLt_LtIgemmTensor.i: sample_cublasLt_LtIgemmTensor.cu.i
@@ -167,7 +167,7 @@ sample_cublasLt_LtIgemmTensor.i: sample_cublasLt_LtIgemmTensor.cu.i
 
 # target to preprocess a source file
 sample_cublasLt_LtIgemmTensor.cu.i:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.i
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.i
 .PHONY : sample_cublasLt_LtIgemmTensor.cu.i
 
 sample_cublasLt_LtIgemmTensor.s: sample_cublasLt_LtIgemmTensor.cu.s
@@ -176,7 +176,7 @@ sample_cublasLt_LtIgemmTensor.s: sample_cublasLt_LtIgemmTensor.cu.s
 
 # target to generate assembly for a file
 sample_cublasLt_LtIgemmTensor.cu.s:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.s
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(MAKE) -f LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/build.make LtIgemmTensor/CMakeFiles/sample_cublasLt_LtIgemmTensor.dir/sample_cublasLt_LtIgemmTensor.cu.s
 .PHONY : sample_cublasLt_LtIgemmTensor.cu.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

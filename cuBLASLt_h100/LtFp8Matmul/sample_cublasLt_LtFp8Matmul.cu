@@ -31,6 +31,16 @@
 #include "helpers.h"
 #include "sample_cublasLt_LtFp8Matmul.h"
 
+__global__ void noopKernel(unsigned int cycles)
+{
+	unsigned int start = clock();
+	volatile unsigned int *s = &start;
+	unsigned int end = 0;
+re:
+	end = clock();
+	if (end - *s < cycles) goto re;
+}
+
 /// Sample wrapper executing fp8 matmul with cublasLtMatmul, with addition of per-tensor scaling, amax calculations, and
 /// the workspace to support split-K algorithms.
 ///
@@ -114,8 +124,9 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
     checkCudaStatus(cudaEventCreate(&startEvent, cudaEventBlockingSync));
     checkCudaStatus(cudaEventCreate(&stopEvent, cudaEventBlockingSync));
 
-    for (int loop = -1; loop < repeats; ++loop) {
+    for (int loop = 0; loop < repeats; ++loop) {
 	    if (loop == 0) checkCudaStatus(cudaEventRecord(startEvent, stream));
+//	    for (int i = 0; i < 50; i++) {
     checkCublasStatus(cublasLtMatmul(ltHandle,
                                      operationDesc,
                                      alpha,
@@ -132,6 +143,10 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
                                      workspace,
                                      workspaceSize,
                                      stream));
+//	    }
+//	    for (int i = 0; i < 100; i++) {
+//    noopKernel<<<1, 1, 1, stream>>>(2U * 1000 * 1000 * 1);
+//	    }
 	    if (loop == -1) checkCudaStatus(cudaDeviceSynchronize());
     }
     checkCudaStatus(cudaEventRecord(stopEvent, stream));

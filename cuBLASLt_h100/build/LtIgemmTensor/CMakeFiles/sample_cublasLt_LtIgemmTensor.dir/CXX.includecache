@@ -24,7 +24,7 @@ cuda_fp8.h
 cuda_runtime_api.h
 -
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/main.cpp
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/main.cpp
 vector
 -
 cuda_runtime_api.h
@@ -32,11 +32,11 @@ cuda_runtime_api.h
 cublasLt.h
 -
 sample_cublasLt_LtIgemmTensor.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.h
 helpers.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/helpers.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/helpers.h
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtIgemmTensor/sample_cublasLt_LtIgemmTensor.h
 cublasLt.h
 -
 

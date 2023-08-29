@@ -7,11 +7,11 @@ CUDA_FLAGS = -O3 -DNDEBUG
 
 CUDA_DEFINES = 
 
-CUDA_INCLUDES = -I/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/../Common 
+CUDA_INCLUDES = -I/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning/../Common 
 
 CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmSimpleAutoTuning/../Common 
+CXX_INCLUDES = -I/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmSimpleAutoTuning/../Common 
 

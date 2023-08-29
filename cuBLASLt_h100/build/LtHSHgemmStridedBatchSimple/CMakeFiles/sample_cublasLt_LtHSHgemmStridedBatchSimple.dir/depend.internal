@@ -3,9 +3,9 @@
 
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.cu
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
 LtHSHgemmStridedBatchSimple/CMakeFiles/sample_cublasLt_LtHSHgemmStridedBatchSimple.dir/main.cpp.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/main.cpp
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/main.cpp
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtHSHgemmStridedBatchSimple/sample_cublasLt_LtHSHgemmStridedBatchSimple.h

@@ -24,15 +24,15 @@ cuda_fp8.h
 cuda_runtime_api.h
 -
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul/sample_cublasLt_LtFp8Matmul.cu
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtFp8Matmul/sample_cublasLt_LtFp8Matmul.cu
 cublasLt.h
 -
 helpers.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul/helpers.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtFp8Matmul/helpers.h
 sample_cublasLt_LtFp8Matmul.h
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul/sample_cublasLt_LtFp8Matmul.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtFp8Matmul/sample_cublasLt_LtFp8Matmul.h
 
-/home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul/sample_cublasLt_LtFp8Matmul.h
+/home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtFp8Matmul/sample_cublasLt_LtFp8Matmul.h
 cuda_fp8.h
 -
 cublasLt.h

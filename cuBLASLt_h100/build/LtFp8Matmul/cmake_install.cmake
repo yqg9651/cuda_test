@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtFp8Matmul
+# Install script for directory: /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtFp8Matmul
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

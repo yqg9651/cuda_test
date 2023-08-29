@@ -3,9 +3,9 @@
 
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/sample_cublasLt_LtSgemmCustomFind.cu.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.cu
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.cu
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.h
 LtSgemmCustomFind/CMakeFiles/sample_cublasLt_LtSgemmCustomFind.dir/main.cpp.o
  ../Common/helpers.h
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/main.cpp
- /home/ubuntu/chiang/cuda_test/CUDALibrarySamples/cuBLASLt/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.h
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/main.cpp
+ /home/ubuntu/chiang/cuda_test/cuBLASLt_h100/LtSgemmCustomFind/sample_cublasLt_LtSgemmCustomFind.h
