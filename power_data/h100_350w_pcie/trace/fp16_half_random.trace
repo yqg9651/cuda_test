@@ -1,0 +1,2048 @@
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 674.249175 TFlops(8192, 8192, 8192, 1, 1, ms=1.630720)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 710.328399 TFlops(8192, 8192, 8192, 1, 8, ms=12.383136)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 712.300676 TFlops(8192, 8192, 8192, 1, 16, ms=24.697697)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 712.892151 TFlops(8192, 8192, 8192, 1, 24, ms=37.015808)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 677.893638 TFlops(8192, 8192, 8192, 1, 32, ms=51.902496)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 682.793154 TFlops(8192, 8192, 8192, 1, 40, ms=64.412575)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 673.427919 TFlops(8192, 8192, 8192, 1, 48, ms=78.370018)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 647.389328 TFlops(8192, 8192, 8192, 1, 56, ms=95.109154)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 647.270121 TFlops(8192, 8192, 8192, 1, 64, ms=108.716194)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 639.043055 TFlops(8192, 8192, 8192, 1, 72, ms=123.880287)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 634.317903 TFlops(8192, 8192, 8192, 1, 80, ms=138.670105)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 636.465058 TFlops(8192, 8192, 8192, 1, 88, ms=152.022522)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 635.829533 TFlops(8192, 8192, 8192, 1, 96, ms=166.008514)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 642.886065 TFlops(8192, 8192, 8192, 1, 104, ms=177.868546)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 637.268956 TFlops(8192, 8192, 8192, 1, 112, ms=193.239136)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 630.287287 TFlops(8192, 8192, 8192, 1, 120, ms=209.335327)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 628.533196 TFlops(8192, 8192, 8192, 1, 128, ms=223.914169)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 625.458949 TFlops(8192, 8192, 8192, 1, 136, ms=239.078171)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 630.711239 TFlops(8192, 8192, 8192, 1, 144, ms=251.033539)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 635.044695 TFlops(8192, 8192, 8192, 1, 152, ms=263.171661)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 626.283142 TFlops(8192, 8192, 8192, 1, 160, ms=280.898285)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 628.895678 TFlops(8192, 8192, 8192, 1, 168, ms=293.717957)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 628.606022 TFlops(8192, 8192, 8192, 1, 176, ms=307.846313)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 625.362407 TFlops(8192, 8192, 8192, 1, 184, ms=323.508636)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 628.272786 TFlops(8192, 8192, 8192, 1, 192, ms=336.010468)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.711110 TFlops(8192, 8192, 8192, 1, 200, ms=352.570801)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 625.564328 TFlops(8192, 8192, 8192, 1, 208, ms=365.587372)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 625.541377 TFlops(8192, 8192, 8192, 1, 216, ms=379.662354)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 625.931761 TFlops(8192, 8192, 8192, 1, 224, ms=393.478363)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 626.666883 TFlops(8192, 8192, 8192, 1, 232, ms=407.053101)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 624.823147 TFlops(8192, 8192, 8192, 1, 240, ms=422.331970)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 626.948072 TFlops(8192, 8192, 8192, 1, 248, ms=434.930573)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.953900 TFlops(8192, 8192, 8192, 1, 256, ms=451.115021)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 622.492487 TFlops(8192, 8192, 8192, 1, 264, ms=466.304535)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 625.336621 TFlops(8192, 8192, 8192, 1, 272, ms=478.249878)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.371993 TFlops(8192, 8192, 8192, 1, 280, ms=495.457245)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.229782 TFlops(8192, 8192, 8192, 1, 288, ms=510.551666)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.204164 TFlops(8192, 8192, 8192, 1, 296, ms=522.229248)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.878181 TFlops(8192, 8192, 8192, 1, 304, ms=538.352844)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 625.011727 TFlops(8192, 8192, 8192, 1, 312, ms=548.865906)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 624.050602 TFlops(8192, 8192, 8192, 1, 320, ms=563.806396)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 622.134335 TFlops(8192, 8192, 8192, 1, 328, ms=579.681580)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 622.529411 TFlops(8192, 8192, 8192, 1, 336, ms=593.443298)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.094464 TFlops(8192, 8192, 8192, 1, 344, ms=609.958679)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.914314 TFlops(8192, 8192, 8192, 1, 352, ms=620.322510)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.626640 TFlops(8192, 8192, 8192, 1, 360, ms=637.781494)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 622.951984 TFlops(8192, 8192, 8192, 1, 368, ms=649.520813)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.358707 TFlops(8192, 8192, 8192, 1, 376, ms=663.207825)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.494229 TFlops(8192, 8192, 8192, 1, 384, ms=680.445435)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 622.619802 TFlops(8192, 8192, 8192, 1, 392, ms=692.250000)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 625.867374 TFlops(8192, 8192, 8192, 1, 400, ms=702.712219)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.753957 TFlops(8192, 8192, 8192, 1, 408, ms=722.670776)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.484276 TFlops(8192, 8192, 8192, 1, 416, ms=735.974915)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 622.790540 TFlops(8192, 8192, 8192, 1, 424, ms=748.554932)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.422264 TFlops(8192, 8192, 8192, 1, 432, ms=764.357910)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.085594 TFlops(8192, 8192, 8192, 1, 440, ms=778.934692)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.051926 TFlops(8192, 8192, 8192, 1, 448, ms=793.140137)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.750546 TFlops(8192, 8192, 8192, 1, 456, ms=806.396240)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 622.658398 TFlops(8192, 8192, 8192, 1, 464, ms=819.347168)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.593543 TFlops(8192, 8192, 8192, 1, 472, ms=834.901672)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.183881 TFlops(8192, 8192, 8192, 1, 480, ms=850.982422)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.272375 TFlops(8192, 8192, 8192, 1, 488, ms=863.649658)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.723806 TFlops(8192, 8192, 8192, 1, 496, ms=874.357788)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.102441 TFlops(8192, 8192, 8192, 1, 504, ms=892.210083)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.969817 TFlops(8192, 8192, 8192, 1, 512, ms=905.108154)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.233407 TFlops(8192, 8192, 8192, 1, 520, ms=920.340149)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.545387 TFlops(8192, 8192, 8192, 1, 528, ms=935.535339)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.568875 TFlops(8192, 8192, 8192, 1, 536, ms=951.206970)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.759091 TFlops(8192, 8192, 8192, 1, 544, ms=965.107788)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.492830 TFlops(8192, 8192, 8192, 1, 552, ms=978.142517)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.181707 TFlops(8192, 8192, 8192, 1, 560, ms=994.419739)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.413351 TFlops(8192, 8192, 8192, 1, 568, ms=1006.623413)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.829129 TFlops(8192, 8192, 8192, 1, 576, ms=1021.763367)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.968768 TFlops(8192, 8192, 8192, 1, 584, ms=1035.721191)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.858079 TFlops(8192, 8192, 8192, 1, 592, ms=1048.405273)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.368274 TFlops(8192, 8192, 8192, 1, 600, ms=1065.128784)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.554550 TFlops(8192, 8192, 8192, 1, 608, ms=1077.267212)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.920706 TFlops(8192, 8192, 8192, 1, 616, ms=1094.322998)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.105497 TFlops(8192, 8192, 8192, 1, 624, ms=1104.635620)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.235267 TFlops(8192, 8192, 8192, 1, 632, ms=1122.176636)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.723328 TFlops(8192, 8192, 8192, 1, 640, ms=1135.486450)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.935957 TFlops(8192, 8192, 8192, 1, 648, ms=1147.434814)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.564488 TFlops(8192, 8192, 8192, 1, 656, ms=1164.171997)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.062662 TFlops(8192, 8192, 8192, 1, 664, ms=1177.422485)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.399857 TFlops(8192, 8192, 8192, 1, 672, ms=1189.044067)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.602086 TFlops(8192, 8192, 8192, 1, 680, ms=1206.690430)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.369644 TFlops(8192, 8192, 8192, 1, 688, ms=1221.344971)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.044494 TFlops(8192, 8192, 8192, 1, 696, ms=1232.214600)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.813494 TFlops(8192, 8192, 8192, 1, 704, ms=1248.853394)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.991028 TFlops(8192, 8192, 8192, 1, 712, ms=1264.723145)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.117522 TFlops(8192, 8192, 8192, 1, 720, ms=1276.610229)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.006431 TFlops(8192, 8192, 8192, 1, 728, ms=1288.947144)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.492246 TFlops(8192, 8192, 8192, 1, 736, ms=1306.296509)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.226380 TFlops(8192, 8192, 8192, 1, 744, ms=1318.932373)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.334390 TFlops(8192, 8192, 8192, 1, 752, ms=1332.882324)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.962608 TFlops(8192, 8192, 8192, 1, 760, ms=1350.047363)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.192711 TFlops(8192, 8192, 8192, 1, 768, ms=1361.552490)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.978528 TFlops(8192, 8192, 8192, 1, 776, ms=1378.433960)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.366684 TFlops(8192, 8192, 8192, 1, 784, ms=1391.771851)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.618012 TFlops(8192, 8192, 8192, 1, 792, ms=1403.138794)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.475390 TFlops(8192, 8192, 8192, 1, 800, ms=1417.637695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.746287 TFlops(8192, 8192, 8192, 1, 808, ms=1433.498535)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.979844 TFlops(8192, 8192, 8192, 1, 816, ms=1444.815796)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.150823 TFlops(8192, 8192, 8192, 1, 824, ms=1460.931030)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.963755 TFlops(8192, 8192, 8192, 1, 832, ms=1477.943848)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.975371 TFlops(8192, 8192, 8192, 1, 840, ms=1489.720093)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.698320 TFlops(8192, 8192, 8192, 1, 848, ms=1502.156250)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.682831 TFlops(8192, 8192, 8192, 1, 856, ms=1518.812378)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.648213 TFlops(8192, 8192, 8192, 1, 864, ms=1533.092529)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.849265 TFlops(8192, 8192, 8192, 1, 872, ms=1544.294556)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.860047 TFlops(8192, 8192, 8192, 1, 880, ms=1563.471802)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.860091 TFlops(8192, 8192, 8192, 1, 888, ms=1565.040527)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.524236 TFlops(8192, 8192, 8192, 1, 896, ms=1590.191895)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.118193 TFlops(8192, 8192, 8192, 1, 904, ms=1605.442261)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.124561 TFlops(8192, 8192, 8192, 1, 912, ms=1619.633057)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.040812 TFlops(8192, 8192, 8192, 1, 920, ms=1634.061401)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.430795 TFlops(8192, 8192, 8192, 1, 928, ms=1647.232910)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.875018 TFlops(8192, 8192, 8192, 1, 936, ms=1660.242554)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.576515 TFlops(8192, 8192, 8192, 1, 944, ms=1675.239380)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.894474 TFlops(8192, 8192, 8192, 1, 952, ms=1677.743774)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.736853 TFlops(8192, 8192, 8192, 1, 960, ms=1703.192505)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.087627 TFlops(8192, 8192, 8192, 1, 968, ms=1719.186768)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.626363 TFlops(8192, 8192, 8192, 1, 976, ms=1731.887817)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.336258 TFlops(8192, 8192, 8192, 1, 984, ms=1744.085449)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 620.537490 TFlops(8192, 8192, 8192, 1, 992, ms=1757.694824)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 621.156126 TFlops(8192, 8192, 8192, 1, 1000, ms=1770.105103)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.387787 TFlops(8192, 8192, 8192, 1, 1008, ms=1789.359985)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 622.433219 TFlops(8192, 8192, 8192, 1, 1016, ms=1794.736816)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.868267 TFlops(8192, 8192, 8192, 1, 1024, ms=1816.353516)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.680425 TFlops(8192, 8192, 8192, 1, 1032, ms=1834.058350)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.648417 TFlops(8192, 8192, 8192, 1, 1040, ms=1845.388550)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.290978 TFlops(8192, 8192, 8192, 1, 1048, ms=1863.666504)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.759166 TFlops(8192, 8192, 8192, 1, 1056, ms=1876.472046)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.136000 TFlops(8192, 8192, 8192, 1, 1064, ms=1889.536987)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.124968 TFlops(8192, 8192, 8192, 1, 1072, ms=1903.777954)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.000010 TFlops(8192, 8192, 8192, 1, 1080, ms=1918.372437)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.987369 TFlops(8192, 8192, 8192, 1, 1088, ms=1932.622070)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.378220 TFlops(8192, 8192, 8192, 1, 1096, ms=1945.604004)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.610924 TFlops(8192, 8192, 8192, 1, 1104, ms=1959.069458)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.082259 TFlops(8192, 8192, 8192, 1, 1112, ms=1974.950684)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.584151 TFlops(8192, 8192, 8192, 1, 1120, ms=1974.798462)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.356222 TFlops(8192, 8192, 8192, 1, 1128, ms=2002.481079)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.945319 TFlops(8192, 8192, 8192, 1, 1136, ms=2021.287598)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.133052 TFlops(8192, 8192, 8192, 1, 1144, ms=2034.903809)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.131834 TFlops(8192, 8192, 8192, 1, 1152, ms=2045.828247)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.398962 TFlops(8192, 8192, 8192, 1, 1160, ms=2045.934570)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.642245 TFlops(8192, 8192, 8192, 1, 1168, ms=2072.533936)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.542442 TFlops(8192, 8192, 8192, 1, 1176, ms=2090.439697)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.524999 TFlops(8192, 8192, 8192, 1, 1184, ms=2104.719727)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.540146 TFlops(8192, 8192, 8192, 1, 1192, ms=2118.888916)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.537818 TFlops(8192, 8192, 8192, 1, 1200, ms=2133.117676)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.008302 TFlops(8192, 8192, 8192, 1, 1208, ms=2131.929932)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.659099 TFlops(8192, 8192, 8192, 1, 1216, ms=2161.135498)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.697005 TFlops(8192, 8192, 8192, 1, 1224, ms=2175.220215)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.671111 TFlops(8192, 8192, 8192, 1, 1232, ms=2185.995605)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.688142 TFlops(8192, 8192, 8192, 1, 1240, ms=2203.686035)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.596351 TFlops(8192, 8192, 8192, 1, 1248, ms=2214.652344)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.722748 TFlops(8192, 8192, 8192, 1, 1256, ms=2231.995850)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.541089 TFlops(8192, 8192, 8192, 1, 1264, ms=2246.872070)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.276382 TFlops(8192, 8192, 8192, 1, 1272, ms=2243.914307)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.983761 TFlops(8192, 8192, 8192, 1, 1280, ms=2273.686279)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.941203 TFlops(8192, 8192, 8192, 1, 1288, ms=2291.756836)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.441541 TFlops(8192, 8192, 8192, 1, 1296, ms=2304.125732)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 623.485348 TFlops(8192, 8192, 8192, 1, 1304, ms=2299.593994)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.019003 TFlops(8192, 8192, 8192, 1, 1312, ms=2334.166504)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.975010 TFlops(8192, 8192, 8192, 1, 1320, ms=2348.566406)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.894271 TFlops(8192, 8192, 8192, 1, 1328, ms=2363.108887)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.726860 TFlops(8192, 8192, 8192, 1, 1336, ms=2377.988770)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.296647 TFlops(8192, 8192, 8192, 1, 1344, ms=2390.023682)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.085295 TFlops(8192, 8192, 8192, 1, 1352, ms=2401.187256)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.149948 TFlops(8192, 8192, 8192, 1, 1360, ms=2419.050293)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.959594 TFlops(8192, 8192, 8192, 1, 1368, ms=2434.029541)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.018316 TFlops(8192, 8192, 8192, 1, 1376, ms=2448.031006)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.706095 TFlops(8192, 8192, 8192, 1, 1384, ms=2463.508301)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.969006 TFlops(8192, 8192, 8192, 1, 1392, ms=2476.694092)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.925881 TFlops(8192, 8192, 8192, 1, 1400, ms=2491.101807)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.901074 TFlops(8192, 8192, 8192, 1, 1408, ms=2505.437256)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.173386 TFlops(8192, 8192, 8192, 1, 1416, ms=2522.643555)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.414372 TFlops(8192, 8192, 8192, 1, 1424, ms=2531.804932)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 619.099334 TFlops(8192, 8192, 8192, 1, 1432, ms=2543.211670)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.283009 TFlops(8192, 8192, 8192, 1, 1440, ms=2560.796143)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.771640 TFlops(8192, 8192, 8192, 1, 1448, ms=2577.154297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.068528 TFlops(8192, 8192, 8192, 1, 1456, ms=2590.147949)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.144586 TFlops(8192, 8192, 8192, 1, 1464, ms=2604.059082)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.903082 TFlops(8192, 8192, 8192, 1, 1472, ms=2619.312256)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.444825 TFlops(8192, 8192, 8192, 1, 1480, ms=2631.240723)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.411179 TFlops(8192, 8192, 8192, 1, 1488, ms=2649.892578)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.519696 TFlops(8192, 8192, 8192, 1, 1496, ms=2663.671143)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.102784 TFlops(8192, 8192, 8192, 1, 1504, ms=2675.389160)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.624812 TFlops(8192, 8192, 8192, 1, 1512, ms=2691.701416)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.656211 TFlops(8192, 8192, 8192, 1, 1520, ms=2705.805664)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.203455 TFlops(8192, 8192, 8192, 1, 1528, ms=2717.638916)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.920543 TFlops(8192, 8192, 8192, 1, 1536, ms=2733.118164)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.145843 TFlops(8192, 8192, 8192, 1, 1544, ms=2746.351807)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.678475 TFlops(8192, 8192, 8192, 1, 1552, ms=2762.670410)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.557473 TFlops(8192, 8192, 8192, 1, 1560, ms=2777.455078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.069223 TFlops(8192, 8192, 8192, 1, 1568, ms=2789.386963)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.112364 TFlops(8192, 8192, 8192, 1, 1576, ms=2803.422852)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.424302 TFlops(8192, 8192, 8192, 1, 1584, ms=2816.232178)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.133352 TFlops(8192, 8192, 8192, 1, 1592, ms=2831.787842)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.789273 TFlops(8192, 8192, 8192, 1, 1600, ms=2847.603027)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.558621 TFlops(8192, 8192, 8192, 1, 1608, ms=2862.909912)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.787956 TFlops(8192, 8192, 8192, 1, 1616, ms=2871.437256)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.661070 TFlops(8192, 8192, 8192, 1, 1624, ms=2890.916992)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.008416 TFlops(8192, 8192, 8192, 1, 1632, ms=2903.525146)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.858450 TFlops(8192, 8192, 8192, 1, 1640, ms=2918.466309)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.853069 TFlops(8192, 8192, 8192, 1, 1648, ms=2932.728271)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.437304 TFlops(8192, 8192, 8192, 1, 1656, ms=2948.949219)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.029309 TFlops(8192, 8192, 8192, 1, 1664, ms=2960.356934)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.930474 TFlops(8192, 8192, 8192, 1, 1672, ms=2975.065186)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.680287 TFlops(8192, 8192, 8192, 1, 1680, ms=2990.510742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.000157 TFlops(8192, 8192, 8192, 1, 1688, ms=3003.196045)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.864931 TFlops(8192, 8192, 8192, 1, 1696, ms=3018.089600)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.365227 TFlops(8192, 8192, 8192, 1, 1704, ms=3034.780273)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.364880 TFlops(8192, 8192, 8192, 1, 1712, ms=3049.029785)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.918127 TFlops(8192, 8192, 8192, 1, 1720, ms=3060.534912)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.901924 TFlops(8192, 8192, 8192, 1, 1728, ms=3074.850586)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.806675 TFlops(8192, 8192, 8192, 1, 1736, ms=3089.562256)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.489569 TFlops(8192, 8192, 8192, 1, 1744, ms=3105.393799)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.089907 TFlops(8192, 8192, 8192, 1, 1752, ms=3121.659180)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.763667 TFlops(8192, 8192, 8192, 1, 1760, ms=3132.493164)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.219923 TFlops(8192, 8192, 8192, 1, 1768, ms=3149.503906)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.554641 TFlops(8192, 8192, 8192, 1, 1776, ms=3162.040283)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.348941 TFlops(8192, 8192, 8192, 1, 1784, ms=3177.342041)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.435964 TFlops(8192, 8192, 8192, 1, 1792, ms=3191.140381)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.603299 TFlops(8192, 8192, 8192, 1, 1800, ms=3204.518066)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.568986 TFlops(8192, 8192, 8192, 1, 1808, ms=3218.939209)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.122211 TFlops(8192, 8192, 8192, 1, 1816, ms=3230.288574)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.922019 TFlops(8192, 8192, 8192, 1, 1824, ms=3245.570068)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.499522 TFlops(8192, 8192, 8192, 1, 1832, ms=3262.035400)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.846818 TFlops(8192, 8192, 8192, 1, 1840, ms=3274.438477)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.662694 TFlops(8192, 8192, 8192, 1, 1848, ms=3289.655518)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.530673 TFlops(8192, 8192, 8192, 1, 1856, ms=3304.602783)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.896226 TFlops(8192, 8192, 8192, 1, 1864, ms=3316.883301)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.798732 TFlops(8192, 8192, 8192, 1, 1872, ms=3331.644531)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.742614 TFlops(8192, 8192, 8192, 1, 1880, ms=3346.186279)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.818799 TFlops(8192, 8192, 8192, 1, 1888, ms=3360.010986)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.899055 TFlops(8192, 8192, 8192, 1, 1896, ms=3373.810059)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.110068 TFlops(8192, 8192, 8192, 1, 1904, ms=3386.888916)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.420479 TFlops(8192, 8192, 8192, 1, 1912, ms=3404.918213)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.295421 TFlops(8192, 8192, 8192, 1, 1920, ms=3419.857422)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.607145 TFlops(8192, 8192, 8192, 1, 1928, ms=3432.373535)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.299272 TFlops(8192, 8192, 8192, 1, 1936, ms=3448.334717)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.716834 TFlops(8192, 8192, 8192, 1, 1944, ms=3460.243408)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.957815 TFlops(8192, 8192, 8192, 1, 1952, ms=3473.128174)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.960887 TFlops(8192, 8192, 8192, 1, 1960, ms=3487.344971)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.464749 TFlops(8192, 8192, 8192, 1, 1968, ms=3504.392578)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.752425 TFlops(8192, 8192, 8192, 1, 1976, ms=3516.999512)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.494710 TFlops(8192, 8192, 8192, 1, 1984, ms=3532.712158)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.143462 TFlops(8192, 8192, 8192, 1, 1992, ms=3543.234375)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.404912 TFlops(8192, 8192, 8192, 1, 2000, ms=3561.719727)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.997808 TFlops(8192, 8192, 8192, 1, 2008, ms=3572.535889)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.915675 TFlops(8192, 8192, 8192, 1, 2016, ms=3587.245850)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.821609 TFlops(8192, 8192, 8192, 1, 2024, ms=3602.029297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.114965 TFlops(8192, 8192, 8192, 1, 2032, ms=3614.550293)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.838174 TFlops(8192, 8192, 8192, 1, 2040, ms=3630.406494)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.759562 TFlops(8192, 8192, 8192, 1, 2048, ms=3645.107178)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.929032 TFlops(8192, 8192, 8192, 1, 2056, ms=3658.342285)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.907620 TFlops(8192, 8192, 8192, 1, 2064, ms=3672.704346)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.545016 TFlops(8192, 8192, 8192, 1, 2072, ms=3689.104492)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.280668 TFlops(8192, 8192, 8192, 1, 2080, ms=3704.934082)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.851236 TFlops(8192, 8192, 8192, 1, 2088, ms=3715.749268)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.630472 TFlops(8192, 8192, 8192, 1, 2096, ms=3731.319092)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.703183 TFlops(8192, 8192, 8192, 1, 2104, ms=3745.119873)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.379706 TFlops(8192, 8192, 8192, 1, 2112, ms=3761.329590)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.764816 TFlops(8192, 8192, 8192, 1, 2120, ms=3773.223389)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.106999 TFlops(8192, 8192, 8192, 1, 2128, ms=3785.365234)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.917807 TFlops(8192, 8192, 8192, 1, 2136, ms=3800.759277)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.098842 TFlops(8192, 8192, 8192, 1, 2144, ms=3813.876953)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.996553 TFlops(8192, 8192, 8192, 1, 2152, ms=3828.741455)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.945729 TFlops(8192, 8192, 8192, 1, 2160, ms=3843.290771)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.851065 TFlops(8192, 8192, 8192, 1, 2168, ms=3858.116211)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.012339 TFlops(8192, 8192, 8192, 1, 2176, ms=3871.342285)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.779628 TFlops(8192, 8192, 8192, 1, 2184, ms=3887.038818)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.762495 TFlops(8192, 8192, 8192, 1, 2192, ms=3901.385254)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.640127 TFlops(8192, 8192, 8192, 1, 2200, ms=3916.399658)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.497372 TFlops(8192, 8192, 8192, 1, 2208, ms=3931.549805)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.209201 TFlops(8192, 8192, 8192, 1, 2216, ms=3941.251221)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.969373 TFlops(8192, 8192, 8192, 1, 2224, ms=3957.014648)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.931267 TFlops(8192, 8192, 8192, 1, 2232, ms=3971.493408)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.547984 TFlops(8192, 8192, 8192, 1, 2240, ms=3988.201904)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.619326 TFlops(8192, 8192, 8192, 1, 2248, ms=4001.983154)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.773745 TFlops(8192, 8192, 8192, 1, 2256, ms=4015.221191)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.319412 TFlops(8192, 8192, 8192, 1, 2264, ms=4025.903564)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.747404 TFlops(8192, 8192, 8192, 1, 2272, ms=4043.870361)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.570436 TFlops(8192, 8192, 8192, 1, 2280, ms=4059.272217)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.446598 TFlops(8192, 8192, 8192, 1, 2288, ms=4074.332275)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.701851 TFlops(8192, 8192, 8192, 1, 2296, ms=4086.888672)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.013656 TFlops(8192, 8192, 8192, 1, 2304, ms=4099.059570)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.842904 TFlops(8192, 8192, 8192, 1, 2312, ms=4114.429199)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.684450 TFlops(8192, 8192, 8192, 1, 2320, ms=4129.725098)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.974213 TFlops(8192, 8192, 8192, 1, 2328, ms=4142.022461)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.231813 TFlops(8192, 8192, 8192, 1, 2336, ms=4154.524414)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.924688 TFlops(8192, 8192, 8192, 1, 2344, ms=4170.824219)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.114505 TFlops(8192, 8192, 8192, 1, 2352, ms=4183.773926)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.829439 TFlops(8192, 8192, 8192, 1, 2360, ms=4199.941406)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.554355 TFlops(8192, 8192, 8192, 1, 2368, ms=4216.055664)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.826023 TFlops(8192, 8192, 8192, 1, 2376, ms=4228.438965)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.409399 TFlops(8192, 8192, 8192, 1, 2384, ms=4245.539062)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.686620 TFlops(8192, 8192, 8192, 1, 2392, ms=4257.874023)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.198127 TFlops(8192, 8192, 8192, 1, 2400, ms=4268.579590)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.202861 TFlops(8192, 8192, 8192, 1, 2408, ms=4282.775391)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.925431 TFlops(8192, 8192, 8192, 1, 2416, ms=4298.933105)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.157976 TFlops(8192, 8192, 8192, 1, 2424, ms=4311.545410)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.955557 TFlops(8192, 8192, 8192, 1, 2432, ms=4327.191895)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.597040 TFlops(8192, 8192, 8192, 1, 2440, ms=4343.946289)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.808468 TFlops(8192, 8192, 8192, 1, 2448, ms=4356.697266)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.178515 TFlops(8192, 8192, 8192, 1, 2456, ms=4368.318359)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.655039 TFlops(8192, 8192, 8192, 1, 2464, ms=4386.261719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.886966 TFlops(8192, 8192, 8192, 1, 2472, ms=4398.851074)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.233763 TFlops(8192, 8192, 8192, 1, 2480, ms=4410.611328)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.636475 TFlops(8192, 8192, 8192, 1, 2488, ms=4429.118164)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.998899 TFlops(8192, 8192, 8192, 1, 2496, ms=4440.753906)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.144465 TFlops(8192, 8192, 8192, 1, 2504, ms=4453.937988)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.980610 TFlops(8192, 8192, 8192, 1, 2512, ms=4469.352539)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.077096 TFlops(8192, 8192, 8192, 1, 2520, ms=4482.886230)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.710623 TFlops(8192, 8192, 8192, 1, 2528, ms=4499.785645)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.603344 TFlops(8192, 8192, 8192, 1, 2536, ms=4514.809570)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.762004 TFlops(8192, 8192, 8192, 1, 2544, ms=4527.888672)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.271105 TFlops(8192, 8192, 8192, 1, 2552, ms=4538.387207)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.048825 TFlops(8192, 8192, 8192, 1, 2560, ms=4554.251465)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.859841 TFlops(8192, 8192, 8192, 1, 2568, ms=4569.880859)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.433354 TFlops(8192, 8192, 8192, 1, 2576, ms=4587.283691)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.962420 TFlops(8192, 8192, 8192, 1, 2584, ms=4597.590332)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.887533 TFlops(8192, 8192, 8192, 1, 2592, ms=4612.383301)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.458280 TFlops(8192, 8192, 8192, 1, 2600, ms=4629.835449)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.991738 TFlops(8192, 8192, 8192, 1, 2608, ms=4640.072266)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.679458 TFlops(8192, 8192, 8192, 1, 2616, ms=4656.658691)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.257112 TFlops(8192, 8192, 8192, 1, 2624, ms=4674.095215)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.485257 TFlops(8192, 8192, 8192, 1, 2632, ms=4686.613281)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.647365 TFlops(8192, 8192, 8192, 1, 2640, ms=4699.624512)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.901282 TFlops(8192, 8192, 8192, 1, 2648, ms=4711.928711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.856162 TFlops(8192, 8192, 8192, 1, 2656, ms=4726.509277)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.820483 TFlops(8192, 8192, 8192, 1, 2664, ms=4741.019531)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.680566 TFlops(8192, 8192, 8192, 1, 2672, ms=4756.333984)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.811246 TFlops(8192, 8192, 8192, 1, 2680, ms=4769.565430)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.849300 TFlops(8192, 8192, 8192, 1, 2688, ms=4783.508301)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.078623 TFlops(8192, 8192, 8192, 1, 2696, ms=4795.964844)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.821606 TFlops(8192, 8192, 8192, 1, 2704, ms=4812.197266)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.990533 TFlops(8192, 8192, 8192, 1, 2712, ms=4825.115234)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.539167 TFlops(8192, 8192, 8192, 1, 2720, ms=4842.885742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.589783 TFlops(8192, 8192, 8192, 1, 2728, ms=4856.731445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.831811 TFlops(8192, 8192, 8192, 1, 2736, ms=4869.065918)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.841908 TFlops(8192, 8192, 8192, 1, 2744, ms=4883.223145)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.436048 TFlops(8192, 8192, 8192, 1, 2752, ms=4900.679199)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.628480 TFlops(8192, 8192, 8192, 1, 2760, ms=4913.394043)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.586195 TFlops(8192, 8192, 8192, 1, 2768, ms=4927.973145)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.596876 TFlops(8192, 8192, 8192, 1, 2776, ms=4942.130371)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.445386 TFlops(8192, 8192, 8192, 1, 2784, ms=4957.588867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.109186 TFlops(8192, 8192, 8192, 1, 2792, ms=4974.543457)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.654692 TFlops(8192, 8192, 8192, 1, 2800, ms=4984.391113)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.815030 TFlops(8192, 8192, 8192, 1, 2808, ms=4997.334961)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.478622 TFlops(8192, 8192, 8192, 1, 2816, ms=5014.302734)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.452069 TFlops(8192, 8192, 8192, 1, 2824, ms=5028.764160)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.807711 TFlops(8192, 8192, 8192, 1, 2832, ms=5040.106934)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.679452 TFlops(8192, 8192, 8192, 1, 2840, ms=5055.394043)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.275330 TFlops(8192, 8192, 8192, 1, 2848, ms=5072.953613)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.744140 TFlops(8192, 8192, 8192, 1, 2856, ms=5083.342773)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.668326 TFlops(8192, 8192, 8192, 1, 2864, ms=5098.207520)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.993201 TFlops(8192, 8192, 8192, 1, 2872, ms=5109.760742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.915171 TFlops(8192, 8192, 8192, 1, 2880, ms=5124.641113)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.074000 TFlops(8192, 8192, 8192, 1, 2888, ms=5137.555664)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.695218 TFlops(8192, 8192, 8192, 1, 2896, ms=5154.946289)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.219267 TFlops(8192, 8192, 8192, 1, 2904, ms=5164.804688)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.014353 TFlops(8192, 8192, 8192, 1, 2912, ms=5180.750000)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.697521 TFlops(8192, 8192, 8192, 1, 2920, ms=5197.647461)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.702717 TFlops(8192, 8192, 8192, 1, 2928, ms=5211.843750)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.676606 TFlops(8192, 8192, 8192, 1, 2936, ms=5226.304688)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.936488 TFlops(8192, 8192, 8192, 1, 2944, ms=5238.341309)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.720835 TFlops(8192, 8192, 8192, 1, 2952, ms=5254.409668)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.046995 TFlops(8192, 8192, 8192, 1, 2960, ms=5274.402832)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.448010 TFlops(8192, 8192, 8192, 1, 2968, ms=5285.223145)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.122972 TFlops(8192, 8192, 8192, 1, 2976, ms=5302.260254)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.623728 TFlops(8192, 8192, 8192, 1, 2984, ms=5312.203125)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.113525 TFlops(8192, 8192, 8192, 1, 2992, ms=5330.848633)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.542174 TFlops(8192, 8192, 8192, 1, 3000, ms=5341.392090)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.832894 TFlops(8192, 8192, 8192, 1, 3008, ms=5353.115723)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.427657 TFlops(8192, 8192, 8192, 1, 3016, ms=5370.875488)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.742811 TFlops(8192, 8192, 8192, 1, 3024, ms=5382.374512)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.146658 TFlops(8192, 8192, 8192, 1, 3032, ms=5393.087891)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.708936 TFlops(8192, 8192, 8192, 1, 3040, ms=5411.149414)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.894243 TFlops(8192, 8192, 8192, 1, 3048, ms=5423.762207)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.836853 TFlops(8192, 8192, 8192, 1, 3056, ms=5438.502930)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.917983 TFlops(8192, 8192, 8192, 1, 3064, ms=5452.023926)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.010141 TFlops(8192, 8192, 8192, 1, 3072, ms=5465.443848)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.922870 TFlops(8192, 8192, 8192, 1, 3080, ms=5480.450684)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.572194 TFlops(8192, 8192, 8192, 1, 3088, ms=5497.805664)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.882688 TFlops(8192, 8192, 8192, 1, 3096, ms=5509.278809)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.897166 TFlops(8192, 8192, 8192, 1, 3104, ms=5523.385254)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.910480 TFlops(8192, 8192, 8192, 1, 3112, ms=5537.501465)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.879490 TFlops(8192, 8192, 8192, 1, 3120, ms=5552.015137)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.656217 TFlops(8192, 8192, 8192, 1, 3128, ms=5568.263184)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.535536 TFlops(8192, 8192, 8192, 1, 3136, ms=5583.595215)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.635227 TFlops(8192, 8192, 8192, 1, 3144, ms=5596.935547)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.536819 TFlops(8192, 8192, 8192, 1, 3152, ms=5612.071289)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.645384 TFlops(8192, 8192, 8192, 1, 3160, ms=5625.326172)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.047375 TFlops(8192, 8192, 8192, 1, 3168, ms=5635.899414)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.864830 TFlops(8192, 8192, 8192, 1, 3176, ms=5651.800781)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.745045 TFlops(8192, 8192, 8192, 1, 3184, ms=5667.135742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.715344 TFlops(8192, 8192, 8192, 1, 3192, ms=5681.647949)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.697231 TFlops(8192, 8192, 8192, 1, 3200, ms=5696.054688)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.788240 TFlops(8192, 8192, 8192, 1, 3208, ms=5709.453613)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.178145 TFlops(8192, 8192, 8192, 1, 3216, ms=5720.081543)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.005440 TFlops(8192, 8192, 8192, 1, 3224, ms=5735.913086)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.834000 TFlops(8192, 8192, 8192, 1, 3232, ms=5751.741699)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.067297 TFlops(8192, 8192, 8192, 1, 3240, ms=5763.802246)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.298496 TFlops(8192, 8192, 8192, 1, 3248, ms=5785.229980)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.434780 TFlops(8192, 8192, 8192, 1, 3256, ms=5798.199219)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.633199 TFlops(8192, 8192, 8192, 1, 3264, ms=5810.578125)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.763948 TFlops(8192, 8192, 8192, 1, 3272, ms=5823.586914)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.692685 TFlops(8192, 8192, 8192, 1, 3280, ms=5838.499023)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.666921 TFlops(8192, 8192, 8192, 1, 3288, ms=5852.983398)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.005815 TFlops(8192, 8192, 8192, 1, 3296, ms=5864.006836)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.078065 TFlops(8192, 8192, 8192, 1, 3304, ms=5877.552734)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.894322 TFlops(8192, 8192, 8192, 1, 3312, ms=5893.536133)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.984344 TFlops(8192, 8192, 8192, 1, 3320, ms=5906.911133)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.679045 TFlops(8192, 8192, 8192, 1, 3328, ms=5924.071289)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.956511 TFlops(8192, 8192, 8192, 1, 3336, ms=5935.645508)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.847932 TFlops(8192, 8192, 8192, 1, 3344, ms=5950.925293)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.026039 TFlops(8192, 8192, 8192, 1, 3352, ms=5963.442871)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.090022 TFlops(8192, 8192, 8192, 1, 3360, ms=5977.056641)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.971982 TFlops(8192, 8192, 8192, 1, 3368, ms=5992.432129)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.737617 TFlops(8192, 8192, 8192, 1, 3376, ms=6008.944824)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.896149 TFlops(8192, 8192, 8192, 1, 3384, ms=6021.638672)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.820551 TFlops(8192, 8192, 8192, 1, 3392, ms=6036.612793)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.840892 TFlops(8192, 8192, 8192, 1, 3400, ms=6050.650879)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.961640 TFlops(8192, 8192, 8192, 1, 3408, ms=6063.702637)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.444243 TFlops(8192, 8192, 8192, 1, 3416, ms=6083.029785)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.301315 TFlops(8192, 8192, 8192, 1, 3424, ms=6098.687500)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.742123 TFlops(8192, 8192, 8192, 1, 3432, ms=6108.574707)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.371522 TFlops(8192, 8192, 8192, 1, 3440, ms=6126.489258)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.509261 TFlops(8192, 8192, 8192, 1, 3448, ms=6139.367188)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.660491 TFlops(8192, 8192, 8192, 1, 3456, ms=6152.104980)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.378195 TFlops(8192, 8192, 8192, 1, 3464, ms=6169.165527)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.253214 TFlops(8192, 8192, 8192, 1, 3472, ms=6184.665039)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.435778 TFlops(8192, 8192, 8192, 1, 3480, ms=6197.082520)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.432630 TFlops(8192, 8192, 8192, 1, 3488, ms=6211.360352)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.389839 TFlops(8192, 8192, 8192, 1, 3496, ms=6226.038086)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.621630 TFlops(8192, 8192, 8192, 1, 3504, ms=6237.943359)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.374302 TFlops(8192, 8192, 8192, 1, 3512, ms=6254.689941)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.617815 TFlops(8192, 8192, 8192, 1, 3520, ms=6266.465820)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.154552 TFlops(8192, 8192, 8192, 1, 3528, ms=6285.422363)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.299739 TFlops(8192, 8192, 8192, 1, 3536, ms=6298.193359)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.360510 TFlops(8192, 8192, 8192, 1, 3544, ms=6311.821289)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.407150 TFlops(8192, 8192, 8192, 1, 3552, ms=6325.591309)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.471660 TFlops(8192, 8192, 8192, 1, 3560, ms=6339.175781)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.355013 TFlops(8192, 8192, 8192, 1, 3568, ms=6354.621582)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.367365 TFlops(8192, 8192, 8192, 1, 3576, ms=6368.742188)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.662692 TFlops(8192, 8192, 8192, 1, 3584, ms=6379.937988)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.680919 TFlops(8192, 8192, 8192, 1, 3592, ms=6393.990234)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.181569 TFlops(8192, 8192, 8192, 1, 3600, ms=6413.415527)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.020055 TFlops(8192, 8192, 8192, 1, 3608, ms=6429.350098)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.415063 TFlops(8192, 8192, 8192, 1, 3616, ms=6439.483398)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.277203 TFlops(8192, 8192, 8192, 1, 3624, ms=6455.171387)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.555076 TFlops(8192, 8192, 8192, 1, 3632, ms=6466.510254)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.474244 TFlops(8192, 8192, 8192, 1, 3640, ms=6481.602051)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.084670 TFlops(8192, 8192, 8192, 1, 3648, ms=6499.948242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.849405 TFlops(8192, 8192, 8192, 1, 3656, ms=6506.139648)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.756773 TFlops(8192, 8192, 8192, 1, 3664, ms=6521.354004)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.912718 TFlops(8192, 8192, 8192, 1, 3672, ms=6533.943359)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.626654 TFlops(8192, 8192, 8192, 1, 3680, ms=6551.211426)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.400290 TFlops(8192, 8192, 8192, 1, 3688, ms=6567.860352)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.426252 TFlops(8192, 8192, 8192, 1, 3696, ms=6581.830566)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.801750 TFlops(8192, 8192, 8192, 1, 3704, ms=6592.067871)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.691124 TFlops(8192, 8192, 8192, 1, 3712, ms=6607.488770)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.529747 TFlops(8192, 8192, 8192, 1, 3720, ms=6623.459473)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.665181 TFlops(8192, 8192, 8192, 1, 3728, ms=6636.248047)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.865658 TFlops(8192, 8192, 8192, 1, 3736, ms=6648.331055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.743279 TFlops(8192, 8192, 8192, 1, 3744, ms=6663.887207)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.847978 TFlops(8192, 8192, 8192, 1, 3752, ms=6676.994629)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.570716 TFlops(8192, 8192, 8192, 1, 3760, ms=6694.235352)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.605320 TFlops(8192, 8192, 8192, 1, 3768, ms=6708.102539)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.633230 TFlops(8192, 8192, 8192, 1, 3776, ms=6722.041016)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.807872 TFlops(8192, 8192, 8192, 1, 3784, ms=6734.378418)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.430412 TFlops(8192, 8192, 8192, 1, 3792, ms=6752.741699)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.579580 TFlops(8192, 8192, 8192, 1, 3800, ms=6765.353516)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.940357 TFlops(8192, 8192, 8192, 1, 3808, ms=6775.638184)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.869146 TFlops(8192, 8192, 8192, 1, 3816, ms=6790.655273)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.478213 TFlops(8192, 8192, 8192, 1, 3824, ms=6809.199707)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.549544 TFlops(8192, 8192, 8192, 1, 3832, ms=6822.656738)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.561575 TFlops(8192, 8192, 8192, 1, 3840, ms=6836.767090)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.723159 TFlops(8192, 8192, 8192, 1, 3848, ms=6849.218262)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.925975 TFlops(8192, 8192, 8192, 1, 3856, ms=6861.205078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.068280 TFlops(8192, 8192, 8192, 1, 3864, ms=6873.856934)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.553431 TFlops(8192, 8192, 8192, 1, 3872, ms=6893.831055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.678322 TFlops(8192, 8192, 8192, 1, 3880, ms=6906.677734)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.899373 TFlops(8192, 8192, 8192, 1, 3888, ms=6918.442383)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.933592 TFlops(8192, 8192, 8192, 1, 3896, ms=6932.293945)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.837947 TFlops(8192, 8192, 8192, 1, 3904, ms=6947.604004)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.932998 TFlops(8192, 8192, 8192, 1, 3912, ms=6960.770020)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.588755 TFlops(8192, 8192, 8192, 1, 3920, ms=6978.892578)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.566804 TFlops(8192, 8192, 8192, 1, 3928, ms=6993.383789)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.524849 TFlops(8192, 8192, 8192, 1, 3936, ms=7008.103027)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.709836 TFlops(8192, 8192, 8192, 1, 3944, ms=7020.244141)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.776697 TFlops(8192, 8192, 8192, 1, 3952, ms=7033.722656)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.510858 TFlops(8192, 8192, 8192, 1, 3960, ms=7050.995117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.661312 TFlops(8192, 8192, 8192, 1, 3968, ms=7063.518555)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.698493 TFlops(8192, 8192, 8192, 1, 3976, ms=7077.333496)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.961732 TFlops(8192, 8192, 8192, 1, 3984, ms=7088.552734)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.760065 TFlops(8192, 8192, 8192, 1, 3992, ms=7105.105469)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.727351 TFlops(8192, 8192, 8192, 1, 4000, ms=7119.721191)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.779376 TFlops(8192, 8192, 8192, 1, 4008, ms=7133.359863)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.531234 TFlops(8192, 8192, 8192, 1, 4016, ms=7150.470215)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.553525 TFlops(8192, 8192, 8192, 1, 4024, ms=7164.455566)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.539940 TFlops(8192, 8192, 8192, 1, 4032, ms=7178.856934)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.612983 TFlops(8192, 8192, 8192, 1, 4040, ms=7192.250000)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.524397 TFlops(8192, 8192, 8192, 1, 4048, ms=7207.525879)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.490619 TFlops(8192, 8192, 8192, 1, 4056, ms=7222.165039)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.508476 TFlops(8192, 8192, 8192, 1, 4064, ms=7236.200684)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.725120 TFlops(8192, 8192, 8192, 1, 4072, ms=7247.902344)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.674972 TFlops(8192, 8192, 8192, 1, 4080, ms=7262.731445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.576051 TFlops(8192, 8192, 8192, 1, 4088, ms=7278.137695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.715748 TFlops(8192, 8192, 8192, 1, 4096, ms=7290.731445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.300280 TFlops(8192, 8192, 8192, 1, 4104, ms=7309.887695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.219940 TFlops(8192, 8192, 8192, 1, 4112, ms=7325.090332)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.414244 TFlops(8192, 8192, 8192, 1, 4120, ms=7337.031738)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.637095 TFlops(8192, 8192, 8192, 1, 4128, ms=7348.625977)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.526877 TFlops(8192, 8192, 8192, 1, 4136, ms=7364.181641)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.471298 TFlops(8192, 8192, 8192, 1, 4144, ms=7379.089844)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.920876 TFlops(8192, 8192, 8192, 1, 4152, ms=7387.956055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.787831 TFlops(8192, 8192, 8192, 1, 4160, ms=7403.785156)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.848693 TFlops(8192, 8192, 8192, 1, 4168, ms=7417.292480)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.683095 TFlops(8192, 8192, 8192, 1, 4176, ms=7433.521484)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.658817 TFlops(8192, 8192, 8192, 1, 4184, ms=7448.054688)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.762485 TFlops(8192, 8192, 8192, 1, 4192, ms=7461.043457)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.512111 TFlops(8192, 8192, 8192, 1, 4200, ms=7478.312988)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.510161 TFlops(8192, 8192, 8192, 1, 4208, ms=7492.581055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.690825 TFlops(8192, 8192, 8192, 1, 4216, ms=7504.629883)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.835873 TFlops(8192, 8192, 8192, 1, 4224, ms=7517.104980)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.529124 TFlops(8192, 8192, 8192, 1, 4232, ms=7535.083008)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.637932 TFlops(8192, 8192, 8192, 1, 4240, ms=7547.997070)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.832591 TFlops(8192, 8192, 8192, 1, 4248, ms=7559.855957)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.865031 TFlops(8192, 8192, 8192, 1, 4256, ms=7573.695312)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.667564 TFlops(8192, 8192, 8192, 1, 4264, ms=7590.357422)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.828196 TFlops(8192, 8192, 8192, 1, 4272, ms=7602.621094)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.707564 TFlops(8192, 8192, 8192, 1, 4280, ms=7618.345703)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.466697 TFlops(8192, 8192, 8192, 1, 4288, ms=7635.562988)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.726719 TFlops(8192, 8192, 8192, 1, 4296, ms=7646.588379)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.657290 TFlops(8192, 8192, 8192, 1, 4304, ms=7661.688965)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.805517 TFlops(8192, 8192, 8192, 1, 4312, ms=7674.088379)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.509803 TFlops(8192, 8192, 8192, 1, 4320, ms=7692.007812)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.605273 TFlops(8192, 8192, 8192, 1, 4328, ms=7705.061035)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.606177 TFlops(8192, 8192, 8192, 1, 4336, ms=7719.291992)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.640537 TFlops(8192, 8192, 8192, 1, 4344, ms=7733.104004)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.663368 TFlops(8192, 8192, 8192, 1, 4352, ms=7747.059082)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.627558 TFlops(8192, 8192, 8192, 1, 4360, ms=7761.750000)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.705680 TFlops(8192, 8192, 8192, 1, 4368, ms=7775.008301)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.816073 TFlops(8192, 8192, 8192, 1, 4376, ms=7787.856445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.078727 TFlops(8192, 8192, 8192, 1, 4384, ms=7798.778320)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.028276 TFlops(8192, 8192, 8192, 1, 4392, ms=7813.647461)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.406351 TFlops(8192, 8192, 8192, 1, 4400, ms=7823.094238)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.098525 TFlops(8192, 8192, 8192, 1, 4408, ms=7841.221191)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.976369 TFlops(8192, 8192, 8192, 1, 4416, ms=7857.004883)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.990731 TFlops(8192, 8192, 8192, 1, 4424, ms=7871.055664)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.861946 TFlops(8192, 8192, 8192, 1, 4432, ms=7886.932617)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.686317 TFlops(8192, 8192, 8192, 1, 4440, ms=7903.415527)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.727662 TFlops(8192, 8192, 8192, 1, 4448, ms=7917.125977)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.940676 TFlops(8192, 8192, 8192, 1, 4456, ms=7928.631348)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.955503 TFlops(8192, 8192, 8192, 1, 4464, ms=7942.675293)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.828592 TFlops(8192, 8192, 8192, 1, 4472, ms=7958.543945)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.820480 TFlops(8192, 8192, 8192, 1, 4480, ms=7972.885742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.728524 TFlops(8192, 8192, 8192, 1, 4488, ms=7988.312012)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.757936 TFlops(8192, 8192, 8192, 1, 4496, ms=8002.170410)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.767190 TFlops(8192, 8192, 8192, 1, 4504, ms=8016.289062)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.954401 TFlops(8192, 8192, 8192, 1, 4512, ms=8028.094727)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.840053 TFlops(8192, 8192, 8192, 1, 4520, ms=8043.817383)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.612103 TFlops(8192, 8192, 8192, 1, 4528, ms=8061.028320)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.824810 TFlops(8192, 8192, 8192, 1, 4536, ms=8072.490234)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.804285 TFlops(8192, 8192, 8192, 1, 4544, ms=8086.996094)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.847435 TFlops(8192, 8192, 8192, 1, 4552, ms=8100.667969)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.838391 TFlops(8192, 8192, 8192, 1, 4560, ms=8115.023438)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.928327 TFlops(8192, 8192, 8192, 1, 4568, ms=8128.077148)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.460066 TFlops(8192, 8192, 8192, 1, 4576, ms=8148.486816)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.481379 TFlops(8192, 8192, 8192, 1, 4584, ms=8162.450684)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.535292 TFlops(8192, 8192, 8192, 1, 4592, ms=8175.981934)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.585272 TFlops(8192, 8192, 8192, 1, 4600, ms=8189.562988)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.441953 TFlops(8192, 8192, 8192, 1, 4608, ms=8205.709961)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.261182 TFlops(8192, 8192, 8192, 1, 4616, ms=8222.363281)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.603964 TFlops(8192, 8192, 8192, 1, 4624, ms=8232.041992)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.446031 TFlops(8192, 8192, 8192, 1, 4632, ms=8248.393555)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.501996 TFlops(8192, 8192, 8192, 1, 4640, ms=8261.890625)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.462544 TFlops(8192, 8192, 8192, 1, 4648, ms=8276.664062)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.615854 TFlops(8192, 8192, 8192, 1, 4656, ms=8288.851562)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.361704 TFlops(8192, 8192, 8192, 1, 4664, ms=8306.511719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.550063 TFlops(8192, 8192, 8192, 1, 4672, ms=8318.221680)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.602785 TFlops(8192, 8192, 8192, 1, 4680, ms=8331.753906)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.588053 TFlops(8192, 8192, 8192, 1, 4688, ms=8346.195312)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.480475 TFlops(8192, 8192, 8192, 1, 4696, ms=8361.894531)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.865509 TFlops(8192, 8192, 8192, 1, 4704, ms=8370.919922)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.698029 TFlops(8192, 8192, 8192, 1, 4712, ms=8387.429688)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.685313 TFlops(8192, 8192, 8192, 1, 4720, ms=8401.842773)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.834801 TFlops(8192, 8192, 8192, 1, 4728, ms=8414.046875)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.918902 TFlops(8192, 8192, 8192, 1, 4736, ms=8427.136719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.829106 TFlops(8192, 8192, 8192, 1, 4744, ms=8442.598633)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.632100 TFlops(8192, 8192, 8192, 1, 4752, ms=8459.533203)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.291015 TFlops(8192, 8192, 8192, 1, 4760, ms=8478.457031)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.242432 TFlops(8192, 8192, 8192, 1, 4768, ms=8493.375000)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.499988 TFlops(8192, 8192, 8192, 1, 4776, ms=8504.077148)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.481763 TFlops(8192, 8192, 8192, 1, 4784, ms=8518.573242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.418379 TFlops(8192, 8192, 8192, 1, 4792, ms=8533.694336)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.553309 TFlops(8192, 8192, 8192, 1, 4800, ms=8546.073242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.717524 TFlops(8192, 8192, 8192, 1, 4808, ms=8558.041016)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.689899 TFlops(8192, 8192, 8192, 1, 4816, ms=8572.664062)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.740346 TFlops(8192, 8192, 8192, 1, 4824, ms=8586.203125)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.891463 TFlops(8192, 8192, 8192, 1, 4832, ms=8598.338867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.648958 TFlops(8192, 8192, 8192, 1, 4840, ms=8615.956055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.604863 TFlops(8192, 8192, 8192, 1, 4848, ms=8630.813477)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.606752 TFlops(8192, 8192, 8192, 1, 4856, ms=8645.029297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.640955 TFlops(8192, 8192, 8192, 1, 4864, ms=8658.791992)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.648760 TFlops(8192, 8192, 8192, 1, 4872, ms=8672.923828)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.657651 TFlops(8192, 8192, 8192, 1, 4880, ms=8687.040039)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.813096 TFlops(8192, 8192, 8192, 1, 4888, ms=8699.091797)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.481337 TFlops(8192, 8192, 8192, 1, 4896, ms=8718.010742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.777588 TFlops(8192, 8192, 8192, 1, 4904, ms=8728.068359)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.626358 TFlops(8192, 8192, 8192, 1, 4912, ms=8744.447266)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.554650 TFlops(8192, 8192, 8192, 1, 4920, ms=8759.706055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.665215 TFlops(8192, 8192, 8192, 1, 4928, ms=8772.378906)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.430777 TFlops(8192, 8192, 8192, 1, 4936, ms=8789.956055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.511887 TFlops(8192, 8192, 8192, 1, 4944, ms=8803.045898)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.686083 TFlops(8192, 8192, 8192, 1, 4952, ms=8814.803711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.344883 TFlops(8192, 8192, 8192, 1, 4960, ms=8833.923828)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.601808 TFlops(8192, 8192, 8192, 1, 4968, ms=8844.491211)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.758721 TFlops(8192, 8192, 8192, 1, 4976, ms=8856.483398)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.692995 TFlops(8192, 8192, 8192, 1, 4984, ms=8871.666016)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.749480 TFlops(8192, 8192, 8192, 1, 4992, ms=8885.093750)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.636069 TFlops(8192, 8192, 8192, 1, 5000, ms=8900.966797)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.499932 TFlops(8192, 8192, 8192, 1, 5008, ms=8917.173828)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.808003 TFlops(8192, 8192, 8192, 1, 5016, ms=8926.964844)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.568166 TFlops(8192, 8192, 8192, 1, 5024, ms=8944.674805)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.426222 TFlops(8192, 8192, 8192, 1, 5032, ms=8960.977539)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.402663 TFlops(8192, 8192, 8192, 1, 5040, ms=8975.566406)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.496765 TFlops(8192, 8192, 8192, 1, 5048, ms=8988.443359)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.543096 TFlops(8192, 8192, 8192, 1, 5056, ms=9002.012695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.510292 TFlops(8192, 8192, 8192, 1, 5064, ms=9016.735352)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.570015 TFlops(8192, 8192, 8192, 1, 5072, ms=9030.106445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.533469 TFlops(8192, 8192, 8192, 1, 5080, ms=9044.884766)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.614146 TFlops(8192, 8192, 8192, 1, 5088, ms=9057.945312)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.558231 TFlops(8192, 8192, 8192, 1, 5096, ms=9073.008789)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.702291 TFlops(8192, 8192, 8192, 1, 5104, ms=9085.132812)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.467025 TFlops(8192, 8192, 8192, 1, 5112, ms=9102.839844)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.247676 TFlops(8192, 8192, 8192, 1, 5120, ms=9120.325195)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.321561 TFlops(8192, 8192, 8192, 1, 5128, ms=9133.482422)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.318317 TFlops(8192, 8192, 8192, 1, 5136, ms=9147.779297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.579770 TFlops(8192, 8192, 8192, 1, 5144, ms=9158.149414)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.987627 TFlops(8192, 8192, 8192, 1, 5152, ms=9181.195312)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.622141 TFlops(8192, 8192, 8192, 1, 5160, ms=9186.004883)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.543657 TFlops(8192, 8192, 8192, 1, 5168, ms=9201.416016)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.317680 TFlops(8192, 8192, 8192, 1, 5176, ms=9219.033203)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.529547 TFlops(8192, 8192, 8192, 1, 5184, ms=9230.114258)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.721062 TFlops(8192, 8192, 8192, 1, 5192, ms=9241.492188)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.762799 TFlops(8192, 8192, 8192, 1, 5200, ms=9255.106445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.962694 TFlops(8192, 8192, 8192, 1, 5208, ms=9266.346680)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.800278 TFlops(8192, 8192, 8192, 1, 5216, ms=9283.020508)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.760727 TFlops(8192, 8192, 8192, 1, 5224, ms=9297.853516)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.002235 TFlops(8192, 8192, 8192, 1, 5232, ms=9308.453125)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.681484 TFlops(8192, 8192, 8192, 1, 5240, ms=9327.527344)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.645602 TFlops(8192, 8192, 8192, 1, 5248, ms=9342.310547)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.404090 TFlops(8192, 8192, 8192, 1, 5256, ms=9360.211914)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.758345 TFlops(8192, 8192, 8192, 1, 5264, ms=9369.083008)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.595242 TFlops(8192, 8192, 8192, 1, 5272, ms=9385.799805)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.552148 TFlops(8192, 8192, 8192, 1, 5280, ms=9400.698242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.735230 TFlops(8192, 8192, 8192, 1, 5288, ms=9412.151367)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.815940 TFlops(8192, 8192, 8192, 1, 5296, ms=9425.159180)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.762836 TFlops(8192, 8192, 8192, 1, 5304, ms=9440.208008)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.724448 TFlops(8192, 8192, 8192, 1, 5312, ms=9455.034180)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.531878 TFlops(8192, 8192, 8192, 1, 5320, ms=9472.226562)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.613882 TFlops(8192, 8192, 8192, 1, 5328, ms=9485.210938)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.742853 TFlops(8192, 8192, 8192, 1, 5336, ms=9497.469727)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.044504 TFlops(8192, 8192, 8192, 1, 5344, ms=9507.066406)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.698884 TFlops(8192, 8192, 8192, 1, 5352, ms=9526.625977)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.856915 TFlops(8192, 8192, 8192, 1, 5360, ms=9538.425781)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.817007 TFlops(8192, 8192, 8192, 1, 5368, ms=9553.279297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.648684 TFlops(8192, 8192, 8192, 1, 5376, ms=9570.124023)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.001565 TFlops(8192, 8192, 8192, 1, 5384, ms=9578.892578)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.541567 TFlops(8192, 8192, 8192, 1, 5392, ms=9600.271484)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.672475 TFlops(8192, 8192, 8192, 1, 5400, ms=9612.477539)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.990657 TFlops(8192, 8192, 8192, 1, 5408, ms=9637.356445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.427249 TFlops(8192, 8192, 8192, 1, 5416, ms=9644.788086)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.063836 TFlops(8192, 8192, 8192, 1, 5424, ms=9649.085938)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.895940 TFlops(8192, 8192, 8192, 1, 5432, ms=9665.943359)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.841540 TFlops(8192, 8192, 8192, 1, 5440, ms=9681.031250)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.944769 TFlops(8192, 8192, 8192, 1, 5448, ms=9693.648438)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.725481 TFlops(8192, 8192, 8192, 1, 5456, ms=9711.329102)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.731946 TFlops(8192, 8192, 8192, 1, 5464, ms=9725.466797)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.913668 TFlops(8192, 8192, 8192, 1, 5472, ms=9736.841797)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.848622 TFlops(8192, 8192, 8192, 1, 5480, ms=9752.103516)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.781803 TFlops(8192, 8192, 8192, 1, 5488, ms=9767.396484)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.843234 TFlops(8192, 8192, 8192, 1, 5496, ms=9780.662109)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.597515 TFlops(8192, 8192, 8192, 1, 5504, ms=9798.795898)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.047079 TFlops(8192, 8192, 8192, 1, 5512, ms=9805.900391)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.048041 TFlops(8192, 8192, 8192, 1, 5520, ms=9820.117188)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.081652 TFlops(8192, 8192, 8192, 1, 5528, ms=9833.814453)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.168319 TFlops(8192, 8192, 8192, 1, 5536, ms=9846.665039)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.817533 TFlops(8192, 8192, 8192, 1, 5544, ms=9866.493164)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.943839 TFlops(8192, 8192, 8192, 1, 5552, ms=9878.710938)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.826199 TFlops(8192, 8192, 8192, 1, 5560, ms=9894.829102)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.882639 TFlops(8192, 8192, 8192, 1, 5568, ms=9908.161133)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.705576 TFlops(8192, 8192, 8192, 1, 5576, ms=9925.241211)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.652458 TFlops(8192, 8192, 8192, 1, 5584, ms=9940.335938)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.804884 TFlops(8192, 8192, 8192, 1, 5592, ms=9952.121094)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.955012 TFlops(8192, 8192, 8192, 1, 5600, ms=9963.937500)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.943449 TFlops(8192, 8192, 8192, 1, 5608, ms=9978.358398)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.638753 TFlops(8192, 8192, 8192, 1, 5616, ms=9997.522461)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.681727 TFlops(8192, 8192, 8192, 1, 5624, ms=10011.067383)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.540922 TFlops(8192, 8192, 8192, 1, 5632, ms=10027.593750)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.824068 TFlops(8192, 8192, 8192, 1, 5640, ms=10037.235352)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.452069 TFlops(8192, 8192, 8192, 1, 5648, ms=10057.528320)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.540429 TFlops(8192, 8192, 8192, 1, 5656, ms=10070.333008)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.588788 TFlops(8192, 8192, 8192, 1, 5664, ms=10083.787109)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.709963 TFlops(8192, 8192, 8192, 1, 5672, ms=10096.048828)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.606855 TFlops(8192, 8192, 8192, 1, 5680, ms=10111.976562)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.605904 TFlops(8192, 8192, 8192, 1, 5688, ms=10126.234375)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.690972 TFlops(8192, 8192, 8192, 1, 5696, ms=10139.080078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.538922 TFlops(8192, 8192, 8192, 1, 5704, ms=10155.820312)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.758559 TFlops(8192, 8192, 8192, 1, 5712, ms=10166.448242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.865268 TFlops(8192, 8192, 8192, 1, 5720, ms=10178.928711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.784473 TFlops(8192, 8192, 8192, 1, 5728, ms=10194.498047)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.722359 TFlops(8192, 8192, 8192, 1, 5736, ms=10209.762695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.775661 TFlops(8192, 8192, 8192, 1, 5744, ms=10223.120117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.659651 TFlops(8192, 8192, 8192, 1, 5752, ms=10239.281250)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.555885 TFlops(8192, 8192, 8192, 1, 5760, ms=10255.245117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.882821 TFlops(8192, 8192, 8192, 1, 5768, ms=10264.054688)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.791342 TFlops(8192, 8192, 8192, 1, 5776, ms=10279.812500)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.626152 TFlops(8192, 8192, 8192, 1, 5784, ms=10296.803711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.328061 TFlops(8192, 8192, 8192, 1, 5792, ms=10316.024414)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.710173 TFlops(8192, 8192, 8192, 1, 5800, ms=10323.882812)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.733841 TFlops(8192, 8192, 8192, 1, 5808, ms=10337.726562)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.791423 TFlops(8192, 8192, 8192, 1, 5816, ms=10351.000977)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.781044 TFlops(8192, 8192, 8192, 1, 5824, ms=10365.413086)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.721353 TFlops(8192, 8192, 8192, 1, 5832, ms=10380.654297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.564955 TFlops(8192, 8192, 8192, 1, 5840, ms=10397.526367)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.599076 TFlops(8192, 8192, 8192, 1, 5848, ms=10411.194336)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.920677 TFlops(8192, 8192, 8192, 1, 5856, ms=10420.010742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.488198 TFlops(8192, 8192, 8192, 1, 5864, ms=10441.553711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.331243 TFlops(8192, 8192, 8192, 1, 5872, ms=10458.457031)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.203218 TFlops(8192, 8192, 8192, 1, 5880, ms=10474.877930)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.992836 TFlops(8192, 8192, 8192, 1, 5888, ms=10492.706055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.400120 TFlops(8192, 8192, 8192, 1, 5896, ms=10500.031250)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.741501 TFlops(8192, 8192, 8192, 1, 5904, ms=10508.467773)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.562274 TFlops(8192, 8192, 8192, 1, 5912, ms=10525.760742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.912200 TFlops(8192, 8192, 8192, 1, 5920, ms=10534.035156)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.861052 TFlops(8192, 8192, 8192, 1, 5928, ms=10549.143555)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.639108 TFlops(8192, 8192, 8192, 1, 5936, ms=10567.175781)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.552663 TFlops(8192, 8192, 8192, 1, 5944, ms=10582.898438)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.734048 TFlops(8192, 8192, 8192, 1, 5952, ms=10594.030273)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.535081 TFlops(8192, 8192, 8192, 1, 5960, ms=10611.687500)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.798061 TFlops(8192, 8192, 8192, 1, 5968, ms=10621.408203)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.656478 TFlops(8192, 8192, 8192, 1, 5976, ms=10638.083984)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.491285 TFlops(8192, 8192, 8192, 1, 5984, ms=10655.174805)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.730041 TFlops(8192, 8192, 8192, 1, 5992, ms=10665.295898)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.568595 TFlops(8192, 8192, 8192, 1, 6000, ms=10682.327148)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.375205 TFlops(8192, 8192, 8192, 1, 6008, ms=10699.920898)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.728598 TFlops(8192, 8192, 8192, 1, 6016, ms=10708.039062)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.737552 TFlops(8192, 8192, 8192, 1, 6024, ms=10722.123047)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.399985 TFlops(8192, 8192, 8192, 1, 6032, ms=10742.232422)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.348585 TFlops(8192, 8192, 8192, 1, 6040, ms=10757.375000)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.806648 TFlops(8192, 8192, 8192, 1, 6048, ms=10763.636719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.617238 TFlops(8192, 8192, 8192, 1, 6056, ms=10781.179688)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.557395 TFlops(8192, 8192, 8192, 1, 6064, ms=10796.467773)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.624579 TFlops(8192, 8192, 8192, 1, 6072, ms=10809.535156)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.756263 TFlops(8192, 8192, 8192, 1, 6080, ms=10821.469727)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.595321 TFlops(8192, 8192, 8192, 1, 6088, ms=10838.532227)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.709839 TFlops(8192, 8192, 8192, 1, 6096, ms=10850.762695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.617389 TFlops(8192, 8192, 8192, 1, 6104, ms=10866.628906)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.565720 TFlops(8192, 8192, 8192, 1, 6112, ms=10881.781250)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.734583 TFlops(8192, 8192, 8192, 1, 6120, ms=10893.045898)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.822978 TFlops(8192, 8192, 8192, 1, 6128, ms=10905.724609)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.954058 TFlops(8192, 8192, 8192, 1, 6136, ms=10917.645508)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.735303 TFlops(8192, 8192, 8192, 1, 6144, ms=10935.750977)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.934359 TFlops(8192, 8192, 8192, 1, 6152, ms=10946.462891)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.813772 TFlops(8192, 8192, 8192, 1, 6160, ms=10962.836914)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.652066 TFlops(8192, 8192, 8192, 1, 6168, ms=10979.948242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.832452 TFlops(8192, 8192, 8192, 1, 6176, ms=10990.979492)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.931026 TFlops(8192, 8192, 8192, 1, 6184, ms=11003.460938)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.842276 TFlops(8192, 8192, 8192, 1, 6192, ms=11019.278320)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.970400 TFlops(8192, 8192, 8192, 1, 6200, ms=11031.227539)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.059058 TFlops(8192, 8192, 8192, 1, 6208, ms=11043.876953)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.892811 TFlops(8192, 8192, 8192, 1, 6216, ms=11061.083984)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.993799 TFlops(8192, 8192, 8192, 1, 6224, ms=11073.509766)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.786538 TFlops(8192, 8192, 8192, 1, 6232, ms=11091.462891)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.857482 TFlops(8192, 8192, 8192, 1, 6240, ms=11104.425781)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.745285 TFlops(8192, 8192, 8192, 1, 6248, ms=11120.681641)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.768786 TFlops(8192, 8192, 8192, 1, 6256, ms=11134.497070)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.943740 TFlops(8192, 8192, 8192, 1, 6264, ms=11145.579102)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.938662 TFlops(8192, 8192, 8192, 1, 6272, ms=11159.905273)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.833651 TFlops(8192, 8192, 8192, 1, 6280, ms=11176.039062)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.908211 TFlops(8192, 8192, 8192, 1, 6288, ms=11188.925781)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.931153 TFlops(8192, 8192, 8192, 1, 6296, ms=11202.745117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.923642 TFlops(8192, 8192, 8192, 1, 6304, ms=11217.116211)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.835248 TFlops(8192, 8192, 8192, 1, 6312, ms=11232.958008)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.542359 TFlops(8192, 8192, 8192, 1, 6320, ms=11252.529297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.179146 TFlops(8192, 8192, 8192, 1, 6328, ms=11291.699219)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 615.345729 TFlops(8192, 8192, 8192, 1, 6336, ms=11321.287109)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.228720 TFlops(8192, 8192, 8192, 1, 6344, ms=11301.000000)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.379296 TFlops(8192, 8192, 8192, 1, 6352, ms=11312.491211)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.837959 TFlops(8192, 8192, 8192, 1, 6360, ms=11318.330078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.918447 TFlops(8192, 8192, 8192, 1, 6368, ms=11331.090820)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.690922 TFlops(8192, 8192, 8192, 1, 6376, ms=11349.504883)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.801143 TFlops(8192, 8192, 8192, 1, 6384, ms=11361.717773)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.802705 TFlops(8192, 8192, 8192, 1, 6392, ms=11375.926758)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.838801 TFlops(8192, 8192, 8192, 1, 6400, ms=11389.499023)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.752442 TFlops(8192, 8192, 8192, 1, 6408, ms=11405.330078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.945885 TFlops(8192, 8192, 8192, 1, 6416, ms=11415.994141)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.741953 TFlops(8192, 8192, 8192, 1, 6424, ms=11434.001953)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.773827 TFlops(8192, 8192, 8192, 1, 6432, ms=11447.650391)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.009568 TFlops(8192, 8192, 8192, 1, 6440, ms=11457.516602)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.003914 TFlops(8192, 8192, 8192, 1, 6448, ms=11471.854492)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.935335 TFlops(8192, 8192, 8192, 1, 6456, ms=11487.362305)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.864108 TFlops(8192, 8192, 8192, 1, 6464, ms=11502.922852)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.934368 TFlops(8192, 8192, 8192, 1, 6472, ms=11515.849609)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.159254 TFlops(8192, 8192, 8192, 1, 6480, ms=11525.889648)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.978940 TFlops(8192, 8192, 8192, 1, 6488, ms=11543.486328)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.926376 TFlops(8192, 8192, 8192, 1, 6496, ms=11558.703125)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.052665 TFlops(8192, 8192, 8192, 1, 6504, ms=11570.573242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.861492 TFlops(8192, 8192, 8192, 1, 6512, ms=11588.389648)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.785369 TFlops(8192, 8192, 8192, 1, 6520, ms=11604.055664)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.759813 TFlops(8192, 8192, 8192, 1, 6528, ms=11618.774414)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.941811 TFlops(8192, 8192, 8192, 1, 6536, ms=11629.586914)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.994426 TFlops(8192, 8192, 8192, 1, 6544, ms=11642.830078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.775812 TFlops(8192, 8192, 8192, 1, 6552, ms=11661.188477)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.811006 TFlops(8192, 8192, 8192, 1, 6560, ms=11674.761719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.884009 TFlops(8192, 8192, 8192, 1, 6568, ms=11687.618164)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.891873 TFlops(8192, 8192, 8192, 1, 6576, ms=11701.705078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.652491 TFlops(8192, 8192, 8192, 1, 6584, ms=11720.481445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.803490 TFlops(8192, 8192, 8192, 1, 6592, ms=11731.854492)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.832635 TFlops(8192, 8192, 8192, 1, 6600, ms=11745.538086)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.989298 TFlops(8192, 8192, 8192, 1, 6608, ms=11756.793945)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.684339 TFlops(8192, 8192, 8192, 1, 6616, ms=11776.838867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.445534 TFlops(8192, 8192, 8192, 1, 6624, ms=11795.639648)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.588058 TFlops(8192, 8192, 8192, 1, 6632, ms=11807.160156)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.669468 TFlops(8192, 8192, 8192, 1, 6640, ms=11819.844727)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.709766 TFlops(8192, 8192, 8192, 1, 6648, ms=11833.313477)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.773398 TFlops(8192, 8192, 8192, 1, 6656, ms=11846.333008)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.783068 TFlops(8192, 8192, 8192, 1, 6664, ms=11860.385742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.804451 TFlops(8192, 8192, 8192, 1, 6672, ms=11874.212891)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.829338 TFlops(8192, 8192, 8192, 1, 6680, ms=11887.971680)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.602157 TFlops(8192, 8192, 8192, 1, 6688, ms=11906.586914)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.163564 TFlops(8192, 8192, 8192, 1, 6696, ms=11910.002930)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.847865 TFlops(8192, 8192, 8192, 1, 6704, ms=11930.325195)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.756011 TFlops(8192, 8192, 8192, 1, 6712, ms=11946.337891)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.985872 TFlops(8192, 8192, 8192, 1, 6720, ms=11956.127930)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.060703 TFlops(8192, 8192, 8192, 1, 6728, ms=11968.912109)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.876626 TFlops(8192, 8192, 8192, 1, 6736, ms=11986.713867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.036186 TFlops(8192, 8192, 8192, 1, 6744, ms=11997.851562)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.950273 TFlops(8192, 8192, 8192, 1, 6752, ms=12013.753906)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.271538 TFlops(8192, 8192, 8192, 1, 6760, ms=12041.213867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 614.500092 TFlops(8192, 8192, 8192, 1, 6768, ms=12109.834961)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 615.388034 TFlops(8192, 8192, 8192, 1, 6776, ms=12106.655273)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.173424 TFlops(8192, 8192, 8192, 1, 6784, ms=12085.884766)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.103463 TFlops(8192, 8192, 8192, 1, 6792, ms=12101.508789)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.892335 TFlops(8192, 8192, 8192, 1, 6800, ms=12119.909180)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.585247 TFlops(8192, 8192, 8192, 1, 6808, ms=12120.553711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.924321 TFlops(8192, 8192, 8192, 1, 6816, ms=12128.137695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.708489 TFlops(8192, 8192, 8192, 1, 6824, ms=12146.615234)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.824269 TFlops(8192, 8192, 8192, 1, 6832, ms=12158.576172)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.045552 TFlops(8192, 8192, 8192, 1, 6840, ms=12168.455078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.901599 TFlops(8192, 8192, 8192, 1, 6848, ms=12185.525391)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.723889 TFlops(8192, 8192, 8192, 1, 6856, ms=12203.270508)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.700895 TFlops(8192, 8192, 8192, 1, 6864, ms=12217.964844)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.633726 TFlops(8192, 8192, 8192, 1, 6872, ms=12233.535156)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.666152 TFlops(8192, 8192, 8192, 1, 6880, ms=12247.133789)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.579662 TFlops(8192, 8192, 8192, 1, 6888, ms=12263.091797)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.711522 TFlops(8192, 8192, 8192, 1, 6896, ms=12274.713867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.792555 TFlops(8192, 8192, 8192, 1, 6904, ms=12287.341797)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.813431 TFlops(8192, 8192, 8192, 1, 6912, ms=12301.164062)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.644322 TFlops(8192, 8192, 8192, 1, 6920, ms=12318.773438)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.354106 TFlops(8192, 8192, 8192, 1, 6928, ms=12338.812500)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.468574 TFlops(8192, 8192, 8192, 1, 6936, ms=12350.770508)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.633609 TFlops(8192, 8192, 8192, 1, 6944, ms=12361.711914)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.677641 TFlops(8192, 8192, 8192, 1, 6952, ms=12375.071289)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.565649 TFlops(8192, 8192, 8192, 1, 6960, ms=12391.558594)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.736574 TFlops(8192, 8192, 8192, 1, 6968, ms=12402.369141)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.598914 TFlops(8192, 8192, 8192, 1, 6976, ms=12419.375977)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.695373 TFlops(8192, 8192, 8192, 1, 6984, ms=12431.676758)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.406350 TFlops(8192, 8192, 8192, 1, 6992, ms=12451.743164)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.559796 TFlops(8192, 8192, 8192, 1, 7000, ms=12462.892578)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.608142 TFlops(8192, 8192, 8192, 1, 7008, ms=12476.159180)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.711398 TFlops(8192, 8192, 8192, 1, 7016, ms=12488.313477)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.607081 TFlops(8192, 8192, 8192, 1, 7024, ms=12504.665039)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.720031 TFlops(8192, 8192, 8192, 1, 7032, ms=12516.618164)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.436102 TFlops(8192, 8192, 8192, 1, 7040, ms=12536.620117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.868543 TFlops(8192, 8192, 8192, 1, 7048, ms=12542.082031)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.654624 TFlops(8192, 8192, 8192, 1, 7056, ms=12560.666992)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.531561 TFlops(8192, 8192, 8192, 1, 7064, ms=12577.414062)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.764546 TFlops(8192, 8192, 8192, 1, 7072, ms=12586.909180)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.584027 TFlops(8192, 8192, 8192, 1, 7080, ms=12604.831055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.369441 TFlops(8192, 8192, 8192, 1, 7088, ms=12623.459961)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.600791 TFlops(8192, 8192, 8192, 1, 7096, ms=12632.973633)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.572236 TFlops(8192, 8192, 8192, 1, 7104, ms=12647.800781)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.379624 TFlops(8192, 8192, 8192, 1, 7112, ms=12665.994141)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.640549 TFlops(8192, 8192, 8192, 1, 7120, ms=12674.884766)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.876943 TFlops(8192, 8192, 8192, 1, 7128, ms=12684.271484)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.734123 TFlops(8192, 8192, 8192, 1, 7136, ms=12701.443359)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.722976 TFlops(8192, 8192, 8192, 1, 7144, ms=12715.912109)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.802753 TFlops(8192, 8192, 8192, 1, 7152, ms=12728.507812)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.648177 TFlops(8192, 8192, 8192, 1, 7160, ms=12745.934570)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.501395 TFlops(8192, 8192, 8192, 1, 7168, ms=12763.208984)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.138516 TFlops(8192, 8192, 8192, 1, 7176, ms=12784.966797)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 615.513748 TFlops(8192, 8192, 8192, 1, 7184, ms=12833.005859)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 613.258047 TFlops(8192, 8192, 8192, 1, 7192, ms=12894.551758)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 614.871263 TFlops(8192, 8192, 8192, 1, 7200, ms=12875.026367)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.071412 TFlops(8192, 8192, 8192, 1, 7208, ms=12864.222656)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.131134 TFlops(8192, 8192, 8192, 1, 7216, ms=12856.385742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.842347 TFlops(8192, 8192, 8192, 1, 7224, ms=12855.823242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.693229 TFlops(8192, 8192, 8192, 1, 7232, ms=12873.166992)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.592424 TFlops(8192, 8192, 8192, 1, 7240, ms=12889.510742)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.857195 TFlops(8192, 8192, 8192, 1, 7248, ms=12898.223633)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.876500 TFlops(8192, 8192, 8192, 1, 7256, ms=12912.056641)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.561418 TFlops(8192, 8192, 8192, 1, 7264, ms=12932.887695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.794601 TFlops(8192, 8192, 8192, 1, 7272, ms=12942.244141)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.026888 TFlops(8192, 8192, 8192, 1, 7280, ms=12951.612305)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.890769 TFlops(8192, 8192, 8192, 1, 7288, ms=12968.701172)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.943634 TFlops(8192, 8192, 8192, 1, 7296, ms=12981.826172)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.723340 TFlops(8192, 8192, 8192, 1, 7304, ms=13000.695312)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.799423 TFlops(8192, 8192, 8192, 1, 7312, ms=13013.332031)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.860721 TFlops(8192, 8192, 8192, 1, 7320, ms=13026.277344)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.809831 TFlops(8192, 8192, 8192, 1, 7328, ms=13041.587891)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.994929 TFlops(8192, 8192, 8192, 1, 7336, ms=13051.915039)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.692026 TFlops(8192, 8192, 8192, 1, 7344, ms=13072.555664)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.793541 TFlops(8192, 8192, 8192, 1, 7352, ms=13084.645508)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.859026 TFlops(8192, 8192, 8192, 1, 7360, ms=13097.495117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.895295 TFlops(8192, 8192, 8192, 1, 7368, ms=13110.961914)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.017389 TFlops(8192, 8192, 8192, 1, 7376, ms=13122.604492)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.756381 TFlops(8192, 8192, 8192, 1, 7384, ms=13142.387695)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.594354 TFlops(8192, 8192, 8192, 1, 7392, ms=13160.078125)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.665245 TFlops(8192, 8192, 8192, 1, 7400, ms=13172.808594)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.812413 TFlops(8192, 8192, 8192, 1, 7408, ms=13183.908203)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.072640 TFlops(8192, 8192, 8192, 1, 7416, ms=13192.588867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.899112 TFlops(8192, 8192, 8192, 1, 7424, ms=13210.529297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.846514 TFlops(8192, 8192, 8192, 1, 7432, ms=13225.890625)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.860385 TFlops(8192, 8192, 8192, 1, 7440, ms=13239.830078)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.014479 TFlops(8192, 8192, 8192, 1, 7448, ms=13250.761719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.909825 TFlops(8192, 8192, 8192, 1, 7456, ms=13267.241211)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.795257 TFlops(8192, 8192, 8192, 1, 7464, ms=13283.939453)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.914988 TFlops(8192, 8192, 8192, 1, 7472, ms=13295.600586)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.861167 TFlops(8192, 8192, 8192, 1, 7480, ms=13310.995117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.901743 TFlops(8192, 8192, 8192, 1, 7488, ms=13324.356445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.815533 TFlops(8192, 8192, 8192, 1, 7496, ms=13340.453125)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.112861 TFlops(8192, 8192, 8192, 1, 7504, ms=13348.266602)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.150858 TFlops(8192, 8192, 8192, 1, 7512, ms=13361.675781)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.162421 TFlops(8192, 8192, 8192, 1, 7520, ms=13375.655273)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.583536 TFlops(8192, 8192, 8192, 1, 7528, ms=13402.435547)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.813533 TFlops(8192, 8192, 8192, 1, 7536, ms=13411.683594)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.787567 TFlops(8192, 8192, 8192, 1, 7544, ms=13426.485352)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.811796 TFlops(8192, 8192, 8192, 1, 7552, ms=13440.196289)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.084569 TFlops(8192, 8192, 8192, 1, 7560, ms=13448.496094)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.747360 TFlops(8192, 8192, 8192, 1, 7568, ms=13470.076172)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.755535 TFlops(8192, 8192, 8192, 1, 7576, ms=13484.136719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.569157 TFlops(8192, 8192, 8192, 1, 7584, ms=13502.449219)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.023742 TFlops(8192, 8192, 8192, 1, 7592, ms=13550.601562)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 614.115557 TFlops(8192, 8192, 8192, 1, 7600, ms=13607.029297)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 614.082051 TFlops(8192, 8192, 8192, 1, 7608, ms=13622.095703)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 615.299976 TFlops(8192, 8192, 8192, 1, 7616, ms=13609.427734)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 615.892824 TFlops(8192, 8192, 8192, 1, 7624, ms=13610.609375)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.382887 TFlops(8192, 8192, 8192, 1, 7632, ms=13614.058594)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.024521 TFlops(8192, 8192, 8192, 1, 7640, ms=13614.157227)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.475423 TFlops(8192, 8192, 8192, 1, 7648, ms=13618.460938)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.716456 TFlops(8192, 8192, 8192, 1, 7656, ms=13627.386719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.762026 TFlops(8192, 8192, 8192, 1, 7664, ms=13640.620117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.744547 TFlops(8192, 8192, 8192, 1, 7672, ms=13655.245117)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.951676 TFlops(8192, 8192, 8192, 1, 7680, ms=13664.902344)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.596345 TFlops(8192, 8192, 8192, 1, 7688, ms=13687.006836)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.594112 TFlops(8192, 8192, 8192, 1, 7696, ms=13701.298828)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.945939 TFlops(8192, 8192, 8192, 1, 7704, ms=13707.732422)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.849776 TFlops(8192, 8192, 8192, 1, 7712, ms=13724.102539)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.889494 TFlops(8192, 8192, 8192, 1, 7720, ms=13737.456055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.690189 TFlops(8192, 8192, 8192, 1, 7728, ms=13756.128906)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.781451 TFlops(8192, 8192, 8192, 1, 7736, ms=13768.334961)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.641669 TFlops(8192, 8192, 8192, 1, 7744, ms=13785.692383)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.071975 TFlops(8192, 8192, 8192, 1, 7752, ms=13790.326172)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.762875 TFlops(8192, 8192, 8192, 1, 7760, ms=13811.464844)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.664815 TFlops(8192, 8192, 8192, 1, 7768, ms=13827.898438)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.784309 TFlops(8192, 8192, 8192, 1, 7776, ms=13839.461914)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.608417 TFlops(8192, 8192, 8192, 1, 7784, ms=13857.645508)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.584679 TFlops(8192, 8192, 8192, 1, 7792, ms=13872.420898)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.718195 TFlops(8192, 8192, 8192, 1, 7800, ms=13883.662109)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.686442 TFlops(8192, 8192, 8192, 1, 7808, ms=13898.616211)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.634989 TFlops(8192, 8192, 8192, 1, 7816, ms=13914.015625)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.834184 TFlops(8192, 8192, 8192, 1, 7824, ms=13923.766602)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.659853 TFlops(8192, 8192, 8192, 1, 7832, ms=13941.937500)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.772236 TFlops(8192, 8192, 8192, 1, 7840, ms=13953.639648)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.810727 TFlops(8192, 8192, 8192, 1, 7848, ms=13967.007812)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.641279 TFlops(8192, 8192, 8192, 1, 7856, ms=13985.081055)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.631853 TFlops(8192, 8192, 8192, 1, 7864, ms=13999.536133)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.878720 TFlops(8192, 8192, 8192, 1, 7872, ms=14008.178711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.777253 TFlops(8192, 8192, 8192, 1, 7880, ms=14024.717773)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.914154 TFlops(8192, 8192, 8192, 1, 7888, ms=14035.845703)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.755018 TFlops(8192, 8192, 8192, 1, 7896, ms=14053.700195)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.817528 TFlops(8192, 8192, 8192, 1, 7904, ms=14066.515625)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.746410 TFlops(8192, 8192, 8192, 1, 7912, ms=14082.374023)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.557815 TFlops(8192, 8192, 8192, 1, 7920, ms=14100.917969)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.586665 TFlops(8192, 8192, 8192, 1, 7928, ms=14114.501953)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.753765 TFlops(8192, 8192, 8192, 1, 7936, ms=14124.922852)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.847287 TFlops(8192, 8192, 8192, 1, 7944, ms=14137.021484)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.578465 TFlops(8192, 8192, 8192, 1, 7952, ms=14157.417969)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.573729 TFlops(8192, 8192, 8192, 1, 7960, ms=14171.769531)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.822356 TFlops(8192, 8192, 8192, 1, 7968, ms=14180.303711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.867795 TFlops(8192, 8192, 8192, 1, 7976, ms=14193.497070)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.797979 TFlops(8192, 8192, 8192, 1, 7984, ms=14209.338867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.875078 TFlops(8192, 8192, 8192, 1, 7992, ms=14244.856445)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 614.318792 TFlops(8192, 8192, 8192, 1, 8000, ms=14318.450195)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 613.941648 TFlops(8192, 8192, 8192, 1, 8008, ms=14341.573242)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 614.650947 TFlops(8192, 8192, 8192, 1, 8016, ms=14339.333984)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 615.580053 TFlops(8192, 8192, 8192, 1, 8024, ms=14331.980469)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.832861 TFlops(8192, 8192, 8192, 1, 8032, ms=14317.131836)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 616.713318 TFlops(8192, 8192, 8192, 1, 8040, ms=14334.169922)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.441464 TFlops(8192, 8192, 8192, 1, 8048, ms=14331.511719)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.503758 TFlops(8192, 8192, 8192, 1, 8056, ms=14344.310547)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.627445 TFlops(8192, 8192, 8192, 1, 8064, ms=14355.679688)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.647658 TFlops(8192, 8192, 8192, 1, 8072, ms=14369.451172)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.584011 TFlops(8192, 8192, 8192, 1, 8080, ms=14385.174805)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.768506 TFlops(8192, 8192, 8192, 1, 8088, ms=14395.117188)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.556235 TFlops(8192, 8192, 8192, 1, 8096, ms=14414.308594)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.821984 TFlops(8192, 8192, 8192, 1, 8104, ms=14422.345703)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.742043 TFlops(8192, 8192, 8192, 1, 8112, ms=14438.451172)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.782569 TFlops(8192, 8192, 8192, 1, 8120, ms=14451.742188)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.932781 TFlops(8192, 8192, 8192, 1, 8128, ms=14462.463867)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 618.015674 TFlops(8192, 8192, 8192, 1, 8136, ms=14474.756836)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.856736 TFlops(8192, 8192, 8192, 1, 8144, ms=14492.716797)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.895050 TFlops(8192, 8192, 8192, 1, 8152, ms=14506.053711)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.860778 TFlops(8192, 8192, 8192, 1, 8160, ms=14521.094727)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.677022 TFlops(8192, 8192, 8192, 1, 8168, ms=14539.655273)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.838098 TFlops(8192, 8192, 8192, 1, 8176, ms=14550.101562)
+lda 8192 ldb 8192 ldc 8192
+LtHSHgemmStridedBatchSimple: 617.953642 TFlops(8192, 8192, 8192, 1, 8184, ms=14561.615234)

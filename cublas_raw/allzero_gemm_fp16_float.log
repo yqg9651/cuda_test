@@ -1,6 +1,0 @@
-testing cublasLt
-#### args: ta=T tb=N m=8192 n=8192 k=8192  alpha = (0x3f800000, 1) beta= (0x00000000, 0)
-#### args: lda=8192 ldb=8192 ldc=8192 ldd=8192 loop=10000
-^^^^ gpu time statistics: runs 10000, mean 1.384886 ms, min 1.227616 ms, 20 percent 1.384768 ms, 50 percent 1.385216 ms, max 1.424096 ms
-^^^^ CUDA : elapsed = 13.8489 sec,  Gflops = 793936.795 
-testing cublasLt pass
