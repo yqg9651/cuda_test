@@ -185,7 +185,7 @@ struct TestBench {
     ComputeType AscaleHost, BscaleHost, CscaleHost, DscaleHost, DamaxHost;
     ComputeType *AscaleDev, *BscaleDev, *CscaleDev, *DscaleDev, *DamaxDev;
     int dataPattern;
-    const int mpAligned = 16;
+    const int fp16Group = 16;
 };
 
 template <>
@@ -207,8 +207,20 @@ inline void TestBench<__nv_fp8_e4m3, __nv_fp8_e4m3, float>::maxPowerData() {
             for (int j = 0; j < k; j++) {
                 int pos = i * k + j;
 		int mpos = i * k + j + n * k * batch;
-		if ((pos / (mpAligned * 2)) % 2 == 0) memcpy(&Bhost[mpos], &n2, sizeof(Bhost[0]));
-		else memcpy(&Bhost[mpos], &n1, sizeof(Bhost[0]));
+		if ((pos / (fp16Group * 2)) % 2 == 0) {
+			if ((pos / k) % 2 == 0) {
+				memcpy(&Bhost[mpos], &n2, sizeof(Bhost[0]));
+			} else {
+				memcpy(&Bhost[mpos], &n1, sizeof(Bhost[0]));
+			}
+		} else {
+			if ((pos / k) % 2 == 0) {
+				memcpy(&Bhost[mpos], &n1, sizeof(Bhost[0]));
+			} else {
+				memcpy(&Bhost[mpos], &n2, sizeof(Bhost[0]));
+			}
+		}
+
 	    }
 	}
 
@@ -234,7 +246,7 @@ inline void TestBench<__half, __half, float>::maxPowerData() {
             for (int j = 0; j < k; j++) {
                 int pos = i * k + j;
 		int mpos = i * k + j + n * k * batch;
-		if ((pos / mpAligned) % 2 == 0) memcpy(&Bhost[mpos], &n2, sizeof(Bhost[0]));
+		if ((pos / fp16Group) % 2 == 0) memcpy(&Bhost[mpos], &n2, sizeof(Bhost[0]));
 		else memcpy(&Bhost[mpos], &n1, sizeof(Bhost[0]));
 	    }
 	}
@@ -273,7 +285,7 @@ inline void TestBench<__half, __half, cuComplex>::maxPowerData() {
             for (int j = 0; j < k; j++) {
                 int pos = i * k + j;
 		int mpos = i + m * j + m * k * batch;
-		if ((pos / mpAligned) % 2 == 0) memcpy(&Ahost[mpos], &n1, sizeof(Ahost[0]));
+		if ((pos / fp16Group) % 2 == 0) memcpy(&Ahost[mpos], &n1, sizeof(Ahost[0]));
 		else memcpy(&Ahost[mpos], &n2, sizeof(Ahost[0]));
 	    }
 	}
@@ -282,7 +294,7 @@ inline void TestBench<__half, __half, cuComplex>::maxPowerData() {
             for (int j = 0; j < k; j++) {
                 int pos = i * k + j;
 		int mpos = i * k + j + n * k * batch;
-		if ((pos / mpAligned) % 2 == 0) memcpy(&Bhost[mpos], &n2, sizeof(Bhost[0]));
+		if ((pos / fp16Group) % 2 == 0) memcpy(&Bhost[mpos], &n2, sizeof(Bhost[0]));
 		else memcpy(&Bhost[mpos], &n1, sizeof(Bhost[0]));
 	    }
 	}

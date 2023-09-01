@@ -17,19 +17,22 @@ for item in "${my_array[@]}"; do
   output_file=$(echo "$item" | cut -d',' -f2)
   echo "$command"
   echo "$output_file"
-  #rm $output_file.csv $output_file.log $output_file.trace;
+  rm $output_file.csv $output_file.log $output_file.trace;
 
-  cat $output_file.trace >> fp8_0828_trace/$output_file.trace
   # power data
-  #./gpu_monitor.sh "$output_file" &
-  #$command $((1 << 16)) 2>&1 | tee $output_file.log
-  #sleep 8
-  #pkill -f nvidia-smi
+  ./gpu_monitor.sh "$output_file" &
+  for((i=0;i<50;i++)) do $command $((1 << 5)) 2>&1; sleep 1; done | tee $output_file.log
+  pkill -f nvidia-smi
   
   # trace data
-  for((i=1;i<2048;i*=2))
-  do
-  	$command $i | tee -a $output_file.trace
-  	sleep 5
-  done
+  #for((i=1;i<2048;i*=2))
+  #do
+  	#$command $i | tee -a $output_file.trace
+  	#sleep 5
+  #done
 done
+
+./gpu_monitor.sh util_dvfs &
+for((i=1024;i<8192*2;i+=1024)) do ./build/LtFp8Matmul/sample_cublasLt_LtFp8Matmul -m $((8192*2)) -n $((8192*2)) -k $i -P 1 -a 1 -T $((1<<8)) 2>&1 ; sleep 1; done | tee util_dvfs.trace
+pkill -f nvidia-smi
+
