@@ -37,9 +37,12 @@
 
 int main(int argc, char **argv) {
     size_t c;
-    const char *format = "hT:P:";
+    const char *format = "hT:P:m:n:k:";
     size_t repeat = 1;
     int dataPattern = 0;
+    int m = 1024;
+    int n = 1024;
+    int k = 1024;
     while ((c = getopt(argc, argv, format)) != EOF) {
         switch (c) {
             case 'T': {
@@ -52,12 +55,28 @@ int main(int argc, char **argv) {
 			      if (dataPattern < 0 || dataPattern > 2) dataPattern = 0;
 			      break;
 		      }
+            case 'm': {
+			      m = atoi(optarg);
+			      if (m < 0) m = 1024;
+			      break;
+		      }
+            case 'n': {
+			      n = atoi(optarg);
+			      if (n < 0) n = 1024;
+			      break;
+		      }
+            case 'k': {
+			      k = atoi(optarg);
+			      if (k < 0) k = 1024;
+			      break;
+		      }
+
             case 'h':
             default: printf("%s\n", format); exit(0);
 	}
     }
 
-    TestBench<__half, __half, float> props(8192, 8192, 8192, 1.0f, 0.0f, 4 * 1024 * 1024 * 2 * 64, 1, dataPattern);
+    TestBench<__half, __half, float> props(m, n, k, 1.0f, 0.0f, 4 * 1024 * 1024 * 2 * 64, 1, dataPattern);
 
     props.run([&props, &repeat] {
         LtHSHgemmStridedBatchSimple(props.ltHandle,

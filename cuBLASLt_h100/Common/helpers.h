@@ -56,8 +56,8 @@ template <typename InType, typename OutType = InType, typename ComputeType = Out
 struct TestBench {
     using SampleRunner = std::function<void()>;
 
-    TestBench(int m, int n, int k, ComputeType alpha = 0.0f, ComputeType beta = 0.0f, size_t workspaceSize = 1024 * 1024 * 4, int N = 1, int dataPattern = 2,
-            ComputeType Ascale = 2.0, ComputeType Bscale = 0.5, ComputeType Cscale = 1.0, ComputeType Dscale = 1.0) :
+    TestBench(int m, int n, int k, ComputeType alpha = 1.0f, ComputeType beta = 1.0f, size_t workspaceSize = 1024 * 1024 * 4, int N = 1, int dataPattern = 2,
+            ComputeType Ascale = 0.5, ComputeType Bscale = 0.5, ComputeType Cscale = 0.5, ComputeType Dscale = 0.5) :
         m(m), n(n), k(k), N(N), alpha(alpha), beta(beta), workspaceSize(workspaceSize), Ahost(m * k * N), Bhost(n * k * N),
         Chost(m * n * N), biasHost(m * N), AscaleHost(Ascale), BscaleHost(Bscale), CscaleHost(Cscale), DscaleHost(Dscale), dataPattern(dataPattern) {
         checkCublasStatus(cublasLtCreate(&ltHandle));
@@ -104,6 +104,29 @@ struct TestBench {
         checkCudaStatus(cudaStreamDestroy(stream));
     }
 
+    template<typename rawType, size_t Size>
+    struct randomTypeHelper;
+
+    template<typename rawType>
+    struct randomTypeHelper<rawType, 1> {
+        using type = uint8_t;
+    };
+
+    template<typename rawType>
+    struct randomTypeHelper<rawType, 2> {                                                                                                                                                                          
+        using type = uint16_t;
+    };
+
+    template<typename rawType>
+    struct randomTypeHelper<rawType, 4> {
+        using type = uint32_t;
+    };
+
+    template<typename rawType>
+    struct randomTypeHelper<rawType, 8> {
+        using type = uint64_t;
+    };
+
     void maxPowerData() {
         for (int i = 0; i < m * k * N; i++) Ahost[i] = InType(i);
         for (int i = 0; i < n * k * N; i++) Bhost[i] = InType(i);
@@ -118,26 +141,13 @@ struct TestBench {
 
     void randomData() {
         std::mt19937 engine(std::random_device{}());
-	uint64_t max = 0;
-	uint64_t shift = 0;
-	switch (sizeof(InType)) {
-            case 1: max = std::numeric_limits<uint8_t>::max(); shift = 56; break;
-            case 2: max = std::numeric_limits<uint16_t>::max(); shift = 48; break;
-            case 4: max = std::numeric_limits<uint32_t>::max(); shift = 32; break;
-            case 8:
-            default: max = std::numeric_limits<uint64_t>::max(); shift = 0;
-	}
-        std::uniform_int_distribution<uint64_t> dist(0, max);
+        using randomType = typename randomTypeHelper<InType, sizeof(InType)>::type;
 
-	auto generate = [&]() -> long long int {
-            uint64_t num = dist(engine);
-	    num |= (num << shift);
-	    return num;
-	};
+        std::uniform_int_distribution<randomType> dist(0, std::numeric_limits<randomType>::max());
 
-        for (int i = 0; i < m * k * N; i++) Ahost[i] = InType(generate());
-        for (int i = 0; i < n * k * N; i++) Bhost[i] = InType(generate());
-        for (int i = 0; i < m * N; i++) biasHost[i] = InType(generate());
+        for (int i = 0; i < m * k * N; i++) *(randomType *)&Ahost[i] = dist(engine);
+        for (int i = 0; i < n * k * N; i++) *(randomType *)&Bhost[i] = dist(engine);
+        for (int i = 0; i < m * N; i++) *(randomType *)&biasHost[i] = dist(engine);
     }
 
     void copyDataToDevice() {
@@ -305,11 +315,21 @@ inline void TestBench<__half, __half, cuComplex>::maxPowerData() {
 template <>
 inline void TestBench<__half, __half, float>::randomData() {
     std::mt19937 engine(std::random_device{}());
-    std::uniform_real_distribution<float> dist(std::numeric_limits<float>::min(), std::numeric_limits<float>::max());
+    std::uniform_real_distribution<float> dist(-2.0, 2.0);
     for (int i = 0; i < m * k * N; i++) Ahost[i] = __float2half_rn(dist(engine));
     for (int i = 0; i < n * k * N; i++) Bhost[i] = __float2half_rn(dist(engine));
     for (int i = 0; i < m * N; i++) biasHost[i] = __float2half_rn(dist(engine));
 }
+
+template <>
+inline void TestBench<__nv_fp8_e4m3, __nv_fp8_e4m3, float>::randomData() {
+    std::mt19937 engine(std::random_device{}());
+    std::uniform_real_distribution<float> dist(-2.0f, 2.0f);
+    for (int i = 0; i < m * k * N; i++) Ahost[i] = __nv_fp8_e4m3(dist(engine));
+    for (int i = 0; i < n * k * N; i++) Bhost[i] = __nv_fp8_e4m3(dist(engine));
+    for (int i = 0; i < m * N; i++) biasHost[i] = __nv_fp8_e4m3(dist(engine));
+}
+
 
 
 template <>

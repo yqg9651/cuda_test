@@ -27,6 +27,7 @@
  */
 
 #include <cublasLt.h>
+#include <functional>
 
 #include "helpers.h"
 #include "sample_cublasLt_LtFp8Matmul.h"
@@ -90,10 +91,10 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
     checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_FAST_ACCUM, &fast_mode, sizeof(fast_mode)));
 
     // set scaling factors
-    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_A_SCALE_POINTER, &a_scale, sizeof(a_scale)));
-    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_B_SCALE_POINTER, &b_scale, sizeof(b_scale)));
-    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_C_SCALE_POINTER, &c_scale, sizeof(c_scale)));
-    // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_D_SCALE_POINTER, &d_scale, sizeof(d_scale)));
+    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_A_SCALE_POINTER, &a_scale, sizeof(a_scale)));
+    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_B_SCALE_POINTER, &b_scale, sizeof(b_scale)));
+    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_C_SCALE_POINTER, &c_scale, sizeof(c_scale)));
+    checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_D_SCALE_POINTER, &d_scale, sizeof(d_scale)));
     // checkCublasStatus(cublasLtMatmulDescSetAttribute(operationDesc, CUBLASLT_MATMUL_DESC_AMAX_D_POINTER, &amax_d, sizeof(amax_d)));
 
     // create matrix descriptors, we are good with the details here so no need to set any extra attributes
@@ -124,9 +125,8 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
     checkCudaStatus(cudaEventCreate(&startEvent, cudaEventBlockingSync));
     checkCudaStatus(cudaEventCreate(&stopEvent, cudaEventBlockingSync));
 
-    for (int loop = 0; loop < repeats; ++loop) {
-	    if (loop == 0) checkCudaStatus(cudaEventRecord(startEvent, stream));
-//	    for (int i = 0; i < 50; i++) {
+    for (int loop = 0; loop < repeats + 1; ++loop) {
+	    if (loop == 1) checkCudaStatus(cudaEventRecord(startEvent, stream));
     checkCublasStatus(cublasLtMatmul(ltHandle,
                                      operationDesc,
                                      alpha,
@@ -143,11 +143,7 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
                                      workspace,
                                      workspaceSize,
                                      stream));
-//	    }
-//	    for (int i = 0; i < 100; i++) {
-//    noopKernel<<<1, 1, 1, stream>>>(2U * 1000 * 1000 * 1);
-//	    }
-	    if (loop == -1) checkCudaStatus(cudaDeviceSynchronize());
+	    if (loop == 0) checkCudaStatus(cudaDeviceSynchronize());
     }
     checkCudaStatus(cudaEventRecord(stopEvent, stream));
     checkCudaStatus(cudaEventSynchronize(stopEvent));
@@ -158,6 +154,38 @@ void LtFp8Matmul(cublasLtHandle_t ltHandle,
     if (stopEvent) checkCudaStatus(cudaEventDestroy(stopEvent));
     if (stream) checkCudaStatus(cudaStreamDestroy(stream));
 
+{
+    std::function<bool(uint8_t)> is_nan_fp8_e4m3 = [](uint8_t v) -> bool {
+        uint8_t exp = (v & (0xFU << 3)) >> 3;
+	uint8_t frac = (v & 0x7U);
+	return (exp == 0xFU) && (frac != 0);
+    };
+    std::function<bool(uint8_t)> is_inf_fp8_e4m3 = [](uint8_t v) -> bool {
+        uint8_t exp = (v & (0xFU << 3)) >> 3;
+	uint8_t frac = (v & 0x7U);
+        return (exp == 0xFU) && (frac == 0);
+    };
+    std::function<bool(uint8_t)> is_zero_fp8_e4m3 = [](uint8_t v) -> bool {
+        uint8_t exp = (v & (0xFU << 3)) >> 3;
+	uint8_t frac = (v & 0x7U);
+        return (exp == 0) && (frac == 0);
+    };
+    const size_t result_sz = sizeof(uint8_t) * m * n;
+    uint8_t *temp_D = static_cast<uint8_t *>(std::calloc(1, result_sz));
+
+    checkCudaStatus(cudaMemcpy(temp_D, D, result_sz, cudaMemcpyDeviceToHost));
+    size_t is_nan = 0;
+    size_t is_inf = 0;
+    size_t is_zero = 0;
+    for (size_t r = 0; r < m * n; ++r) {
+        is_nan += is_nan_fp8_e4m3(temp_D[r]);
+	is_inf += is_inf_fp8_e4m3(temp_D[r]);
+	is_zero += is_zero_fp8_e4m3(temp_D[r]);
+    }
+#define P_100(v) ((double)v / (m * n))
+    printf("\n %lf is NaN \n %lf is Inf \n %lf is Zero\n", P_100(is_nan), P_100(is_inf), P_100(is_zero));
+    std::free(temp_D);
+}
     // descriptors are no longer needed as all GPU work was already enqueued
     if (preference) checkCublasStatus(cublasLtMatmulPreferenceDestroy(preference));
     if (Ddesc) checkCublasStatus(cublasLtMatrixLayoutDestroy(Ddesc));

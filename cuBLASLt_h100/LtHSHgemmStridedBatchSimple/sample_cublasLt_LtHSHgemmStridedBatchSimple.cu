@@ -121,9 +121,10 @@ void LtHSHgemmStridedBatchSimple(cublasLtHandle_t ltHandle,
     __half alpha_fp16 = __float2half_rn(*alpha);
     __half beta_fp16 = __float2half_rn(*beta);
 #endif
-    checkCudaStatus(cudaEventRecord(startEvent, stream));
-    for (int loop = 0; loop < repeat; ++loop) {
-
+    for (int loop = 1; loop < repeat + 1; ++loop) {
+    if (loop == 1) {
+        checkCudaStatus(cudaEventRecord(startEvent, stream));
+    }
     checkCublasStatus(cublasLtMatmul(ltHandle,
                                      operationDesc,
 #ifdef USE_32F
@@ -142,12 +143,15 @@ void LtHSHgemmStridedBatchSimple(cublasLtHandle_t ltHandle,
 #endif
                                      C,
                                      Cdesc,
-                                      C,
+                                     C,
                                      Cdesc,
                                      &heuristicResult.algo,
                                      workspace,
                                      workspaceSize,
                                      stream));
+    if (loop == 0) {
+        checkCudaStatus(cudaStreamSynchronize(stream));
+    }
     }
     checkCudaStatus(cudaEventRecord(stopEvent, stream));
     checkCudaStatus(cudaEventSynchronize(stopEvent));
@@ -157,6 +161,43 @@ void LtHSHgemmStridedBatchSimple(cublasLtHandle_t ltHandle,
     if (startEvent) checkCudaStatus(cudaEventDestroy(startEvent));
     if (stopEvent) checkCudaStatus(cudaEventDestroy(stopEvent));
     if (stream) checkCudaStatus(cudaStreamDestroy(stream));
+
+{
+    std::function<bool(uint16_t)> is_nan_fp16 = [](uint16_t v) -> bool {
+        uint16_t exp = (v & (0x1FU << 10)) >> 10;
+	uint16_t mant = v & 0x3FFU;
+	return (exp == 0x1FU) && (mant != 0);
+    };
+
+    std::function<bool(uint16_t)> is_inf_fp16 = [](uint16_t v) -> bool {
+        uint16_t exp = (v & (0x1FU << 10)) >> 10;
+	uint16_t mant = v & 0x3FFU;
+	return (exp == 0x1FU) && (mant == 0);
+    };
+
+    std::function<bool(uint16_t)> is_zero_fp16 = [](uint16_t v) -> bool {
+        uint16_t exp = (v & (0x1FU << 10)) >> 10;
+	uint16_t mant = v & 0x3FFU;
+	return (exp == 0) && (mant == 0);
+    };
+
+    const size_t result_sz = sizeof(uint16_t) * m * n;
+    uint16_t *temp_C = static_cast<uint16_t *>(std::calloc(1, result_sz));
+
+    checkCudaStatus(cudaMemcpy(temp_C, C, result_sz, cudaMemcpyDeviceToHost));
+    size_t is_nan = 0;
+    size_t is_inf = 0;
+    size_t is_zero = 0;
+    for (size_t r = 0; r < m * n; ++r) {
+        is_nan += is_nan_fp16(temp_C[r]);
+	is_inf += is_inf_fp16(temp_C[r]);
+	is_zero += is_zero_fp16(temp_C[r]);
+    }
+#define P_100(v) ((double)v / (m * n))
+    printf("\n %lf is NaN \n %lf is Inf \n %lf is Zero\n", P_100(is_nan), P_100(is_inf), P_100(is_zero));
+    std::free(temp_C);
+
+}
 
     // descriptors are no longer needed as all GPU work was already enqueued
     if (Cdesc) checkCublasStatus(cublasLtMatrixLayoutDestroy(Cdesc));
