@@ -1,0 +1,10 @@
+lda 8192 ldb 73728 ldc 8192
+LtHSHgemmStridedBatchSimple: 605.196843 TFlops(8192, 8192, 73728, 1, 4096, ms=66973.906250)
+lda 8192 ldb 73728 ldc 8192
+LtHSHgemmStridedBatchSimple: 615.407354 TFlops(8192, 8192, 73728, 1, 4096, ms=65862.710938)
+lda 8192 ldb 73728 ldc 8192
+LtHSHgemmStridedBatchSimple: 611.639684 TFlops(8192, 8192, 73728, 1, 4096, ms=66268.421875)
+lda 8192 ldb 73728 ldc 8192
+LtHSHgemmStridedBatchSimple: 614.844249 TFlops(8192, 8192, 73728, 1, 4096, ms=65923.031250)
+lda 8192 ldb 73728 ldc 8192
+LtHSHgemmStridedBatchSimple: 613.168638 TFlops(8192, 8192, 73728, 1, 4096, ms=66103.179688)

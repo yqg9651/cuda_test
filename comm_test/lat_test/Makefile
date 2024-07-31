@@ -384,7 +384,7 @@ endif
 # Target rules
 all: build
 
-build: cudaLatRd
+build: cudaLatRd cudaLatMMRd
 
 check.deps:
 ifeq ($(SAMPLE_ENABLED),0)
@@ -399,10 +399,16 @@ compMalloc.o:compMalloc.cpp
 latRd.o:latRd.cu
 	$(EXEC) $(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $<
 
+latMMRd.o:latMMRd.cu
+	$(EXEC) $(NVCC) $(INCLUDES) $(ALL_CCFLAGS) $(GENCODE_FLAGS) -o $@ -c $<
+
 cudaLatRd: compMalloc.o latRd.o
 	$(EXEC) $(NVCC) $(ALL_LDFLAGS) $(GENCODE_FLAGS) -o $@ $+ $(LIBRARIES)
 
+cudaLatMMRd: latMMRd.o
+	$(EXEC) $(NVCC) $(ALL_LDFLAGS) $(GENCODE_FLAGS) -o $@ $+ $(LIBRARIES)
+
 clean:
-	rm -f cudaLatRd compMalloc.o latRd.o
+	rm -f cudaLatRd cudaLatMMRd compMalloc.o latRd.o latMMRd.o
 
 clobber: clean

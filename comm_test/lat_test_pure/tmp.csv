@@ -1,0 +1,4 @@
+range 32768B stride 1024B share memory 49152B
+         offset,     latency(cycles),	addrs(l32)          
+              0,              241344,	0x7f291f400000
+           1024,              217602,	0x7f291f400400
